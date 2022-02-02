@@ -7,8 +7,11 @@ export default function Home() {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} >
       <Navigation open={open} setOpen={setOpen}/>
+        <div id='home'>
+
+        </div>
     </div>
   )
 }

@@ -1,0 +1,8 @@
+#home {
+    background: url('../pages/assets/background.jpeg') no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    margin-left:  -32px;
+    margin-top:  -80px;
+  }

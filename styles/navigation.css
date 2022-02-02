@@ -83,25 +83,17 @@
   }
 
   nav {
-    top: 30px;
-    right: 0px;
+    margin-left:  200px;
     display: flex;
-    position: fixed;
-    /* top: 10px; */
-
+    position: sticky;
   }
 
-  #menu {
-    width: 100vw;
-   
-  }
   .link {
     text-decoration: none;
     color: var(--light);
     font-family: 'Quicksand';
     width: 180px;
     height: 20px;
-    /* margin-left:  10%; */
   }
   .link-tags:hover {
     background-color:  white ;
@@ -116,19 +108,20 @@
   }
   #right-menu {
       display: flex;
-      position: fixed;
-      top: 60px;
-      right: 20vw;
+      position: sticky;
+      margin-top: 50px;
+      left: 50%;
+      transform: translate(-50%, -50%);
       background-color: #9CBE9C;
-      /* padding-right: 3%; */
       border-radius: 10px;
       height:  80px;
       width: 750px;
   }
   .logo {
-      position: fixed;
-      left: 0px;
-      top: -10px;
+      position: sticky;
+      margin-left: 0px;
+      /* left: -20px; */
+      /* top: -10px; */
       font-size: 4vh;
       font-family: 'Marcellus';
   }
@@ -141,5 +134,8 @@
     opacity: 1;
     transition:  0.7s;
     cursor: pointer;
+  }
+  .sub-title {
+    position:  sticky;
   }
 }
