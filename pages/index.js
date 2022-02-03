@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Navigation from './Nav/Navigation'
+import Navigation from './Nav/Navigation1'
 import styles from '../styles/Home.module.css'
 
 
