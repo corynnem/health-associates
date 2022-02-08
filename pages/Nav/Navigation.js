@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ContactNav from './ContactNav';
 import menuIcon from '../assets/menu.png'
+import URL from '../ResusableComponents/environment';
 
 
 const Navigation = () => {
@@ -58,10 +59,10 @@ const Navigation = () => {
                         <li>
                             {/* <h1 className="logo inner">Health Associates</h1> */}
                         </li>
-                        <li> <a href="http://localhost:3000/">Home</a> </li>
-                        <li> <a href="http://localhost:3000/about">About</a> </li>
-                        <li> <a href="http://localhost:3000/providers">Providers</a> </li>
-                        <li> <a href="http://localhost:3000/contact">Contact Us</a> </li>
+                        <li> <a href={URL}>Home</a> </li>
+                        <li> <a href={`${URL}/about`}>About</a> </li>
+                        <li> <a href={`${URL}/providers`}>Providers</a> </li>
+                        <li> <a href={`${URL}/contact`}>Contact Us</a> </li>
                         <li id="closed-contact"><ContactNav /></li>
                     </ul>
                 </nav>
