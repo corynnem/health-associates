@@ -34,7 +34,7 @@ const PopOpen = ({ provider }) => {
           marginLeft: "10px",
           backgroundColor: "#CDCACC",
         }}
-        cover={<img alt={provider.altText} src={provider.headshot} />}
+        cover={<img alt={provider.altText !== undefined ? provider.altText : 'Provider Photo'} src={provider.headshot} />}
       >
         <Popover content={content}>
           <Meta

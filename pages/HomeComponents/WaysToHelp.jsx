@@ -11,7 +11,7 @@ const WaysToHelp = () => {
   return (
     <div id="ways-help">
       <h1>Ways We Can Help</h1>
-      <Image src={separator.src} height={'75px'} width={'80px'}/>
+      <Image src={separator.src} height={'75px'} width={'80px'} alt='A line icon separating the title from the rest of the text on the page'/>
       <div id="help-cards">
         <Card style={cardStyles}>
           <p>Card content</p>

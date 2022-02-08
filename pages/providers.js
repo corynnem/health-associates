@@ -14,7 +14,7 @@ const Providers = () => {
             <Navigation/>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <Title pageName={"Providers"} />
-            <Image src={separator.src} height={'75px'} width={'80px'}/>
+            <Image src={separator.src} height={'75px'} width={'80px'} alt='A line icon separating the title from the rest of the text on the page'/>
             <Doctors/>
             </div>
             <div style={{marginLeft: '32px'}}>

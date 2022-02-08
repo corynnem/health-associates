@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Title from "../ResusableComponents/Title";
-import PopOpen from "./Modal";
+import PopOpen from "./PopOpen";
 
 
 const Doctors = () => {
