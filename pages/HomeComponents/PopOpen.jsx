@@ -1,7 +1,6 @@
 import React, { useState} from "react";
 import { Popover, Button, Modal } from "antd";
 import { Card } from "antd";
-import Image from 'next/image'
 
 const PopOpen = ({ provider }) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -37,7 +36,7 @@ const PopOpen = ({ provider }) => {
           marginLeft: "10px",
           backgroundColor: "#CDCACC",
         }}
-        cover={<img alt={provider.altText !== undefined ? provider.altText : 'Provider Photo'} src={provider.headshot} />}
+        cover={<img alt={provider.altText } src={provider.headshot} />}
       >
         <Popover content={content}>
           <Meta
@@ -56,7 +55,7 @@ const PopOpen = ({ provider }) => {
         onCancel={handleCancel}
       >
        <div id='modal' >
-                <img src={provider.headshot} style={{height: '200px', float: 'left', marginRight: '30px'}}/>
+                <img src={provider.headshot} alt={provider.altText} style={{height: '200px', float: 'left', marginRight: '30px'}}/>
                 <div id="modal-text">
                     <h3>Specializing in {provider.specialties}</h3>
                     <p ><a style={{color: 'grey'}} href={`mailto:${provider.email}`}>{provider.email}</a></p>

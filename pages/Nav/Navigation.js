@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ContactNav from './ContactNav';
 import menuIcon from '../assets/menu.png'
-import Image from 'next/image'
 
 
 const Navigation = () => {
@@ -43,7 +42,7 @@ const Navigation = () => {
                 <span className="logo">Health Associates</span>
                 <h4 className="sub-title ">Counseling and Psychology Service</h4>
                 <label htmlFor="main_menu">
-                    <div className="hamburger hamburger--elastic" type="button" aria-label="Menu" aria-controls="main_menu"> <span className="hamburger-box" onClick={() => toggle()}> <img id="menu-icon" src={menuIcon.src} style={{ height: '30px' }} /></span> </div>
+                    <div className="hamburger hamburger--elastic" type="button" aria-label="Menu" aria-controls="main_menu"> <span className="hamburger-box" onClick={() => toggle()}> <img id="menu-icon" src={menuIcon.src} style={{ height: '30px' }} alt="Navigation icon, click to access navigation bar" /></span> </div>
                 </label>
                 <div id="open-contact">
                     <div style={{marginTop: '30px', marginRight: '8vw' }}>
