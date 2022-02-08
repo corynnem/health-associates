@@ -2,12 +2,10 @@ import React, { useState, useEffect } from "react";
 import phoneIcon from '../assets/phone.png'
 import timeIcon from '../assets/time.png'
 import locationIcon from '../assets/location.png'
+import Image from 'next/image'
 
 const Footer = () => {
-  // console.log(process.env.API_KEY)
-
-
-  const iconStyles = { height: '30px', marginTop: '10px' , opacity: '0.5',  filter: 'brightness(0) invert(1)'}
+ const iconStyles = { height: '30px', marginTop: '10px' , opacity: '0.5',  filter: 'brightness(0) invert(1)'}
  const textStyles = {marginTop: '15px', marginLeft: '10px', color: 'rgba(255, 255, 255, 0.5)'}
 
   return (

@@ -16,7 +16,7 @@ const App = () => {
         <div>
             <div id='home'>
                 <div id="main">
-                    <img id="background" src={background.src} />
+                    <Image id="background" src={background} />
                     <div id="text">
                         <h1 >Welcome to Health Associates! </h1>
                         <p>Health Associates is a group of mental health professionals dedicated to the well being of our clients. We approach psychological health utilizing various treatment methods, including individual, family and group counseling, cognitive and behavioral methods, biofeedback training, nutritional guidance, exercise recommendations, and stress management techniques. Please browse this website to learn valuable information about our services.</p>

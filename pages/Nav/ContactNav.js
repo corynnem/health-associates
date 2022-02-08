@@ -3,6 +3,7 @@ import lineIcon from '../assets/line.png'
 import phoneIcon from '../assets/phone.png'
 import timeIcon from '../assets/time.png'
 import atIcon from '../assets/at.png'
+import Image from 'next/image'
 
 const ContactNav = ({  }) => {
 

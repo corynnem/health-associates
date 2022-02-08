@@ -1,6 +1,7 @@
 import React, { useState} from "react";
 import { Popover, Button, Modal } from "antd";
 import { Card } from "antd";
+import Image from 'next/image'
 
 const PopOpen = ({ provider }) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -36,7 +37,7 @@ const PopOpen = ({ provider }) => {
           marginLeft: "10px",
           backgroundColor: "#CDCACC",
         }}
-        cover={<img altText={provider.altText !== undefined ? provider.altText : 'Provider Photo'} src={provider.headshot} />}
+        cover={<img alt={provider.altText !== undefined ? provider.altText : 'Provider Photo'} src={provider.headshot} />}
       >
         <Popover content={content}>
           <Meta

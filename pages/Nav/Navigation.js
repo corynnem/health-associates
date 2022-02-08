@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ContactNav from './ContactNav';
 import menuIcon from '../assets/menu.png'
-import styles from '../../styles/Home.module.css'
+import Image from 'next/image'
 
 
 const Navigation = () => {
