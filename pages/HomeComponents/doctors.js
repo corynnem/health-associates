@@ -93,7 +93,7 @@ const Doctors = () => {
       >
         {providers.map((provider, index) => {
           return (
-            <div id="card">
+            <div id="card" key={index}>
                 <PopOpen provider={provider} key={index}/>
             </div>
           );

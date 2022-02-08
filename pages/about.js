@@ -3,6 +3,7 @@ import Navigation from './Nav/Navigation'
 import separator from './assets/separator.png'
 import Title from "./ResusableComponents/Title";
 import Footer from './ResusableComponents/Footer'
+import Image from 'next/image';
 
 const About = () => {
 
@@ -11,7 +12,7 @@ const About = () => {
             <Navigation/>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <Title pageName={"About"} />
-            <img src={separator.src} style={{ width: '75px'}}/>
+            <Image src={separator.src} height={'75px'} width={'80px'}/>
             </div>
             <div style={{marginLeft: '32px'}}>
             <Footer/>

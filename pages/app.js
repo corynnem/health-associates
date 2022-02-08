@@ -4,6 +4,7 @@ import Doctors from './HomeComponents/doctors';
 import WaysToHelp from './HomeComponents/WaysToHelp';
 import separator from './assets/separator.png'
 import Footer from './ResusableComponents/Footer';
+import Image from 'next/image'
 
 
 
@@ -26,7 +27,7 @@ const App = () => {
                 </div>
                 <div style={{marginTop: '10vh', textAlign: 'center', }}>
                     <h1>Providers</h1>
-                    <img src={separator.src} style={{ width: '75px'}}/>
+                    <Image src={separator.src} height={'75px'} width={'80px'}/>
                 <Doctors/>
                 </div>
 

@@ -4,6 +4,7 @@ import Navigation from "./Nav/Navigation";
 import Title from './ResusableComponents/Title';
 import separator from './assets/separator.png'
 import Footer from "./ResusableComponents/Footer";
+import Image from 'next/image';
 
 const Providers = () => {
 
@@ -13,7 +14,7 @@ const Providers = () => {
             <Navigation/>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <Title pageName={"Providers"} />
-            <img src={separator.src} style={{ width: '75px'}}/>
+            <Image src={separator.src} height={'75px'} width={'80px'}/>
             <Doctors/>
             </div>
             <div style={{marginLeft: '32px'}}>
