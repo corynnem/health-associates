@@ -12,7 +12,6 @@ const Footer = () => {
       <div id="map">
         <iframe
         id='iframe'
-        // style={{height: '300px', width: '400px'}}
           loading="lazy"
           allowFullScreen
           src="https://www.google.com/maps/embed/v1/view?zoom=17&center=39.9225%2C-86.1587&key=AIzaSyCYczkfIKGXw5CVtYg342ctiG4df9R6BKM"
