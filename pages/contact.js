@@ -14,7 +14,7 @@ const Contact = () => {
             <Navigation/>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <Title pageName={"Contact"} />
-            < src={separator.src}  alt='A line icon separating the title from the rest of the text on the page'/>
+            <img src={separator.src}  alt='A line icon separating the title from the rest of the text on the page'/>
             </div>
             <div style={{marginLeft: '32px'}}>
             <Footer/>
