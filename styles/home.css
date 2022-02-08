@@ -1,8 +1,114 @@
-#home {
-    background: url('../pages/assets/background.jpeg') no-repeat ;
-    background-size: cover;
-    height: 80vh;
+@media (max-width: 700px) {
+
+  #background {
+    height: 200px;
     width: 100vw;
     margin-left:  -32px;
-    margin-top:  75px;
+    margin-top: 25px;
+    object-fit: cover;
   }
+
+  #main {
+    text-align: center;
+    font-family: 'Niramit';
+
+  }
+  #text {
+      background-color:  rgba(0,0,0,0.3);
+      width: 100vw;
+      margin-left: -32px;
+      height: 500px;
+      color: white;
+      padding: 1%;
+  }
+  #ways-help {
+    text-align: center;
+    }
+  
+    #help-cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+
+
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  #background {
+    z-index: -1;
+    height: 600px;
+    margin-left:  -32px;
+     object-fit: cover;
+     width: 100vw
+  }
+  #main {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-family: 'Niramit';
+  }
+  #text {
+    position: absolute;
+    width: 80%;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 50%)
+  }
+
+  #text p {
+    color:  black;
+    width: 80%;
+    position: absolute;
+    width: 80%;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    /* font-size: 1.5em; */
+  }
+  #ways-help {
+  text-align: center;
+  }
+
+  #help-cards {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+
+
+@media (min-width: 1025px) {
+
+  #background {
+    z-index: -1;
+    height: 700px;
+    margin-top: -25px;
+    margin-left:  -32px;
+     object-fit: cover;
+     width: 100vw
+  }
+  #main {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    font-family: 'Niramit';
+  }
+  #text {
+    position: absolute;
+    width: 80%;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 1.3em;
+  }
+  #ways-help {
+    text-align: center;
+    }
+  #help-cards{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

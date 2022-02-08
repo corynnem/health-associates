@@ -1,0 +1,21 @@
+  
+  @media (max-width: 600px) {
+    #modal  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        /* font-size: .75em; */
+    }
+  }
+  
+  
+
+  
+  @media (min-width: 601px) {
+    #modal-text {
+       float: none;
+    }
+
+  }

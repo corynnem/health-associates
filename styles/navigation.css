@@ -3,7 +3,9 @@ nav li, nav ul {
 }
 
 nav {
-  box-shadow: 0 0 10px white
+  box-shadow: 0 0 10px white;
+  z-index: 1;
+  font-family: 'Niramit';
 }
 
 nav ul {
@@ -303,6 +305,7 @@ nav {
   }
   .sub-title {
     margin-left: 30px;
+    font-family: 'Niramit';
   }
   
   .inner {
@@ -354,7 +357,6 @@ nav {
 
   #title {
     font-family: 'Marcellus';
-    /* display: none; */
     font-size: 2.5em;
   }
 

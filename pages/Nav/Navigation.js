@@ -1,60 +1,75 @@
-import React, { useState } from "react";
-import Link from 'next/link'
+import React, { useEffect, useState } from 'react';
+import ContactNav from './ContactNav';
 import menuIcon from '../assets/menu.png'
-import cancelIcon from '../assets/cancel.png'
-import searchIcon from '../assets/search.png'
-import lineIcon from '../assets/line.png'
-import ContactNav from "./ContactNav";
+import styles from '../../styles/Home.module.css'
 
 
-const Navigation = ({ open, setOpen }) => {
-    const menuOpen = {
-        width: '250px',
-        display: 'block'
+const Navigation = () => {
+    const [open, setOpen] = useState(false)
+
+
+
+    // if you want to use DOM look below
+    // if(process.browser) {
+    //   console.log(document.querySelector('.left_menu'))
+    // }
+
+    const menuOpen = () => {
+        let container = document.querySelector('#open-contact')
+        if (process.browser) {
+            console.log('open', container)
+
+
+        }
+    }
+
+    const menuClose = () => {
+        let menu = document.querySelector('nav')
+        if (process.browser) {
+            console.log('close', menu)
+        }
+    }
+
+    const toggle = () => {
+        setOpen(!open)
+        open ? menuClose() : menuOpen()
     }
 
 
-    const iconOpen = {
-        display: 'none',
-        height: '50px', position: "absolute", top: '20px', right: '20px'
-    }
-
-
-    
     return (
-        <div className="nav-wrapper">
-            
-
-            <div style={{ display: 'flex', justifyContent: 'space-evenly', width: '90vw', marginLeft: '5%' }}>
-                <div>
-                    <Link href='/home' className="link"><h5 className="link-tags logo">Health Associates</h5></Link>
-                    <h4 className="sub-title ">Counseling and Psychology Service</h4>
-                </div>
-                <ContactNav style={open ? {} : {}}/>
-       
-
-            </div>
-            <nav id="menu" style={open ? menuOpen : {}}>
-                <img id="cancelIcon" onClick={() => setOpen(false)} src={cancelIcon.src} style={{ height: '30px', position: "absolute", top: '20px', right: '20px', position: 'fixed' }} />
-
-                <div id="right-menu">
-                <img id="menuIcon" onClick={() => setOpen(true)} src={menuIcon.src} style={open ? iconOpen : { height: '30px', position: "absolute", top: '20px', left: '20px' }} />
-                <div style={open ? {display: 'flex'}: {display: 'none'}}>
-                <Link href='/' className="link"><h5 className="link-tags">Home</h5></Link>
-                    <Link href='/about' className="link"><h5 className="link-tags">About</h5></Link>
-                    <Link href='/services' className="link"><h5 className="link-tags">Services</h5></Link>
-                    <Link href='/providers' className="link"><h5 className="link-tags">Providers</h5></Link>
-                    <Link href='/contact' className="link"><h5 className="link-tags">Contact Us</h5></Link>
-                </div>
-                  
-                    <div style={{ position: 'absolute', top: '25px', right: '50px' }}>
-                        <img src={lineIcon.src} style={{ height: '20px' }} />
-                        <img src={searchIcon.src} id="search" />
+        <div>
+            <header className="left_menu" >
+                <input type="checkbox" id="main_menu" name="main_menu" />
+                <span className="logo">Health Associates</span>
+                <h4 className="sub-title ">Counseling and Psychology Service</h4>
+                <label htmlFor="main_menu">
+                    <div className="hamburger hamburger--elastic" type="button" aria-label="Menu" aria-controls="main_menu"> <span className="hamburger-box" onClick={() => toggle()}> <img id="menu-icon" src={menuIcon.src} style={{ height: '30px' }} /></span> </div>
+                </label>
+                <div id="open-contact">
+                    <div style={{marginTop: '30px', marginRight: '8vw' }}>
+                        <h1 id="title">Health Associates</h1>
+                        <h4 id='sub-title'>Counseling and Psychology Service</h4>
                     </div>
+
+
+                    <ContactNav/>
                 </div>
-            </nav>
+                <nav>
+                    <ul>
+                        <li>
+                            {/* <h1 className="logo inner">Health Associates</h1> */}
+                        </li>
+                        <li> <a href="http://localhost:3000/">Home</a> </li>
+                        <li> <a href="http://localhost:3000/about">About</a> </li>
+                        <li> <a href="http://localhost:3000/providers">Providers</a> </li>
+                        <li> <a href="http://localhost:3000/contact">Contact Us</a> </li>
+                        <li id="closed-contact"><ContactNav /></li>
+                    </ul>
+                </nav>
+            </header>
         </div>
-    );
-};
+    )
+}
+
 
 export default Navigation;

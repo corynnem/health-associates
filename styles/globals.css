@@ -1,18 +1,13 @@
-root { 
-  --lightest: #FEFAE0;
-  --lighter: #DDA15E;
-  --light: #606C38;
-  --dark: #BC6C25;
-  --darkest: #283618;
+@font-face {
+  font-family: Niramit;
+  src: url('../pages/assets/Niramit/Niramit-Light.ttf');
 }
-
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Niramit;
 }
 
 a {
