@@ -10,3 +10,5 @@ const FallBack = () => {
         </div>
     )
 }
+
+export default FallBack
