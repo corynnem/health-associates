@@ -6,6 +6,7 @@ const WaysToHelp = () => {
     const cardStyles = {
         width: 200,
         marginTop: '10px'
+       
     }
   return (
     <div id="ways-help">

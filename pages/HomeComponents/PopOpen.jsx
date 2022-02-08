@@ -36,30 +36,30 @@ const PopOpen = ({ provider }) => {
           marginLeft: "10px",
           backgroundColor: "#CDCACC",
         }}
-        cover={<img alt={provider.altText } src={provider.headshot} />}
+        cover={<img alt={ provider && provider.altText } src={ provider && provider.headshot} />}
       >
         <Popover content={content}>
           <Meta
-            title={`${provider.name}, ${provider.certifications.map(
+            title={`${provider && provider.name}, ${provider && provider.certifications.map(
               (cert, i) => ` ${cert}`
             )}`}
-            description={`Specializes in ${provider.specialties}`}
+            description={`Specializes in ${provider && provider.specialties}`}
           />
         </Popover>
       </Card>
       <Modal
         width={800}
-        title={`${provider.name}, ${provider.position}`}
+        title={`${provider && provider.name}, ${provider && provider.position}`}
         visible={isModalVisible}
         onOk={handleOk}
         onCancel={handleCancel}
       >
        <div id='modal' >
-                <img src={provider.headshot} alt={provider.altText} style={{height: '200px', float: 'left', marginRight: '30px'}}/>
+                <img src={provider && provider.headshot} alt={provider && provider.altText} style={{height: '200px', float: 'left', marginRight: '30px'}}/>
                 <div id="modal-text">
-                    <h3>Specializing in {provider.specialties}</h3>
-                    <p ><a style={{color: 'grey'}} href={`mailto:${provider.email}`}>{provider.email}</a></p>
-                    <p>{provider.description}</p>
+                    <h3>Specializing in {provider && provider.specialties}</h3>
+                    <p ><a style={{color: 'grey'}} href={`mailto:${provider && provider.email}`}>{provider && provider.email}</a></p>
+                    <p>{provider && provider.description}</p>
                 </div>
        </div>
       </Modal>
