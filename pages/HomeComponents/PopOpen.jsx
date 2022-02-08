@@ -19,6 +19,8 @@ const PopOpen = ({ provider }) => {
   const content = <p style={{ height: "10px" }}>Read More</p>;
 
   const { Meta } = Card;
+  
+
 
 
   return (
@@ -34,7 +36,7 @@ const PopOpen = ({ provider }) => {
           marginLeft: "10px",
           backgroundColor: "#CDCACC",
         }}
-        cover={<img alt={provider.altText !== undefined ? provider.altText : 'Provider Photo'} src={provider.headshot} />}
+        cover={<img altText={provider.altText !== undefined ? provider.altText : 'Provider Photo'} src={provider.headshot} />}
       >
         <Popover content={content}>
           <Meta
