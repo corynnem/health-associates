@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import ContactNav from './ContactNav';
 import menuIcon from '../assets/menu.png'
-import URL from '../ResusableComponents/environment';
+
 
 
 const Navigation = () => {
     const [open, setOpen] = useState(false)
+    const [URL, setURL] = useState('')
 
 
 
@@ -35,6 +36,18 @@ const Navigation = () => {
         open ? menuClose() : menuOpen()
     }
 
+    console.log(URL)
+
+    useEffect(() => {
+        switch(window.location.hostname) {
+            case 'localhost' || '127.0.0.2':
+                setURL('http://localhost:3000') 
+                break;
+            case 'health-associates.herokuapp.com/':
+                setURL('https://health-associates.herokuapp.com/');
+
+        }
+    }, [])
 
     return (
         <div>
