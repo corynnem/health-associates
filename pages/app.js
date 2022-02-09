@@ -26,7 +26,7 @@ const App = () => {
                 </div>
                 <div style={{marginTop: '10vh', textAlign: 'center', }}>
                     <h1>Providers</h1>
-                    <img src={separator.src}  alt='A line icon separating the title from the rest of the text on the page'/>
+                    <img src={separator.src} className="separator"  alt='A line icon separating the title from the rest of the text on the page'/>
                 <Doctors/>
                 </div>
 

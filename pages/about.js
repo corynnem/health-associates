@@ -12,7 +12,7 @@ const About = () => {
             <Navigation/>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <Title pageName={"About"} />
-            <img src={separator.src}  alt='A line icon separating the title from the rest of the text on the page'/>
+            <img src={separator.src}  className="separator"  alt='A line icon separating the title from the rest of the text on the page'/>
             </div>
             <div style={{marginLeft: '32px'}}>
             <Footer/>

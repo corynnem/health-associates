@@ -19,7 +19,7 @@ const ContactNav = ({  }) => {
                         <img src={lineIcon.src} style={lineStyles} className='icon' alt='A line icon to separate phone icon from phone number'/>
                         <div >
                             <p style={{ opacity: '0.7' }}>Phone</p>
-                            <p> (123) - 456 - 7890 </p>
+                            <p> (317) 844-7489 </p>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const ContactNav = ({  }) => {
                         <img src={lineIcon.src} style={lineStyles} className='icon' alt='A line icon to separate an at symbol (@) icon from email address'/>
                         <div >
                             <p style={{ opacity: '0.7' }}>Email</p>
-                            <p> email@doman.com</p>
+                            <p> healthassoc320@sbcglobal.net </p>
                         </div>
                     </div>
                 </div>
