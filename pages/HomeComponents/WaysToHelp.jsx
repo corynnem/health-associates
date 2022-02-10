@@ -24,6 +24,7 @@ const WaysToHelp = () => {
         <Card style={cardStyles}>
           <div className="img_wrapper">
             <img
+            alt='A photo of a therapist talking to their client, clicking will take you to "services" page '
               src={therapist.src}
               style={{
                 height: "208px",
@@ -42,6 +43,7 @@ const WaysToHelp = () => {
         <Card style={cardStyles}>
           <div className="img_wrapper">
             <img
+              alt='A photo of two people talking to eachother while looking at an ipad, clicking will take you to "services" page in the testing section'
               src={test.src}
               style={{
                 height: "208px",
@@ -59,6 +61,7 @@ const WaysToHelp = () => {
         <Card style={cardStyles}>
           <div className="img_wrapper">
             <img
+              alt='A photo of a coffee mug sitting on two books, clicking will take you to "publications " page '
               src={publications.src}
               style={{
                 height: "208px", 

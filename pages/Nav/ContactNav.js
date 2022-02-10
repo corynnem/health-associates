@@ -19,7 +19,7 @@ const ContactNav = ({  }) => {
                         <img src={lineIcon.src} style={lineStyles} className='icon' alt='A line icon to separate phone icon from phone number'/>
                         <div >
                             <p style={{ opacity: '0.7' }}>Phone</p>
-                            <p> (317) 844-7489 </p>
+                            <p style={{fontSize: '.9em'}}> (317) 844-7489 </p>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const ContactNav = ({  }) => {
                         <img src={lineIcon.src} style={lineStyles} className='icon' alt='A line icon to separate an at symbol (@) icon from email address'/>
                         <div >
                             <p style={{ opacity: '0.7' }}>Email</p>
-                            <p> healthassoc320@sbcglobal.net </p>
+                            <p style={{fontSize: '.9em'}}> healthassoc320@sbcglobal.net </p>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const ContactNav = ({  }) => {
                         <img src={lineIcon.src} style={lineStyles} className='icon'  alt='A line icon to separate a clock icon from hours health associates is open'/>
                         <div >
                             <p style={{ opacity: '0.7' }}>Hours</p>
-                            <p> Monday - Friday 9-5</p>
+                            <p style={{fontSize: '.9em'}}> Monday - Friday 9-5</p>
 
                         </div>
                     </div>

@@ -99,6 +99,10 @@ nav li:nth-child(12) a {
   transition-delay: 1.01s
 }
 
+nav li a:hover {
+  color: white
+}
+
 nav li a {
   color: black;
   position: relative;
@@ -124,7 +128,6 @@ label[for=main_menu], nav {
   font: inherit;
   color: inherit;
   text-transform: none;
-  background-color: transparent;
   border: 0;
   margin: 0;
   overflow: visible
@@ -214,18 +217,7 @@ input[name=main_menu]:checked~nav li:nth-child(2) {
   margin-top: 50px;
 }
 
-/* @keyframes createBox {
-  from {
-    width: 5px;
-    text-align: center;
-    margin-left: 80px;
-  }
-  to {
-    text-align: center;
-    margin-left: 45px;
-    width: 150px;
-  }
-} */
+
 
 input[name=main_menu]:checked~nav li a {
   color: #fff;
@@ -238,15 +230,6 @@ input[name=main_menu]:checked~nav li a {
 }
 
 
-/* input[name=main_menu]:checked~nav li a:hover {
-  color: #fff;
-  padding: .9em;
-  border-bottom: 1px solid white;
-  width: 150px;
-  text-align: center;
-  margin-left: 45px;
-  animation: createBox 2s;
-} */
 
 input[name=main_menu]:checked~label .hamburger .hamburger-inner {
   transform: translate3d(0, 10px, 0) rotate(135deg);
@@ -372,7 +355,6 @@ nav {
     border-radius: 5px;
     margin-top: 50px;
     height: 50px;
-    /* width: 600px */
   }
 
   nav ul {

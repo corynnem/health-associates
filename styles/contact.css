@@ -1,0 +1,97 @@
+
+
+  
+@media (max-width: 575px) {
+    #form {
+        margin-left: -150px;
+    }
+    #button {
+        width: 100px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    #email-address{
+        border-width: .1px;
+        width:  300px;
+        height: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    #telephone {
+        border-width: .1px;
+        width:  300px;
+        height: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    #complaint {
+        width:  300px;
+        height: 100px;      
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    #full-name {
+        border-width: .1px;
+        width:  300px;
+        height: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+  }
+  
+  
+
+  
+  @media (min-width: 576px) {
+
+    #form {
+        margin-left: -150px;
+        
+    }
+    #button {
+        width: 100px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    #email-address{
+        border-width: .1px;
+        width:  400px;
+        height: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    #complaint {
+        width:  400px;
+        height: 100px;      
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    #telephone {
+        border-width: .1px;
+        width:  190px;
+        height: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    #full-name {
+        border-width: .1px;
+        width:  190px;
+        height: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+  }

@@ -21,6 +21,11 @@
       color: white;
       padding: 1%;
   }
+
+
+  #text h1{
+    color: white;
+  }
   #ways-help {
     text-align: center;
     }
@@ -91,18 +96,14 @@
     width: 80%;
     top: 0px;
     left: 50%;
-    transform: translate(-50%, 50%)
+    transform: translate(-50%, 50%);
+    color: white;
+    padding: 50px;
   }
 
-  #text p {
-    color:  black;
-    width: 80%;
-    position: absolute;
-    width: 80%;
-    top: 0px;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    /* font-size: 1.5em; */
+
+  #text h1{
+    color: white;
   }
   #ways-help {
   text-align: center;
@@ -160,7 +161,8 @@
     margin-top: -25px;
     margin-left:  -32px;
      object-fit: cover;
-     width: 100vw
+     width: 100vw;
+     opacity: 1.5
   }
   #main {
     position: relative;
@@ -174,7 +176,12 @@
     top: -100px;
     left: 50%;
     transform: translate(-50%, 50%);
-    font-size: 1.3em;
+    font-size: 1.5em;
+    padding: 50px;
+    color: white;
+  }
+  #text h1{
+    color: white;
   }
   #ways-help {
     text-align: center;

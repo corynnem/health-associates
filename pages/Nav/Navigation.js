@@ -4,7 +4,7 @@ import menuIcon from '../assets/menu.png'
 
 
 
-const Navigation = () => {
+const Navigation = ({style}) => {
     const [open, setOpen] = useState(false)
     const [URL, setURL] = useState('')
 
@@ -67,13 +67,14 @@ const Navigation = () => {
 
                     <ContactNav/>
                 </div>
-                <nav>
+                <nav style={style}>
                     <ul>
                         <li>
                             {/* <h1 className="logo inner">Health Associates</h1> */}
                         </li>
                         <li> <a href={URL}>Home</a> </li>
                         <li> <a href={`${URL}/about`}>About</a> </li>
+                        <li> <a href={`${URL}/services`}>Services</a> </li>
                         <li> <a href={`${URL}/providers`}>Providers</a> </li>
                         <li> <a href={`${URL}/contact`}>Contact Us</a> </li>
                         <li id="closed-contact"><ContactNav /></li>
