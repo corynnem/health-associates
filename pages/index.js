@@ -14,7 +14,7 @@ export default function Home() {
         <FallBack />
       ) : (
         <div>
-          <Navigation />
+          <Navigation  />
           <App />
         </div>
       )}

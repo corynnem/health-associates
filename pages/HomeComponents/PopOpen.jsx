@@ -35,19 +35,22 @@ const PopOpen = ({ provider }) => {
           marginRight: "10px",
           marginLeft: "10px",
           backgroundColor: "#CDCACC",
+          minHeight: '440px'
         }}
         cover={<img alt={ provider && provider.altText } src={ provider && provider.headshot} />}
       >
         <Popover content={content}>
           <Meta
-            title={`${provider && provider.name}, ${provider && provider.certifications.map(
+     
+            title={<p  style={provider && provider.specialties.length > 0 ? {fontSize: '1.05em'} : {fontSize: '1.3em', marginTop: '30px'}}>{provider && provider.name} {provider && provider.certifications.length > 0 ? ',' : ''} {provider && provider.certifications.map(
               (cert, i) => ` ${cert}`
-            )}`}
-            description={`Specializes in ${provider && provider.specialties}`}
+            )}</p>}
+            description={provider && provider.specialties ? provider.specialties.length === 0 ? "":  <h3 style={{fontSize: '.8em', color: 'grey'}}>Specializing in {provider && provider.specialties}</h3>  : ''}
           />
         </Popover>
       </Card>
       <Modal
+
         width={800}
         title={`${provider && provider.name}, ${provider && provider.position}`}
         visible={isModalVisible}
@@ -57,8 +60,12 @@ const PopOpen = ({ provider }) => {
        <div id='modal' >
                 <img src={provider && provider.headshot} alt={provider && provider.altText} style={{height: '200px', float: 'left', marginRight: '30px'}}/>
                 <div id="modal-text">
-                    <h3>Specializing in {provider && provider.specialties}</h3>
-                    <p ><a style={{color: 'grey'}} href={`mailto:${provider && provider.email}`}>{provider && provider.email}</a></p>
+                  <h2 >{provider && provider.name} {provider && provider.certifications.length > 0 ? ',' : ''} {provider && provider.certifications.map(
+              (cert, i) => ` ${cert}`
+            )}</h2>
+                  {provider && provider.specialties ? provider.specialties.length === 0 ? "":  <h3 style={{fontSize: '.9em', color: 'grey'}}>Specializing in {provider && provider.specialties}</h3>  : ''}
+
+                  <br/>
                     <p>{provider && provider.description}</p>
                 </div>
        </div>

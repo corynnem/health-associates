@@ -6,6 +6,7 @@ import "../styles/about.css";
 import "../styles/footer.css";
 import "../styles/title.css";
 import "../styles/contact.css";
+import "../styles/service.css";
 import 'antd/dist/antd.css';
 
 function MyApp({ Component, pageProps }) {

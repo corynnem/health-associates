@@ -20,6 +20,7 @@
       height: 500px;
       color: white;
       padding: 1%;
+      
   }
 
 
@@ -94,16 +95,18 @@
   #text {
     position: absolute;
     width: 80%;
-    top: 0px;
+    top: -100px;
     left: 50%;
     transform: translate(-50%, 50%);
     color: white;
     padding: 50px;
+    margin-bottom: 50px;
   }
 
 
   #text h1{
     color: white;
+
   }
   #ways-help {
   text-align: center;
@@ -173,12 +176,13 @@
   #text {
     position: absolute;
     width: 80%;
-    top: -100px;
+    top: -150px;
     left: 50%;
     transform: translate(-50%, 50%);
     font-size: 1.5em;
     padding: 50px;
     color: white;
+    /* margin-bottom: 100px; */
   }
   #text h1{
     color: white;
@@ -195,8 +199,8 @@
 
 .img_wrapper{
   position: relative;
-  height: 208px;
-  width: 208px;
+  height: 248px;
+  width: 248px;
   margin: 0;
   padding: 0;
 }
@@ -229,3 +233,24 @@
 
 }
 
+
+
+#main-button {
+  background-color: #9cbe9c;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+#main-button:hover {
+  background-color: white;
+  transition: ease-in-out .5s;
+  color: #9cbe9c;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #9cbe9c;
+}

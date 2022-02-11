@@ -5,8 +5,9 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        text-align: justify;
+        text-align: center;
         /* font-size: .75em; */
+
     }
   }
   
@@ -18,4 +19,7 @@
        float: none;
     }
 
+    #modal {
+      min-height: 200px;
+    }
   }

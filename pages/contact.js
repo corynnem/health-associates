@@ -4,10 +4,6 @@ import Title from "./ResusableComponents/Title";
 import Footer from "./ResusableComponents/Footer";
 
 const Contact = () => {
-  const onFinish = (values) => {
-    console.log(values);
-  };
-
   return (
     <div>
       <Navigation />
