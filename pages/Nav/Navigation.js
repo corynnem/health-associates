@@ -111,7 +111,7 @@ const Navigation = ({ style }) => {
             alignItems: "center",
           }}
         >
-          <nav style={style}>
+          <nav >
             <ul>
               <li>{/* <h1 className="logo inner">Health Associates</h1> */}</li>
               <li>
