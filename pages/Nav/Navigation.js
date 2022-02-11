@@ -104,13 +104,7 @@ const Navigation = ({ style }) => {
 
           <ContactNav />
         </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+        <div >
           <nav >
             <ul>
               <li>{/* <h1 className="logo inner">Health Associates</h1> */}</li>
@@ -134,7 +128,7 @@ const Navigation = ({ style }) => {
                 {" "}
                 <a href={`${URL}/contact`}>Contact Us</a>{" "}
               </li>
-              {/* <li style={{ float: "right" }} id="search">
+              <li style={{ float: "right" }} id="search">
                 {" "}
                 <img
                   style={{
@@ -154,7 +148,7 @@ const Navigation = ({ style }) => {
                   id="eyeglass"
                   src={searchIcon.src}
                 />
-              </li> */}
+              </li>
               <li id="closed-contact">
                 <ContactNav />
               </li>
@@ -167,3 +161,6 @@ const Navigation = ({ style }) => {
 };
 
 export default Navigation;
+
+
+
