@@ -1,0 +1,229 @@
+@media (max-width: 700px) {
+    #pub-card {
+        border-radius: 5px;         
+         margin-top: 20px;
+         width: 400px;
+         height: 700px;
+         box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+         display: flex;
+         flex-direction: column;
+          
+     }
+
+     #card-container {
+        display: flex;
+        flex-direction: column;
+     }
+
+
+     #pub-card:hover {
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+        transition: ease-out 1s
+     }
+
+     #pub-card img {
+        z-index: -1;
+        height: 300px;
+        width: 400px;
+         object-fit: cover;
+        border-radius: 5px 0px 0px 5px;
+         opacity: 1.5
+         
+
+     }
+
+     #pub-holder {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     #pub-text {
+         padding: 50px;
+         font-size: 1em;
+         font-family: 'Niramit';
+     }
+  }
+
+
+
+  
+  
+  
+  @media (min-width: 701px) and (max-width: 1200px) {
+    #pub-card {
+        border-radius: 5px;         
+         margin-top: 20px;
+         width: 400px;
+         height: 800px;
+         box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+         display: flex;
+         flex-direction: column;
+          
+     }
+
+     #card-container {
+        display: flex;
+        flex-direction: column;
+     }
+
+
+     #pub-card:hover {
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+        transition: ease-out 1s
+     }
+
+     #pub-card img {
+        z-index: -1;
+        height: 400px;
+        width: 400px;
+         object-fit: cover;
+        border-radius: 5px 0px 0px 5px;
+         opacity: 1.5
+         
+
+     }
+
+     #pub-holder {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     #pub-text {
+         padding: 50px;
+         font-size: 1em;
+         font-family: 'Niramit';
+     }
+  }
+  
+  
+  
+  
+  
+  
+  @media (min-width: 1201px) and (max-width: 1650px) {
+    #pub-card {
+        border-radius: 5px;         
+         margin-top: 20px;
+         width: 80vw;
+         height: 400px;
+         box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+         display: flex;
+         flex-direction: column;
+          
+     }
+
+     #card-container {
+        display: flex;
+        flex-direction: row;
+     }
+
+
+     #pub-card:hover {
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+        transition: ease-out 1s
+     }
+
+     #pub-card img {
+        z-index: -1;
+        height: 400px;
+        width: 500px;
+         object-fit: cover;
+        border-radius: 5px 0px 0px 5px;
+         opacity: 1.5
+         
+
+     }
+
+     #pub-holder {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     #pub-text {
+         padding: 50px;
+         font-size: 1.1em;
+         font-family: 'Niramit';
+     }
+  }
+  
+  
+  
+  @media (min-width: 1651px) {
+     #pub-card {
+        border-radius: 5px;         
+         margin-top: 20px;
+         width: 80vw;
+         height: 400px;
+         box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+         display: flex;
+         flex-direction: column;
+          
+     }
+
+     #card-container {
+        display: flex;
+        flex-direction: row;
+     }
+
+
+     #pub-card:hover {
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+        transition: ease-out 1s
+     }
+
+     #pub-card img {
+        z-index: -1;
+        height: 400px;
+        width: 600px;
+         object-fit: cover;
+        border-radius: 5px 0px 0px 5px;
+         opacity: 1.5
+         
+
+     }
+
+     #pub-holder {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     #pub-text {
+         padding: 50px;
+         font-size: 1.3em;
+         font-family: 'Niramit';
+     }
+  }
+
+
+
+#pub-button {
+    background-color: #9cbe9c;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+  }
+  
+  #pub-button:hover {
+    background-color: white;
+    transition: ease-in-out .5s;
+    color: #9cbe9c;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9cbe9c;
+  }
+
+  #input {
+      width: 75vw;
+      height: 50px;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-right: 20px;
+  }

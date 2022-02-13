@@ -86,58 +86,8 @@ const Contact = () => {
             value="HA Contact Form"
           />
         </fieldset>
-        <input type="submit" value="Send" />
+        <input type="submit" value="Send" id='main-button' />
       </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* 
-
-
-
-        <form
-          action="https://formspree.io/f/xyyoeqea"
-          method="POST"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <label>
-            <input
-              type="email"
-              name="_replyto"
-              id="email"
-              placeholder="Email Address"
-            />
-          </label>
-          <label>
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Message"
-            ></textarea>
-          </label>
-          <button type="submit " id="button">
-            Send
-          </button>
-        </form> */}
       </div>
       <div style={{ marginLeft: "32px" }}>
         <Footer />

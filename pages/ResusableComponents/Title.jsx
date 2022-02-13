@@ -6,10 +6,10 @@ const Title = ({ pageName, styles }) => {
 
 
     return(
-        <div style={{textAlign: 'center', marginTop: '5vh'}}>
+        <div style={{textAlign: 'center', marginTop: '20px'}}>
             {/* <div id="left-rect" style={styles.left}></div> */}
             <div id="rect"></div>
-            <div id="cent-rect" ><h1>{ pageName }</h1></div>
+            <div id="cent-rect" ><h1 style={{width: '300px'}}>{ pageName }</h1></div>
      
             
            

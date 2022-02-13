@@ -14,52 +14,6 @@ const Navigation = ({ style }) => {
   //   console.log(document.querySelector('.left_menu'))
   // }
 
-  const searchToggle = () => {
-    if(process.browser) {
-        // let search = document.querySelector('#search')
-        // console.log(search)
-        // if(search.childNodes[3].id === 'eyeglass') {
-        //     let eyeglass = document.querySelector('#eyeglass')
-        //     let input = document.createElement('input')
-        //     let cancelImg = document.createElement('img')
-
-        //     search.removeChild(eyeglass)
-
-        //     cancelImg.src = cancelIcon.src
-        //     cancelImg.style.height = '20px'
-        //     input.id = 'searchInput'
-            
-        //     cancelImg.id = 'cancel'
-
-        //     cancelImg.addEventListener('click', () => {
-        //         searchToggle()
-        //     })
-
-
-        //     search.appendChild(input)
-        //     search.appendChild(cancelImg)
-        // } else {
-        //     let input = document.querySelector('#searchInput')
-        //     let cancelImg = document.querySelector('#cancel')
-        //     let eyeglass = document.createElement('img')
-
-        //     eyeglass.src = searchIcon.src
-        //     eyeglass.style.height = '20px'
-        //     eyeglass.id = 'eyeglass'
-        //     eyeglass.style.marginRight = '10px'
-        //     eyeglass.style.marginTop = '10px'
-
-        //     eyeglass.addEventListener('click', () => {
-        //         searchToggle()
-        //     })
-
-
-        //     search.removeChild(input)
-        //     search.removeChild(cancelImg)
-        //     search.appendChild(eyeglass)
-        // }
-    }
-  };
 
   useEffect(() => {
     switch (window.location.hostname) {
@@ -101,11 +55,10 @@ const Navigation = ({ style }) => {
             <h1 id="title">Health Associates</h1>
             <h4 id="sub-title">Counseling and Psychology Service</h4>
           </div>
-
           <ContactNav />
         </div>
-        <div >
-          <nav >
+        {/* <div > */}
+          <nav style={style}>
             <ul>
               <li>{/* <h1 className="logo inner">Health Associates</h1> */}</li>
               <li>
@@ -126,41 +79,21 @@ const Navigation = ({ style }) => {
               </li>
               <li>
                 {" "}
-                <a href={`${URL}/contact`}>Contact Us</a>{" "}
+                <a href={`${URL}/publications`}>Publications</a>{" "}
               </li>
-              <li style={{ float: "right" }} id="search">
+              <li>
                 {" "}
-                <img
-                  style={{
-                    width: "25px",
-                    marginTop: "8px",
-                    marginRight: "10px",
-                  }}
-                  src={lineIcon.src}
-                />{" "}
-                <img
-                  onClick={() => searchToggle()}
-                  style={{
-                    width: "20px",
-                    marginTop: "8px",
-                    marginRight: "10px",
-                  }}
-                  id="eyeglass"
-                  src={searchIcon.src}
-                />
+                <a href={`${URL}/contact`}>Contact Us</a>{" "}
               </li>
               <li id="closed-contact">
                 <ContactNav />
               </li>
             </ul>
           </nav>
-        </div>
+        {/* </div> */}
       </header>
     </div>
   );
 };
 
 export default Navigation;
-
-
-

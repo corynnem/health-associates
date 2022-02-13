@@ -15,6 +15,12 @@ nav ul {
   overflow: hidden
 }
 
+#searchInput {
+  height: 40px;
+  margin-top: 10px;
+}
+
+
 nav li:nth-child(1) a {
   -moz-transition-delay: .13s;
   -o-transition-delay: .13s;
@@ -306,7 +312,8 @@ nav {
   }
 
   #contact-nav {
-    color: white
+    color: white;
+    margin-left: -13px;
  }
 }
 
@@ -315,6 +322,14 @@ nav {
 
 
 @media (min-width: 1025px) {
+
+  nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%)
+  }
+  
   #contact-nav {
      display: flex;
      justify-content: space-evenly;
@@ -360,7 +375,8 @@ nav {
   }
 
   nav ul {
-    height: auto
+    height: auto;
+
   }
 
   nav ul li {
@@ -414,6 +430,7 @@ input[name=main_menu]:checked~label .hamburger .hamburger-inner::after {
     -webkit-transition: left .2s cubic-bezier(.23, 1, .32, 1);
     transition: left .2s cubic-bezier(.23, 1, .32, 1)
   }
+ 
 
   .left_menu nav {
     left: 0;
@@ -431,6 +448,7 @@ input[name=main_menu]:checked~label .hamburger .hamburger-inner::after {
   nav ul {
     width: 18em
   }
+
 
 }
 

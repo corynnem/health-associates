@@ -30,16 +30,26 @@ const Doctors = () => {
         description:
           "Martin Groff, Ph.D., is a psychologist who treats children, adolescents and adults for emotional and behavioral issues such as depression, anxiety, anger, mood cycling, situational distress, interpersonal/social concerns, bereavement, trauma, ADHD and conduct problems.",
       },
- 
       {
-        headshot: userM.src,
-        altText: "Richard K. Grana's Headshot",
-        name: "Richard K. Grana",
-        certifications: ["PhD"],
+        headshot: userF.src,
+        altText: "Kristina K. Elsbury's Headshot",
+        name: "Kristina K. Elsbury",
+        certifications: [ "LCSW"],
+        position: "Clinical Social Worker",
+        specialties: "Trauma, Anger Management, Anxiety, ASD, DID, Gender Identity, Marriage Counseling & Mood Disorders",
+        description:
+          "Kristina Elsbury, LCSW, is a licensed clinical social worker with a Masters of Social Work degree with a medical specialty from Indiana University. The last 9 years she has provided therapy to children, teens, and adults in home-based, community mental health, hospital and school-based programs. Kristina has special interest and experience in working with children and adults with trauma including sexual, physical, and emotional abuse and military trauma. As an EMDR therapist, Kristina also utilizes mindfulness, cognitive-behavioral therapy, play therapy, and strengths-based approach in working with individuals, families and couples. Kristina is a member of EMDRIA International Association of EMDR Practitioners and the National Association of Social Workers.",
+      },
+
+      {
+        headshot: westrate.src,
+        altText: "Ronald M. Westrate's Headshot",
+        name: "Ronald M. Westrate",
+        certifications: [],
         position: "Clinical Psychologist",
         specialties: "",
         description:
-          "Richard Grana, Ph.D. has been a practicing psychologist for over 45 years. He is licensed as a psychologist in Indiana and Arizona, as well as having a tele-health license for patients in Florida. He received his Ph.D. from the University of Akron in Ohio. From 1970-1974 he commuted to New York City to study at the Institute for Advanced Study in Rational Psychotherapy and received supervision and certification from Albert Ellis, Ph.D., who is considered one of the founding fathers of Cognitive Behavioral Therapy. Dr. Grana has worked with all ages of patients. He has publications in the area of divorce adjustment, emphasizing the importance of post-divorce counseling to help parents create a healthy post-divorce family. In addition to his general counseling practice, for 30 years Dr. Grana conducted child custody evaluations upon referral from local courts and attorneys. Currently, his professional focus is on individual counseling with children and adults. Dr. Grana has been nationally recognized for MY MOVE, a children’s and parent’s publication to help reduce the stress of moving. Although no longer in print, MY MOVE was originally published by the Mayflower Moving Company. He was also featured in the INDIANAPOLIS MONTHLY MAGAZINE article “Meet Indy’s Top Shrinks.” Dr. Grana especially enjoys traveling and spending time with friends and family.",
+          "No current information about this therapist.",
       },
       {
         headshot: hess.src,
@@ -52,16 +62,6 @@ const Doctors = () => {
           "Dr. Jackie Hess worked for ten years with pain management teams in local hospitals, and has been an Adjunct Professor andfull-time Assistant Professor at the University of Indianapolisfor 29 years. She has also been a Clinical Psychologist workingin private practices as an independent practitioner for 29 years, joining Health Associates in 2019. She received a Bachelor’s degree in Psychology from Bucknell University, a Master of Science in Rehabilitation Counseling from Southern Illinois University, and the Doctor of Psychology Degree from Wright State University. She currently works with adults ages 18 through older adulthood and bases her interactions on the premise that a therapeutic relationship that is built on active listening and communication, trust, acceptance and understanding is key to the process of therapy. “Though I have knowledge about psychological theories and approaches, I am never the expert on the client’s life; therefore, learning from one another is essential.” The theoretical approaches on which she bases work with clients include Person-Centered, Humanistic, Narrative, and Cognitive Therapies.",
       },
       {
-        headshot: westrate.src,
-        altText: "Ronald M. Westrate's Headshot",
-        name: "Ronald M. Westrate",
-        certifications: [],
-        position: "Clinical Psychologist",
-        specialties: "",
-        description:
-          "No current information about this therapist.",
-      },
-      {
         headshot: dodini.src,
         altText: "Alfred Dodini's Headshot",
         name: "Alfred Dodini",
@@ -71,16 +71,18 @@ const Doctors = () => {
         description:
           "No current information about this therapist.",
       },
+
       {
-        headshot: userF.src,
-        altText: "Kristina K. Elsbury's Headshot",
-        name: "Kristina K. Elsbury",
-        certifications: [ "LCSW"],
-        position: "Clinical Social Worker",
-        specialties: "Trauma, Anger Management, Anxiety, ASD, DID, Gender Identity, Marriage Counseling & Mood Disorders",
+        headshot: userM.src,
+        altText: "Richard K. Grana's Headshot",
+        name: "Richard K. Grana",
+        certifications: ["PhD"],
+        position: "Clinical Psychologist",
+        specialties: "",
         description:
-          "Kristina Elsbury, LCSW, is a licensed clinical social worker with a Masters of Social Work degree with a medical specialty from Indiana University. The last 9 years she has provided therapy to children, teens, and adults in home-based, community mental health, hospital and school-based programs. Kristina has special interest and experience in working with children and adults with trauma including sexual, physical, and emotional abuse and military trauma. As an EMDR therapist, Kristina also utilizes mindfulness, cognitive-behavioral therapy, play therapy, and strengths-based approach in working with individuals, families and couples. Kristina is a member of EMDRIA International Association of EMDR Practitioners and the National Association of Social Workers.",
+          "Richard Grana, Ph.D. has been a practicing psychologist for over 45 years. He is licensed as a psychologist in Indiana and Arizona, as well as having a tele-health license for patients in Florida. He received his Ph.D. from the University of Akron in Ohio. From 1970-1974 he commuted to New York City to study at the Institute for Advanced Study in Rational Psychotherapy and received supervision and certification from Albert Ellis, Ph.D., who is considered one of the founding fathers of Cognitive Behavioral Therapy. Dr. Grana has worked with all ages of patients. He has publications in the area of divorce adjustment, emphasizing the importance of post-divorce counseling to help parents create a healthy post-divorce family. In addition to his general counseling practice, for 30 years Dr. Grana conducted child custody evaluations upon referral from local courts and attorneys. Currently, his professional focus is on individual counseling with children and adults. Dr. Grana has been nationally recognized for MY MOVE, a children’s and parent’s publication to help reduce the stress of moving. Although no longer in print, MY MOVE was originally published by the Mayflower Moving Company. He was also featured in the INDIANAPOLIS MONTHLY MAGAZINE article “Meet Indy’s Top Shrinks.” Dr. Grana especially enjoys traveling and spending time with friends and family.",
       },
+
   ]);
 
 
