@@ -28,12 +28,14 @@ const Publications = () => {
       snippet:
         "Many adults have fast-paced, overfilled schedules that consume their time. They overlook their need for affection, individual time, and relaxation. Too often this hurried lifestyle prevents us from taking care …",
       image: reflections.src,
+      altText: 'A person looking into a mirror in black and white',
       component: "",
     },
     {
       name: "ADHD, It's Not Just For Kids Anymore",
       publicationDate: "May 10, 2020",
       image: adhd.src,
+      altText: 'A brain and the word adhd drawn on a blackboard',
       snippet:
         "When people think about Attention Deficit Hyperactivity Disorder (ADHD), most envision a hyper little boy, running around in the classroom, unable to sit still. Or they think of a little …",
       component: "",
@@ -42,6 +44,7 @@ const Publications = () => {
       name: "Help!",
       publicationDate: "May 10, 2020",
       image: help.src,
+      altText: 'A laptop with sticky notes all over it, and one in the middle that says Help',
       snippet:
         "Depression and other emotional problems can usually be greatly relieved by changing mental habits. The following steps need to be repeated hundreds of times (or more) over weeks or months …",
       component: "",
@@ -50,6 +53,7 @@ const Publications = () => {
       name: "Do Less For Your Kids",
       publicationDate: "November 26, 2018",
       image: kid.src,
+      altText: 'A picture of a child picking flowers off of a tree',
       snippet:
         "Parents clearly want what is best for their children. But often, in our modern, high-tech, materialistic world, we become sidetracked with giving our children what is stimulating, what is pleasurable, … ",
       component: "",
@@ -58,6 +62,7 @@ const Publications = () => {
       name: "Nurturing Fidelity",
       publicationDate: "May 10, 2020",
       image: happy.src,
+      altText: 'A couple holding eachother in front of a body of water',
       snippet:
         "Counselors frequently work with couples seeking a cure for the pain and destruction that infidelity generally breeds. But counselors would rather help couples before the crisis of infidelity occurs. With …",
       component: "",
@@ -66,6 +71,7 @@ const Publications = () => {
       name: "What's Happening to Us?",
       publicationDate: "November 26, 2018",
       image:  unhappy.src,
+      altText: 'A couple fighting on a bench in a park',
       snippet:
         "Infidelity-~being sexually unfaithful to your partner. What labels or images does that word bring to your mind? Disloyal? Unfaithful? Joy? Deceit? Lying? Guilt? Excitement? Cheap love? Anxiety?  Lost dreams? Closeness? …",
       component: "",
@@ -74,6 +80,7 @@ const Publications = () => {
       name: "Anger In Sports",
       publicationDate: "November 26, 2018",
       image: sports.src,
+      altText: 'A referee coaching a girls soccer team',
       snippet:
         "Anger and overt acts of violence are becoming an increasing concern in sports today, not just at the college and professional level but also among younger students. Even amateur adult …",
       component: "",
@@ -82,6 +89,7 @@ const Publications = () => {
       name: "Controlling Anger",
       publicationDate: "November 26, 2018",
       image: anger.src,
+      altText: 'A person looking frustrated at their computer in front of windows',
       snippet:
         "It is not anger as a feeling that causes problems so much as it is our response to feeling angry. Our behavior tells the tale. As a result of our …",
       component: "",
@@ -90,6 +98,7 @@ const Publications = () => {
       name: "I'm So Angry I Could",
       publicationDate: "November 26, 2018",
       image: bigAngry.src,
+      altText: 'A person yelling into a phone',
       snippet:
         "Anger, anger, anger… everywhere anger… anger in the streets, violence in our schools, violence towards those of another religion, even anger in our homes. Anger in its extreme becomes hatred …",
       component: "",
@@ -98,6 +107,7 @@ const Publications = () => {
       name: "Using Home Medical Tests",
       publicationDate: "November 26, 2018",
       image: test.src,
+      altText: 'A person giving themselves an at home medical test',
       snippet:
         "Many people are discovering that home medical tests can save time, money and energy over conventional office or laboratory visits. Although home tests are not meant to be a substitute …",
       component: "",
@@ -106,6 +116,7 @@ const Publications = () => {
       name: "Getting a Good Night's Sleep",
       publicationDate: "November 26, 2018",
       image: sleep.src,
+      altText: 'Two people holding eachother in bed',
       snippet:
         "Everyone has an occasional sleepless night. But for 20 million Americans, the frustration of chronic insomnia is a big problem. The gimmicks that work for the person with mild sleep …",
       component: "",
@@ -114,6 +125,7 @@ const Publications = () => {
       name: "Discovering the Rewards of Marital Sex",
       publicationDate: "November 26, 2018",
       image: bed.src,
+      altText: 'Two people holding eachother in bed',
       snippet:
         "Paul Pearsall, Director of Education at the Kinsey Institute for Research, has written an intriguing book, Super Marital Sex, which reveals new ways for married couples to achieve a more …",
       component: "",
@@ -122,6 +134,7 @@ const Publications = () => {
       name: "Can Supermom be Healthy?",
       publicationDate: "November 26, 2018",
       image: supermom.src,
+      altText: 'An image of a mother holding their child',
       snippet:
         "Mothers frequently juggle the roles of worker, wife and parent. Balancing the demands of these varied roles has never been easy. But as the nature of each of these jobs …",
       component: "",
@@ -244,9 +257,9 @@ const searchToggle = () => {
       <div id="pub-holder">
         {searched.map((article, i) => {
           return (
-            <div  id="pub-card">
+            <div  id="pub-card" key={i}>
               <div id='card-container'>
-                <img  src={article.image} />
+                <img  src={article.image} alt={article.altText}/>
                 <div id="pub-text">
                   <h1>{article.name}</h1>
                   <p>{article.snippet}</p>

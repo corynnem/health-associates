@@ -57,6 +57,7 @@ const Services = () => {
         {disorders.map((disorder, i) => {
           return (
             <Card
+            key={i}
               style={{
                 width: 280,
                 height: 280,
@@ -68,7 +69,7 @@ const Services = () => {
               }}
             >
               <h3>{disorder.name}</h3>
-                <img src={separator.src}  style={{width: '50px', marginTop: '-25px', marginBottom: '-10px'}}/>
+                <img src={separator.src}  style={{width: '50px', marginTop: '-25px', marginBottom: '-10px'}} alt="a line icon to separate words on the page"/>
               <p>{disorder.desc}</p>
             </Card>
           );

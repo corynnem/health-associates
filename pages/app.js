@@ -32,7 +32,7 @@ const App = () => {
           <img
             id="background"
             src={background.src}
-            alt="Photo of stones being balanced atop one another in front of a forest"
+            alt="Photo of body of water"
           />
           <div id="text">
             <h1>Welcome to Health Associates! </h1>
@@ -68,17 +68,16 @@ const App = () => {
         <div>
           <Carousel autoplay style={{width: '100vw', marginLeft: '-32px'}}>
             <div style={{width: '100vw' }} >
-            <img id='background' style={{ width: '100vw', marginLeft: '0'}} src={carousel1.src}/>
-              <img/>
+            <img id='background' style={{ width: '100vw', marginLeft: '0'}} src={carousel1.src} alt="Someone filling out forms on a clip board"/>
             </div>
             <div>
-            <img id="background" src={carousel2.src} style={{ width: '100vw', marginLeft: '0'}}/>
+            <img id="background" src={carousel2.src} style={{ width: '100vw', marginLeft: '0'}} alt="A therapist and client sitting accross from eachother having a discussion with windows in the background"/>
             </div>
             <div>
-            <img id="background" src={carousel3.src} style={{ width: '100vw', marginLeft: '0'}}/>
+            <img id="background" src={carousel3.src} style={{ width: '100vw', marginLeft: '0'}} alt="A couple sitting on a couch across from a therapist talking to eachother"/>
             </div>
             <div>
-            <img id="background" src={carousel4.src} style={{ width: '100vw', marginLeft: '0'}}/>
+            <img id="background" src={carousel4.src} style={{ width: '100vw', marginLeft: '0'}} alt="A person sitting accross from a therapist with his head in his hands"/>
             </div>
           </Carousel>
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import Navigation from "./Nav/Navigation";
-import separator from "./assets/separator.png";
 import Title from "./ResusableComponents/Title";
 import Footer from "./ResusableComponents/Footer";
 import location from "./assets/healthassociates.jpeg";
@@ -34,16 +33,11 @@ const About = () => {
         }}
       >
         <Title pageName={"About"} styles={styles}/>
-        {/* <img
-          src={separator.src}
-          className="separator"
-          alt="A line icon separating the title from the rest of the text on the page"
-        /> */}
       </div>
       <br/>
       <br/>
       <div id="abt-main">
-        <img src={location.src} id="abt-img" />
+        <img src={location.src} id="abt-img" alt="A photo of the building where Health Associates runs it's practice"/>
         <div id="abt-text">
           <p>
             Health Associates is a group of mental health professionals
