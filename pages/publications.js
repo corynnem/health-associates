@@ -240,6 +240,7 @@ const searchToggle = () => {
                     marginRight: "10px",
                   }}
                   src={lineIcon.src}
+                  alt="A vertical line icon to separate text and eyeglass icon"
                 />{" "}
                 <img
                   onClick={() => searchToggle()}
@@ -250,6 +251,7 @@ const searchToggle = () => {
                   }}
                   id="eyeglass"
                   src={searchIcon.src}
+                  alt="An eyeglass icon"
                 /></div>
                 <br/>
                <br/>
