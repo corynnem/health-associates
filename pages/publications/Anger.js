@@ -55,7 +55,7 @@ const Base  = () => {
                 <p>Hostility and violence in our society should be of great concern to all of us on a personal level because we can make a difference. While we do not have much power over society, we do have a great influence over our individual emotions and behaviors as well as those of our family members. By controlling our anger in the home, we teach our children coping skills which will serve them well in their future.</p>
                 <br/>
             </div>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow'  />Back to Publications</a>
             <br/>
             <br/>
             <br/>

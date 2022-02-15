@@ -55,7 +55,7 @@ const ADHD  = () => {
                 <p>Living by Golden Rule # 2: I am responsible for what I think, feel, say, and do. This idea puts personal power and control into your hands so that other people no longer need to control your life.</p>
             </div>
             <br/>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow'  />Back to Publications</a>
             <br/>
             <br/>
             <br/>

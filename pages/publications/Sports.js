@@ -40,7 +40,7 @@ const Base  = () => {
                 <h1>Is This Affecting Society?</h1>
                 <p>At issue is whether violence in sports has promoted an increase in everyday violence or crime that involves violent activity. While there is no research to suggest that it does, there is a growing body of research to indicate that adolescents and pre—adolescents who are emotionally unstable may be adversely affected by participation in Violent sports. (This is in contrast to the fact that more stable individuals are probably not affected and probably benefit from participation in physically aggressive activities.)</p>
                 <br/>
-                <h1 style={{fontSize: '2em', textAlign: 'center'}}> "Some sports seem to elicit or promote violent acts …"</h1>
+                <h1 style={{fontSize: '2em', textAlign: 'center'}}> &lsquo;Some sports seem to elicit or promote violent acts …&rsquo;</h1>
                 <p>are surprised by the way the sport is played in this country. Information shows that youth teams in Eastern Europe are more successful than similar teams in the US, suggesting that emphasizing technique over aggression may be to the advantage of the team.</p>
                 <br/>
                 <h1>Referees Can Control Violence</h1>
@@ -54,7 +54,7 @@ const Base  = () => {
                 <p>Parents should monitor the types of activities which they allow their children to participate in and have the courage to withdraw them from anything which could be harmful or damaging. Parents should also evaluate the injury potential and long—term effects of injuries which could be incurred in a sport. If necessary, they should find alternative sports or leagues in which their children can participate.</p>
             </div>
             <br/>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow'/>Back to Publications</a>
             <br/>
             <br/>
             <br/>

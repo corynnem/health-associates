@@ -43,10 +43,10 @@ const Reflections  = () => {
                     <li>When was the last time someone said he/ she loved you?</li>
                 </ul>
                 <br/>
-                <p>Most of us don't take time to reflect on where we have been, what we have achieved, and where we are going. A few moments alone with our thoughts can result in interesting revelations and insights about ourselves.</p>
+                <p>Most of us don&lsquo;t take time to reflect on where we have been, what we have achieved, and where we are going. A few moments alone with our thoughts can result in interesting revelations and insights about ourselves.</p>
             </div>
             <br/>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow'/>Back to Publications</a>
             <br/>
             <br/>
             <br/>

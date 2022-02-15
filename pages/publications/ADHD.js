@@ -47,7 +47,7 @@ const ADHD  = () => {
                 <p>In addition, head injuries and certain medical conditions such as hypo- or hyperthyroidism, kidney or liver inefficiency, or poor blood flow to the brain may produce attention deficits. For these reasons, it can take some time to conduct the appropriate interviews and tests (both physical and psychological) to make a definitive diagnosis of ADHD in an adult.</p>
                 <br/>
             </div>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow' />Back to Publications</a>
             <br/>
             <br/>
             <br/>

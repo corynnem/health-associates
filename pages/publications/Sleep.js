@@ -54,7 +54,7 @@ const Base  = () => {
                 <p>If you decide that your lifestyle has room for improvement, give yourself enough time to adapt to the changes. A night or two won’t help much. But, if no improvement occurs in two weeks, a visit to a trained professional is the next step.</p>
             </div>
             <br/>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow'/>Back to Publications</a>
             <br/>
             <br/>
             <br/>

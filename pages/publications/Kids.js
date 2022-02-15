@@ -56,7 +56,7 @@ const Kids  = () => {
                 <p>Clearly the old adage, “Give a man a fish and he eats for a day; teach a man to fish and he eats for a lifetime,” is a valuable lesson that can easily be applied to our parenting efforts. In general, modern parents can be more effective by doing less and requiring more from their children. Our children need to hear the phrase, “You need to earn…” far more than they need to hear, “OK, you can have that.”</p>
             </div>
             <br/>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow' />Back to Publications</a>
             <br/>
             <br/>
             <br/>

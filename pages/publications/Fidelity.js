@@ -64,7 +64,7 @@ const Fidelity  = () => {
                 <p>The choice is yours. If you don’t know how to accomplish all of this, or if the relationship is not working, seek help through counseling. You owe it to yourself.</p>
                 <br/>
             </div>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow'  />Back to Publications</a>
             <br/>
             <br/>
             <br/>

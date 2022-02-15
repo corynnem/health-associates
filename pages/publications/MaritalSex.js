@@ -33,7 +33,7 @@ const Base  = () => {
                 <p>The information contained in this book is based on the experiences of a thousand couples who were interviewed over a period of five years. The numerous self-tests, sex assignments, marriage tests and questionnaires contained within the book are designed to encourage discussion and promote understanding between partners. Pearsall’s goal is not only to help couples achieve sexual fulfillment but also experience stronger, healthier marriages.</p>
                 <br/>
             </div>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow'/>Back to Publications</a>
             <br/>
             <br/>
             <br/>

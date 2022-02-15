@@ -75,7 +75,7 @@ const Base  = () => {
                 <p>When one looks at the pain, sadness, confusion, and break-up of families that can occur following infidelity, the focus should be less on how to survive infidelity, and more on how to prevent infidelity. Two obvious prevention measures are: 1) not to have an affair, and 2) to recognize when a marriage is in danger and needs help to improve the relationship. if you genuinely want to leave a marriage, recognize the added problems an affair will create. Deal with the marital issues. Or seek a divorce, without adding the anger an affair will bring to the litigation and adjustment process–for both. you and your spouse.</p>
                 <br/>
             </div>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow' />Back to Publications</a>
             <br/>
             <br/>
             <br/>

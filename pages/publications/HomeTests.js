@@ -49,7 +49,7 @@ const Base  = () => {
                 <p>Tests are currently being developed for monitoring blood cholesterol, breast cancer and strep throat at home. In the future, those tests already available will become even more accurate, convenient and easy to use. Home tests offer individuals the exciting opportunity to maintain an active partnership with their doctor while monitoring their health.u</p>
             </div>
             <br/>
-            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} />Back to Publications</a>
+            <a href={`${URL}/publications`} id='back-nav'> <img src={back.src} alt='left facing arrow'  />Back to Publications</a>
             <br/>
             <br/>
             <br/>

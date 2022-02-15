@@ -100,7 +100,7 @@ const AngerControl = () => {
       <br/>
       <a href={`${URL}/publications`} id="back-nav">
         {" "}
-        <img src={back.src} />
+        <img src={back.src} alt='left facing arrow'  />
         Back to Publications
       </a>
       <br />
