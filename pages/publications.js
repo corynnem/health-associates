@@ -1,26 +1,28 @@
 import React, { useState, useEffect } from "react";
 import Navigation from "./Nav/Navigation";
 import Title from "./ResusableComponents/Title";
-import reflections from "./Optimum/photos/reflections.jpeg";
-import adhd from "./Optimum/photos/adhd.jpg";
-import help from "./Optimum/photos/help.jpg";
-import kid from "./Optimum/photos/kid.jpg";
-import happy from "./Optimum/photos/happy-couple.jpg";
-import unhappy from "./Optimum/photos/unhappy-couple.jpg";
-import sports from "./Optimum/photos/sports.jpg";
-import anger from "./Optimum/photos/anger.jpg";
-import bigAngry from "./Optimum/photos/mucho-angry.jpg";
-import test from "./Optimum/photos/home-test.jpg";
-import sleep from "./Optimum/photos/sleep.jpg";
-import bed from "./Optimum/photos/in-bed.jpg";
-import supermom from "./Optimum/photos/supermom.jpg";
+import reflections from "./publications/photos/reflections.jpeg";
+import adhd from "./publications/photos/adhd.jpg";
+import help from "./publications/photos/help.jpg";
+import kid from "./publications/photos/kid.jpg";
+import happy from "./publications/photos/happy-couple.jpg";
+import unhappy from "./publications/photos/unhappy-couple.jpg";
+import sports from "./publications/photos/sports.jpg";
+import anger from "./publications/photos/anger.jpg";
+import bigAngry from "./publications/photos/mucho-angry.jpg";
+import test from "./publications/photos/home-test.jpg";
+import sleep from "./publications/photos/sleep.jpg";
+import bed from "./publications/photos/in-bed.jpg";
+import supermom from "./publications/photos/supermom.jpg";
 import lineIcon from './assets/line.png'
 import searchIcon from './assets/search.png'
 import cancelIcon from './assets/cancel.png'
+import Footer from "./ResusableComponents/Footer";
 
 
 
 const Publications = () => {
+  const [URL, setURL] = useState('')
   const [articles] = useState([
     {
       name: "Reflections",
@@ -29,7 +31,7 @@ const Publications = () => {
         "Many adults have fast-paced, overfilled schedules that consume their time. They overlook their need for affection, individual time, and relaxation. Too often this hurried lifestyle prevents us from taking care …",
       image: reflections.src,
       altText: 'A person looking into a mirror in black and white',
-      component: "",
+      pageName: "Reflections",
     },
     {
       name: "ADHD, It's Not Just For Kids Anymore",
@@ -38,7 +40,7 @@ const Publications = () => {
       altText: 'A brain and the word adhd drawn on a blackboard',
       snippet:
         "When people think about Attention Deficit Hyperactivity Disorder (ADHD), most envision a hyper little boy, running around in the classroom, unable to sit still. Or they think of a little …",
-      component: "",
+      pageName: "ADHD",
     },
     {
       name: "Help!",
@@ -47,7 +49,7 @@ const Publications = () => {
       altText: 'A laptop with sticky notes all over it, and one in the middle that says Help',
       snippet:
         "Depression and other emotional problems can usually be greatly relieved by changing mental habits. The following steps need to be repeated hundreds of times (or more) over weeks or months …",
-      component: "",
+      pageName: "Help",
     },
     {
       name: "Do Less For Your Kids",
@@ -56,7 +58,7 @@ const Publications = () => {
       altText: 'A picture of a child picking flowers off of a tree',
       snippet:
         "Parents clearly want what is best for their children. But often, in our modern, high-tech, materialistic world, we become sidetracked with giving our children what is stimulating, what is pleasurable, … ",
-      component: "",
+      pageName: "Kids",
     },
     {
       name: "Nurturing Fidelity",
@@ -65,7 +67,7 @@ const Publications = () => {
       altText: 'A couple holding eachother in front of a body of water',
       snippet:
         "Counselors frequently work with couples seeking a cure for the pain and destruction that infidelity generally breeds. But counselors would rather help couples before the crisis of infidelity occurs. With …",
-      component: "",
+      pageName: "Fidelity",
     },
     {
       name: "What's Happening to Us?",
@@ -74,7 +76,7 @@ const Publications = () => {
       altText: 'A couple fighting on a bench in a park',
       snippet:
         "Infidelity-~being sexually unfaithful to your partner. What labels or images does that word bring to your mind? Disloyal? Unfaithful? Joy? Deceit? Lying? Guilt? Excitement? Cheap love? Anxiety?  Lost dreams? Closeness? …",
-      component: "",
+      pageName: "Infidelity",
     },
     {
       name: "Anger In Sports",
@@ -83,7 +85,7 @@ const Publications = () => {
       altText: 'A referee coaching a girls soccer team',
       snippet:
         "Anger and overt acts of violence are becoming an increasing concern in sports today, not just at the college and professional level but also among younger students. Even amateur adult …",
-      component: "",
+      pageName: "Sports",
     },
     {
       name: "Controlling Anger",
@@ -92,7 +94,7 @@ const Publications = () => {
       altText: 'A person looking frustrated at their computer in front of windows',
       snippet:
         "It is not anger as a feeling that causes problems so much as it is our response to feeling angry. Our behavior tells the tale. As a result of our …",
-      component: "",
+      pageName: "AngerControl",
     },
     {
       name: "I'm So Angry I Could",
@@ -101,7 +103,7 @@ const Publications = () => {
       altText: 'A person yelling into a phone',
       snippet:
         "Anger, anger, anger… everywhere anger… anger in the streets, violence in our schools, violence towards those of another religion, even anger in our homes. Anger in its extreme becomes hatred …",
-      component: "",
+      pageName: "Anger",
     },
     {
       name: "Using Home Medical Tests",
@@ -110,7 +112,7 @@ const Publications = () => {
       altText: 'A person giving themselves an at home medical test',
       snippet:
         "Many people are discovering that home medical tests can save time, money and energy over conventional office or laboratory visits. Although home tests are not meant to be a substitute …",
-      component: "",
+      pageName: "HomeTests",
     },
     {
       name: "Getting a Good Night's Sleep",
@@ -119,7 +121,7 @@ const Publications = () => {
       altText: 'Two people holding eachother in bed',
       snippet:
         "Everyone has an occasional sleepless night. But for 20 million Americans, the frustration of chronic insomnia is a big problem. The gimmicks that work for the person with mild sleep …",
-      component: "",
+      pageName: "Sleep",
     },
     {
       name: "Discovering the Rewards of Marital Sex",
@@ -128,7 +130,7 @@ const Publications = () => {
       altText: 'Two people holding eachother in bed',
       snippet:
         "Paul Pearsall, Director of Education at the Kinsey Institute for Research, has written an intriguing book, Super Marital Sex, which reveals new ways for married couples to achieve a more …",
-      component: "",
+      pageName: "MaritalSex",
     },
     {
       name: "Can Supermom be Healthy?",
@@ -137,10 +139,10 @@ const Publications = () => {
       altText: 'An image of a mother holding their child',
       snippet:
         "Mothers frequently juggle the roles of worker, wife and parent. Balancing the demands of these varied roles has never been easy. But as the nature of each of these jobs …",
-      component: "",
+      pageName: "Supermom",
     },
   ]);
-  const [URL, setURL] = useState('')
+
   const [searched, setSearched] = useState(articles)
 
   useEffect(() => {
@@ -269,7 +271,7 @@ const searchToggle = () => {
                   <br/>
                   <button
                 id="pub-button"
-                onClick={() => window.location.assign(`${URL}/services`)}
+                onClick={() => window.location.assign(`${URL}/publications/${article.pageName}`)}
               >
                 Read Article
               </button>
@@ -280,6 +282,7 @@ const searchToggle = () => {
           );
         })}
       </div>
+      <Footer/>
     </div>
   );
 };

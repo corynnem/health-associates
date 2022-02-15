@@ -7,14 +7,17 @@
 
     }
     #footer {
-        background-color: grey;
+        background-color: #1b2a41;
         width: 100vw;
-        margin-left: -32px;
+        /* margin-left: -32px; */
         margin-top: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    #contact {
+        margin-left: 80px;
     }
   }
 
@@ -27,9 +30,9 @@
 
     }
     #footer {
-        background-color: grey;
+        background-color: #1b2a41;
         width: 100vw;
-        margin-left: -32px;
+        /* margin-left: -32px; */
         margin-top: 50px;
         display: flex;
         justify-content: space-evenly;
@@ -46,9 +49,9 @@
 
     }
     #footer {
-        background-color: grey;
+        background-color: #1b2a41;
         width: 100vw;
-        margin-left: -32px;
+        /* margin-left: -32px; */
         margin-top: 50px;
         display: flex;
         justify-content: space-evenly;

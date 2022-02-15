@@ -1,4 +1,12 @@
 @media (max-width: 700px) {
+    .article {
+        font-size: 1.m;
+        font-family: 'Niramit';
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 0px;
+        text-align: center;
+    }
     #pub-card {
         border-radius: 5px;         
          margin-top: 20px;
@@ -37,6 +45,7 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
+         margin-left: 40px;
      }
      #pub-text {
          padding: 50px;
@@ -51,6 +60,19 @@
   
   
   @media (min-width: 701px) and (max-width: 1200px) {
+    .article {
+        font-size: 1.2em;
+        font-family: 'Niramit';
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .article ul {
+        margin-left: 40px;
+    }
+    .article ol {
+        margin-left: 40px;
+    }
     #pub-card {
         border-radius: 5px;         
          margin-top: 20px;
@@ -103,6 +125,19 @@
   
   
   @media (min-width: 1201px) and (max-width: 1650px) {
+    .article {
+        font-size: 1.5em;
+        font-family: 'Niramit';
+        padding-top: 50px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .article ul {
+        margin-left: 40px;
+    }
+    .article ol {
+        margin-left: 40px;
+    }
     #pub-card {
         border-radius: 5px;         
          margin-top: 20px;
@@ -152,6 +187,19 @@
   
   
   @media (min-width: 1651px) {
+      .article {
+          font-size: 1.6em;
+          font-family: 'Niramit';
+          padding-top: 50px;
+          padding-left: 400px;
+          padding-right: 400px;
+      }
+      .article ul {
+        margin-left: 40px;
+    }
+    .article ol {
+        margin-left: 40px;
+    }
      #pub-card {
         border-radius: 5px;         
          margin-top: 20px;
@@ -190,6 +238,7 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
+
      }
      #pub-text {
          padding: 50px;
@@ -201,7 +250,7 @@
 
 
 #pub-button {
-    background-color: #9cbe9c;
+    background-color: #CCC9DC;
     height: 50px;
     width: 150px;
     border-radius: 30px;
@@ -213,11 +262,11 @@
   #pub-button:hover {
     background-color: white;
     transition: ease-in-out .5s;
-    color: #9cbe9c;
+    color: #CCC9DC;
     cursor: pointer;
     border-width: 1px;
     border-style: solid;
-    border-color: #9cbe9c;
+    border-color: #CCC9DC;
   }
 
   #input {
@@ -226,4 +275,37 @@
       border-radius: 5px;
       margin-top: 10px;
       margin-right: 20px;
+  }
+
+
+  #back-nav:hover {
+      color: #CCC9DC;
+  }
+  #back-nav {
+      text-decoration: none;
+      color: grey;
+  
+  }
+  #back-nav img {
+    filter: opacity(0.4);
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+  }
+
+  @keyframes slidein {
+    from {
+      width: 30px
+    }
+  
+    to {
+        width: 75vw;
+    }
+  }
+  
+
+  #input {
+      animation: slidein 1s;
+  
   }

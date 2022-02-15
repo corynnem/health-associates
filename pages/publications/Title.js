@@ -9,10 +9,7 @@ const Title = ({ pageName, styles }) => {
         <div style={{textAlign: 'center', marginTop: '20px'}}>
             {/* <div id="left-rect" style={styles.left}></div> */}
             <div id="rect"></div>
-            <div id="cent-rect" ><h1 style={pageName.length > 15? { fontSize: '1.5em'} : { fontSize: '3.8em' }}>{ pageName }</h1></div>
-     
-            
-           
+            <div style={{marginTop: '-120px', marginLeft: '30px', fontFamily: 'Niramit'}}><h1 style={pageName.length > 14? { fontSize: '2.2em', color: 'white'} : { fontSize: '3.8em' , color: 'white'}}>{ pageName }</h1></div>
         </div>
     )
 }

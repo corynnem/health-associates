@@ -33,7 +33,7 @@ const Providers = () => {
             <Doctors/>
             </div>
             <div style={{marginLeft: '32px'}}>
-            <Footer/>
+            <Footer style={{marginLeft: '-32px'}} />
             </div>
         </div>
     )

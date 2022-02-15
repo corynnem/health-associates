@@ -36,8 +36,9 @@ const About = () => {
       </div>
       <br/>
       <br/>
+      <br/>
       <div id="abt-main">
-        <img src={location.src} id="abt-img" alt="A photo of the building where Health Associates runs it's practice"/>
+        <img src={location.src} id="abt-img" alt="A photo of the building where Health Associates runs it's practice" style={{width: '400px'}}/>
         <div id="abt-text">
           <p>
             Health Associates is a group of mental health professionals
@@ -75,7 +76,7 @@ const About = () => {
       </div>
 
       <div style={{ marginLeft: "32px" }}>
-        <Footer />
+      <Footer style={{marginLeft: '-32px'}} />
       </div>
     </div>
   );

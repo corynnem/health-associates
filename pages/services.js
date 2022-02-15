@@ -3,6 +3,7 @@ import Navigation from "./Nav/Navigation";
 import Title from "./ResusableComponents/Title";
 import { Card } from "antd";
 import separator from './assets/separator.png'
+import Footer from './ResusableComponents/Footer'
 
 const Services = () => {
   const disorders = [
@@ -64,12 +65,13 @@ const Services = () => {
                 marginBottom: "10px",
                 marginRight: "10px",
                 textAlign: 'center',
-                backgroundColor: '#EFEBCE',
-                overflow: 'scroll'
+                backgroundColor: '#324a5f',
+                overflow: 'scroll',
+                color: 'white',
               }}
             >
-              <h3>{disorder.name}</h3>
-                <img src={separator.src}  style={{width: '50px', marginTop: '-25px', marginBottom: '-10px'}} alt="a line icon to separate words on the page"/>
+              <h3 style={{color: 'white'}}>{disorder.name}</h3>
+                <img src={separator.src}  style={{width: '50px', marginTop: '-25px', marginBottom: '-10px', filter: 'invert(100%'}} alt="a line icon to separate words on the page"/>
               <p>{disorder.desc}</p>
             </Card>
           );
@@ -87,6 +89,7 @@ const Services = () => {
               <li>Vocational Interests</li>
           </ul>
       </div>
+      <Footer />
     </div>
   );
 };

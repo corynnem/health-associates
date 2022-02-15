@@ -274,22 +274,24 @@
 
 
 #main-button {
-  background-color: #9cbe9c;
+  background-color: #324A5f;
   height: 50px;
   width: 150px;
   border-radius: 30px;
   border-width: 1px;
-  border-color: white;
+  border-width:  0px;
   border-style: solid;
+  color: white;
 }
 
 #main-button:hover {
-  background-color: white;
+  background-color: #CCC9DC;
   transition: ease-in-out .5s;
-  color: #9cbe9c;
+  color: #324A5f;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
-  border-color: #9cbe9c;
+  /* border-color: #324A5f; */
+  border-width:  0px;
 }
 

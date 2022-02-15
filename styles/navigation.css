@@ -172,7 +172,7 @@ input[name=main_menu]:checked~nav, nav {
 }
 
 nav {
-  background-color: #9CBE9C
+  background-color: #CCC9DC
 }
 
 
@@ -286,11 +286,12 @@ nav {
 @media (max-width: 1024px) {
   .logo {
     margin-left: 50px;
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .inner {
     color: white;
   }
+
   .sub-title {
     margin-left: 30px;
     font-family: 'Niramit';
@@ -386,7 +387,8 @@ nav {
   nav ul li a {
     left: inherit;
     border-bottom: none medium;
-    padding: .5em .8em
+    padding: .5em .8em;
+    margin-left: 35px;
   }
 }
 

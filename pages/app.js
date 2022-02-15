@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import background from "../pages/assets/background.jpeg";
+import background from "../pages/assets/background.jpg";
 import Doctors from "./HomeComponents/doctors";
 import WaysToHelp from "./HomeComponents/WaysToHelp";
 import separator from "./assets/separator.png";
@@ -91,7 +91,7 @@ const App = () => {
           <Doctors />
         </div>
       </div>
-      <Footer />
+      <Footer style={{marginLeft: '-32px'}} />
     </div>
   );
 };

@@ -3,7 +3,7 @@
   
 @media (max-width: 1024px) {
     #rect {
-        background-color: rgb(85, 94, 72);
+        background-color: #1b2a41;
         height: 200px;
         width: 100vw;
         margin-top: -0px;
@@ -13,13 +13,13 @@
     
     #cent-rect {
        font-family: 'Niramit';
-       font-size: 1.8rem;
+       /* font-size: 1.8rem; */
         color: white;
         height: 70px;
-        width: 170px;
+        width: 100vw;
         text-align: center;
         margin-top: -110px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
         line-height: 70px;
         border-radius: 10px;
     }
@@ -27,6 +27,7 @@
     #cent-rect h1 {
         color: white;
         margin-left: 50px;
+        width: 70vw;
     }
     
   }
@@ -36,7 +37,7 @@
   
   @media (min-width: 1025px) {
     #rect {
-        background-color: rgb(85, 94, 72);
+        background-color: #1b2a41;
         height: 200px;
         width: 100vw;
         margin-top: -50px;
@@ -46,15 +47,16 @@
     
     #cent-rect {
         font-family: 'Niramit';
-        font-size: 1.8rem;
+        /* font-size: 1.8rem; */
         color: white;
         height: 70px;
-        width: 170px;
+        width: 500px;
         text-align: center;
         margin-top: -110px;
         margin-left: 15px;
         line-height: 70px;
         border-radius: 10px;
+        /* font-size: 18px; */
     }
     
     #cent-rect h1 {
