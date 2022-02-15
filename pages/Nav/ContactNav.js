@@ -13,33 +13,33 @@ const ContactNav = ({  }) => {
 
     return (
         <div id="contact-nav">
-                <div style={{ display: 'flex', marginTop: '50px', marginRight: '10px'}}>
-                    <div style={{ display: 'flex' }}>
-                        <img src={phoneIcon.src} style={iconStyles} className='icon' alt='A phone icon '/>
-                        <img src={lineIcon.src} style={lineStyles} className='icon' alt='A line icon to separate phone icon from phone number'/>
+                <div style={{ display: 'flex', marginTop: '50px'}}>
+                    <div style={{ display: 'flex', marginTop: '-10px' }}>
+                        <img src={phoneIcon.src} style={iconStyles} className='icon contact-icon' alt='A phone icon ' />
+                        <img src={lineIcon.src} style={lineStyles} className='icon line-icon' alt='A line icon to separate phone icon from phone number ' />
                         <div >
-                            <p style={{ opacity: '0.7' }}>Phone</p>
-                            <p style={{fontSize: '.9em'}}> (317) 844-7489 </p>
+                            <p style={{ opacity: '0.7' }} className='contact-label'>Phone</p>
+                            <p style={{fontSize: '.9em', marginTop: '10px'}}> (317) 844-7489 </p>
                         </div>
                     </div>
                 </div>
                 <div style={{ display: 'flex', marginTop: '50px', }}>
-                    <div style={{ display: 'flex' }}>
-                        <img src={atIcon.src} style={iconStyles} className='icon' alt='A at symbol (@) icon ' />
-                        <img src={lineIcon.src} style={lineStyles} className='icon' alt='A line icon to separate an at symbol (@) icon from email address'/>
+                    <div style={{ display: 'flex', marginTop: '-10px'}}>
+                        <img src={atIcon.src} style={iconStyles} className='icon contact-icon' alt='A at symbol (@) icon ' />
+                        <img src={lineIcon.src} style={lineStyles} className='icon line-icon' alt='A line icon to separate an at symbol (@) icon from email address' />
                         <div >
-                            <p style={{ opacity: '0.7' }}>Email</p>
-                            <p style={{fontSize: '.9em'}}> healthassoc320@sbcglobal.net </p>
+                            <p style={{ opacity: '0.7' }} className='contact-label'>Email</p>
+                            <p style={{fontSize: '.9em', marginTop: '10px'}}> healthassoc320@sbcglobal.net </p>
                         </div>
                     </div>
                 </div>
-                <div style={{ display: 'flex', marginTop: '50px', }}>
-                    <div style={{ display: 'flex' }}>
-                        <img src={timeIcon.src} style={iconStyles} className='icon'  alt='A clock icon '/>
-                        <img src={lineIcon.src} style={lineStyles} className='icon'  alt='A line icon to separate a clock icon from hours health associates is open'/>
+                <div style={{ display: 'flex', marginTop: '50px',  }}>
+                    <div style={{ display: 'flex', marginTop: '-10px'}}>
+                        <img src={timeIcon.src} style={iconStyles} className='icon contact-icon'  alt='A clock icon '/>
+                        <img src={lineIcon.src} style={lineStyles} className='icon line-icon'  alt='A line icon to separate a clock icon from hours health associates is open' />
                         <div >
-                            <p style={{ opacity: '0.7' }}>Hours</p>
-                            <p style={{fontSize: '.9em'}}> Monday - Friday 9-5</p>
+                            <p style={{ opacity: '0.7' }} className='contact-label'>Hours</p>
+                            <p style={{fontSize: '.9em', marginTop: '10px'}}> Monday - Friday 9-5</p>
 
                         </div>
                     </div>

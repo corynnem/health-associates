@@ -284,6 +284,18 @@ nav {
 
 
 @media (max-width: 1024px) {
+  .contact-icon {
+    /* margin-bottom: 50px; */
+    margin-right: 10px;
+   /* margin-left: 10px; */
+  }
+
+  .contact-label {
+    display: none;
+  }
+  .line-icon {
+    display: none;
+  }
   .logo {
     margin-left: 50px;
     font-size: 2em;
