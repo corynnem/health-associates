@@ -14,7 +14,7 @@ const Footer = ({ style }) => {
         id='iframe'
           loading="lazy"
           allowFullScreen
-          src="https://www.google.com/maps/embed/v1/view?zoom=17&center=39.9225%2C-86.1587&key=AIzaSyCYczkfIKGXw5CVtYg342ctiG4df9R6BKM"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCYczkfIKGXw5CVtYg342ctiG4df9R6BKM&q=Health+Associates, LLC, Counseling+and+Psychological+Services"
         ></iframe>
       </div>
       <div id="contact">
@@ -30,7 +30,7 @@ const Footer = ({ style }) => {
                     <div style={{ display: 'flex' }}>
                         <img src={phoneIcon.src} style={iconStyles} className='icon' alt='A phone icon '/>
                         <div style={textStyles}>
-                            <p> (317) 844 - 7489</p>
+                            <p> (317)  844 - 7489</p>
                         </div>
                     </div>
                 </div>
