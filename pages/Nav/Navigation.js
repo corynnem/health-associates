@@ -56,7 +56,7 @@ const Navigation = ({ style }) => {
             <h4 id="sub-title">Counseling and Psychology Service</h4>
           </div>
           <ContactNav />
-        </div>
+          </div>
         {/* <div > */}
           <nav style={style}>
             <ul>

@@ -26,6 +26,7 @@ const Base  = () => {
             <Navigation/>
             <Title pageName={"Can Supermom be Happy?"}/>
             <div className='article'>
+                <br/>
                 <p>Mothers frequently juggle the roles of worker, wife and parent. Balancing the demands of these varied roles has never been easy. But as the nature of each of these jobs has expanded, women are finding it harder to handle them successfully. The demands of each of these three roles have become more complex, time consuming and stressful.</p>
                 <br/>
                 <p>Consider, for instance, what has happened to women in the work force. In the past, when women worked outside the home, it was usually for one reason —— financial need. Today, however, 50 percent of all women with children under six are currently in the workplace and these women are often motivated by more than money. Finding a meaningful job, self-fulfillment and career advancement are among the reasons for their employment. As a result, working frequently requires more time, education and job commitment from women than in the past.</p>

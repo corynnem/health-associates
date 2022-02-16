@@ -29,6 +29,7 @@ const PopOpen = ({ provider }) => {
       <Card
         onClick={() => showModal()}
         hoverable
+
         style={{
           width: 300,
           marginTop: "30px",
@@ -50,7 +51,7 @@ const PopOpen = ({ provider }) => {
         </Popover>
       </Card>
       <Modal
-
+        footer={null}
         width={800}
         title={`${provider && provider.name}, ${provider && provider.position}`}
         visible={isModalVisible}

@@ -27,6 +27,7 @@ const ADHD  = () => {
             <Title pageName={"ADHD, It's Not Just for Kids Anymore"}/>
 
             <div className='article'>
+              <br/>
                 <p>When people think about Attention Deficit Hyperactivity Disorder (ADHD), most envision a hyper little boy, running around in the classroom, unable to sit still. Or they think of a little girl who has trouble paying attention and seems to be in her own little world. In the not too distant past, parents of these children looked forward to the time their children would enter adolescence, believing that these attention deficit children would outgrow this disorder. In fact, medications such as Ritalin were often discontinued at puberty as a result of this belief.</p>
                 <br/>
                 <p>Although ADHD has become one of the hot topics for study in psychology, there are few descriptive studies dealing with adults who have this disorder. Yet, current research indicates that between 30 and 70 percent of children diagnosed with ADHD continue to have the full syndrome or some significant residual symptoms into adulthood. Adults who think they may fit the diagnosis of ADHD are often self-referred to professionals due to problems with work, school, or family. But it is more common for adults to seek evaluation after their own child has been diagnosed with ADHD.</p>

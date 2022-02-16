@@ -34,7 +34,7 @@ const Services = () => {
       <br />
       <br />
       <div style={{padding: '50px'}}>
-        <h2>What does the initial Evaluation look like?</h2>
+        <h2>What does the initial evaluation look like?</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget est

@@ -30,7 +30,7 @@ const Footer = ({ style }) => {
                     <div style={{ display: 'flex' }}>
                         <img src={phoneIcon.src} style={iconStyles} className='icon' alt='A phone icon '/>
                         <div style={textStyles}>
-                            <p> (123) - 456 - 7890 </p>
+                            <p> (317) 844 - 7489</p>
                         </div>
                     </div>
                 </div>

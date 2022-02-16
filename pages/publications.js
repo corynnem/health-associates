@@ -269,12 +269,15 @@ const searchToggle = () => {
                   <p>{article.snippet}</p>
                   <br/>
                   <br/>
+                  <a id="pub-button">
                   <button
-                id="pub-button"
+              
                 onClick={() => window.location.assign(`${URL}/publications/${article.pageName}`)}
               >
                 Read Article
               </button>
+                  </a>
+               
                 </div>
               </div>
              

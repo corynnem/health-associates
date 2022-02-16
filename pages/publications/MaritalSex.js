@@ -26,6 +26,7 @@ const Base  = () => {
             <Navigation/>
             <Title pageName={"Discovering the Rewards of Marital Sex"}/>
             <div className='article'>
+              <br/>
                 <p>Paul Pearsall, Director of Education at the Kinsey Institute for Research, has written an intriguing book, Super Marital Sex, which reveals new ways for married couples to achieve a more fulfilling  sexual relationship. Pearsall disagrees with the common assumption that sex in an affair is always more intense and exciting than marital sex. Instead, he claims that no form of extramarital sex can compete with good marital sex.</p>
                 <br/>
                 <p>“Super marital sex” is the phrase Pearsall uses to define exciting marital sex. He believes that marital sex is maximized by the closeness, trust and familiarity of marriage rather than the adventure, mystery and excitement of an affair.</p>

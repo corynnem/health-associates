@@ -250,6 +250,15 @@
 
 
 #pub-button {
+    color: white
+  }
+  
+  #pub-button:hover {
+    color: #CCC9DC;
+  }
+
+
+#pub-button button {
     background-color: #CCC9DC;
     height: 50px;
     width: 150px;
@@ -257,9 +266,8 @@
     border-width: 1px;
     border-color: white;
     border-style: solid;
-  }
-  
-  #pub-button:hover {
+}
+#pub-button button:hover {
     background-color: white;
     transition: ease-in-out .5s;
     color: #CCC9DC;
@@ -267,7 +275,7 @@
     border-width: 1px;
     border-style: solid;
     border-color: #CCC9DC;
-  }
+}
 
   #input {
       width: 75vw;

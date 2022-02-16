@@ -26,6 +26,7 @@ const Base  = () => {
             <Navigation/>
             <Title pageName={"Getting a Good Nights Sleep"}/>
             <div className='article'>
+              <br/>
                 <p>Everyone has an occasional sleepless night. But for 20 million Americans, the frustration of chronic insomnia is a big problem. The gimmicks that work for the person with mild sleep problems (reading, warm milk, a back rub) don’t relieve the truly troubled sleeper. Physicians annually write more than 25 million sleeping pill prescriptions.</p>
                 <br/>
                 <p>The old saying, “It doesn’t kill you; it just ruins your life,” is all too true for insomniacs. Victims of insomnia may exhibit the same symptoms of joylessness and apathy as those suffering from depression. Because of this, insomnia and depression can be hard to distinguish from one another.</p>

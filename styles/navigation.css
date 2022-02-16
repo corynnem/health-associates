@@ -335,7 +335,6 @@ nav {
 
 
 @media (min-width: 1025px) {
-
   nav {
     position: absolute;
     top: 50%;
@@ -355,7 +354,7 @@ nav {
 
   #open-contact {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   nav, nav ul {

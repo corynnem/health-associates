@@ -26,6 +26,7 @@ const Base  = () => {
             <Navigation/>
             <Title pageName={"Using Home Medical Tests"}/>
             <div className='article'>
+              <br/>
                 <p>Many people are discovering that home medical tests can save time, money and energy over conventional office or laboratory visits. Although home tests are not meant to be a substitute for a doctor’s diagnosis, home tests can help to detect an unknown condition which could require a follow-up doctor’s visit.</p>
                 <br/>
                 <p>Listed below are summaries of some of the more common home tests that have been approved by the FDA (Federal Drug Administration):</p>
