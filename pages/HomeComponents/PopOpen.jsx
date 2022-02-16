@@ -35,7 +35,7 @@ const PopOpen = ({ provider }) => {
           marginTop: "30px",
           marginRight: "10px",
           marginLeft: "10px",
-          backgroundColor: "#CDCACC",
+          backgroundColor: "#ccc9dc",
           minHeight: '440px'
         }}
         cover={<img alt={ provider && provider.altText } src={ provider && provider.headshot} />}
