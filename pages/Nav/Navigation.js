@@ -63,7 +63,7 @@ const Navigation = ({ style }) => {
               <li>{/* <h1 className="logo inner">Health Associates</h1> */}</li>
               <li>
                 {" "}
-                <a href={URL}>Home</a>{" "}
+                <a href={'https://health-associates.herokuapp.com/'}>Home</a>{" "}
               </li>
               <li>
                 {" "}

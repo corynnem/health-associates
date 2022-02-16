@@ -38,7 +38,7 @@ const About = () => {
       <br/>
       <br/>
       <div id="abt-main">
-        <img src={location.src} id="abt-img" alt="A photo of the building where Health Associates runs it's practice" style={{width: '400px'}}/>
+        <img src={location.src} id="abt-img" alt="A photo of the building where Health Associates runs it's practice" style={{width: '350px'}}/>
         <div id="abt-text">
           <p>
             Health Associates is a group of mental health professionals
