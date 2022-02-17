@@ -99,7 +99,7 @@ const Navigation = ({ style }) => {
         </label>
         <div id="open-contact">
           <div style={{ marginTop: "30px", marginRight: "8vw" }}>
-            <img id="web-logo" src={HA.src} alt="The Health associates logo"/>
+            <img id="web-logo" src={HA.src} alt="The Health associates logo" style={{width: '600px', marginTop: '-60px'}}/>
             {/* <h1 id="title">Health Associates</h1>
             <h4 id="sub-title">Counseling and Psychology Service</h4> */}
           </div>
@@ -128,7 +128,7 @@ const Navigation = ({ style }) => {
             </li>
             <li>
               {" "}
-              <a href={`${URL}/publications`}>Publications</a>{" "}
+              <a href={`${URL}/publications`}> Articles</a>{" "}
             </li>
             <li>
               {" "}

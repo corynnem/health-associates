@@ -229,11 +229,11 @@ const searchToggle = () => {
   return (
     <div>
       <Navigation />
-      <Title pageName={"Publications"} />
+      <Title pageName={"Articles"} />
       <br />
       <br />
       <div id='search'>  
-        Optimum
+        Articles
       <img
                   id="line"
                   style={{

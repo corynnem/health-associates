@@ -63,10 +63,10 @@ const App = () => {
             marginBottom: "20vh",
           }}
         >
-          <WaysToHelp />
+          {/* <WaysToHelp /> */}
         </div>
         <div>
-          <Carousel autoplay style={{width: '100vw', marginLeft: '-32px'}}>
+          {/* <Carousel autoplay style={{width: '100vw', marginLeft: '-32px'}}>
             <div style={{width: '100vw' }} >
             <img id='background' style={{ width: '100vw', marginLeft: '0'}} src={carousel1.src} alt="Someone filling out forms on a clip board"/>
             </div>
@@ -79,7 +79,7 @@ const App = () => {
             <div>
             <img id="background" src={carousel4.src} style={{ width: '100vw', marginLeft: '0'}} alt="A person sitting accross from a therapist with his head in his hands"/>
             </div>
-          </Carousel>
+          </Carousel> */}
         </div>
         <div style={{ marginTop: "10vh", textAlign: "center" }}>
           <h1>Providers</h1>
