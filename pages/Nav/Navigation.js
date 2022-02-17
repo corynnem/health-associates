@@ -4,6 +4,50 @@ import menuIcon from "../assets/menu.png";
 import searchIcon from "../assets/search.png";
 import lineIcon from "../assets/line.png";
 import cancelIcon from "../assets/cancel.png";
+import HA from "../assets/ha.jpg";
+import { Menu, Dropdown, Button } from "antd";
+
+
+const menu = (
+  <Menu>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="/forms/Child_Intake.pdf"
+      >
+        Child Intake Form
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="/forms/Adult_Intake.pdf"
+      >
+            Adult Intake Form
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="/forms/HIPAA_Form.pdf"
+      >
+        HIPPA Form
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="/forms/Office_Policies.pdf"
+      >
+        Office Policies
+      </a>
+    </Menu.Item>
+  </Menu>
+);
 
 const Navigation = ({ style }) => {
   const [open, setOpen] = useState(false);
@@ -13,7 +57,6 @@ const Navigation = ({ style }) => {
   // if(process.browser) {
   //   console.log(document.querySelector('.left_menu'))
   // }
-
 
   useEffect(() => {
     switch (window.location.hostname) {
@@ -29,8 +72,12 @@ const Navigation = ({ style }) => {
     <div>
       <header className="left_menu">
         <input type="checkbox" id="main_menu" name="main_menu" />
-        <span className="logo">Health Associates</span>
-        <h4 className="sub-title ">Counseling and Psychology Service</h4>
+        <div style={{ marginTop: "30px", marginRight: "8vw" }}>
+            <img id="logo" src={HA.src} style={{width:'300px', marginLeft: '50px', marginTop: '-20px'}} />
+
+        {/* <span className="logo">Health Associates</span>
+        <h4 className="sub-title ">Counseling and Psychology Service</h4> */}
+        </div>
         <label htmlFor="main_menu">
           <div
             className="hamburger hamburger--elastic"
@@ -52,44 +99,55 @@ const Navigation = ({ style }) => {
         </label>
         <div id="open-contact">
           <div style={{ marginTop: "30px", marginRight: "8vw" }}>
-            <h1 id="title">Health Associates</h1>
-            <h4 id="sub-title">Counseling and Psychology Service</h4>
+            <img id="web-logo" src={HA.src} />
+            {/* <h1 id="title">Health Associates</h1>
+            <h4 id="sub-title">Counseling and Psychology Service</h4> */}
           </div>
           <ContactNav />
-          </div>
+        </div>
         {/* <div > */}
-          <nav style={style}>
-            <ul>
-              <li>{/* <h1 className="logo inner">Health Associates</h1> */}</li>
-              <li>
+        <nav style={style}>
+          <ul style={{marginTop: '-30px'}}>
+            <br />
+            {/* <li><h1 className="logo inner">Health Associates</h1></li> */}
+            <li >
+              {" "}
+              <a href={"https://health-associates.herokuapp.com/"}>Home</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href={`${URL}/about`}>About</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href={`${URL}/services`}>Services</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href={`${URL}/providers`}>Providers</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href={`${URL}/publications`}>Publications</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href={`${URL}/contact`}>Contact Us</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href={`${URL}/forms`}>
                 {" "}
-                <a href={'https://health-associates.herokuapp.com/'}>Home</a>{" "}
-              </li>
-              <li>
-                {" "}
-                <a href={`${URL}/about`}>About</a>{" "}
-              </li>
-              <li>
-                {" "}
-                <a href={`${URL}/services`}>Services</a>{" "}
-              </li>
-              <li>
-                {" "}
-                <a href={`${URL}/providers`}>Providers</a>{" "}
-              </li>
-              <li>
-                {" "}
-                <a href={`${URL}/publications`}>Publications</a>{" "}
-              </li>
-              <li>
-                {" "}
-                <a href={`${URL}/contact`}>Contact Us</a>{" "}
-              </li>
-              <li id="closed-contact">
-                <ContactNav />
-              </li>
-            </ul>
-          </nav>
+                <Dropdown overlay={menu} placement="bottomCenter" arrow >
+                  <Button style={{backgroundColor: '#CCC9DC', fontSize: '1em', borderStyle: 'none'}}>Forms</Button>
+                </Dropdown>
+              </a>{" "}
+            </li>
+            <li id="closed-contact">
+              <ContactNav />
+            </li>
+          </ul>
+        </nav>
         {/* </div> */}
       </header>
     </div>

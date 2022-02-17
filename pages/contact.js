@@ -4,6 +4,15 @@ import Title from "./ResusableComponents/Title";
 import Footer from "./ResusableComponents/Footer";
 
 const Contact = () => {
+
+  const submit = () => {
+    if(window.location.href === 'https://formspree.io/thanks?language=en'){ 
+        window.location.assign('https://health-associates.herokuapp.com/formsubmitted')
+    }
+  }
+
+
+
   return (
     <div>
       <Navigation />
@@ -44,8 +53,9 @@ const Contact = () => {
             justifyContent: "center",
             alignItems: "center",
           }}
+          onSubmit={() => submit()}
       >
-        <fieldset id="fs-frm-inputs">
+        <fieldset id="fs-frm-inputs" >
             <div style={{display: 'flex', justifyContent: 'space-between'}}>
             <input
             type="text"

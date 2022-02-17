@@ -14,7 +14,7 @@ const ContactNav = ({  }) => {
     return (
         <div id="contact-nav">
                 <div style={{ display: 'flex', marginTop: '50px'}}>
-                    <div style={{ display: 'flex', marginTop: '-10px' }}>
+                    <div className='contact-section'>
                         <img src={phoneIcon.src} style={iconStyles} className='icon contact-icon' alt='A phone icon ' />
                         <img src={lineIcon.src} style={lineStyles} className='icon line-icon' alt='A line icon to separate phone icon from phone number ' />
                         <div >
@@ -24,7 +24,7 @@ const ContactNav = ({  }) => {
                     </div>
                 </div>
                 <div style={{ display: 'flex', marginTop: '50px', }}>
-                    <div style={{ display: 'flex', marginTop: '-10px'}}>
+                    <div  className='contact-section'>
                         <img src={atIcon.src} style={iconStyles} className='icon contact-icon' alt='A at symbol (@) icon ' />
                         <img src={lineIcon.src} style={lineStyles} className='icon line-icon' alt='A line icon to separate an at symbol (@) icon from email address' />
                         <div >
@@ -34,7 +34,7 @@ const ContactNav = ({  }) => {
                     </div>
                 </div>
                 <div style={{ display: 'flex', marginTop: '50px',  }}>
-                    <div style={{ display: 'flex', marginTop: '-10px'}}>
+                    <div  className='contact-section'>
                         <img src={timeIcon.src} style={iconStyles} className='icon contact-icon'  alt='A clock icon '/>
                         <img src={lineIcon.src} style={lineStyles} className='icon line-icon'  alt='A line icon to separate a clock icon from hours health associates is open' />
                         <div >

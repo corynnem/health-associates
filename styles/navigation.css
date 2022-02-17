@@ -284,6 +284,7 @@ nav {
 
 
 @media (max-width: 1024px) {
+
   .contact-icon {
     /* margin-bottom: 50px; */
     margin-right: 10px;
@@ -333,8 +334,18 @@ nav {
 
 
 
-
 @media (min-width: 1025px) {
+  #logo {
+    display: none !important;
+  }
+  .contact-section {
+    display: flex;
+    margin-top: 0px;
+  }
+  #web-logo {
+    width: 300px;
+    margin-top: -10px;
+  }
   nav {
     position: absolute;
     top: 50%;
@@ -398,8 +409,8 @@ nav {
   nav ul li a {
     left: inherit;
     border-bottom: none medium;
-    padding: .5em .8em;
-    margin-left: 35px;
+    padding: .4em .7em;
+    margin-left: 18px;
   }
 }
 
@@ -435,6 +446,13 @@ input[name=main_menu]:checked~label .hamburger .hamburger-inner::after {
 }
 
 @media (max-width: 1025px) {
+  #web-logo {
+    width: 300px;
+  }
+  .contact-section {
+    display: flex;
+    margin-top: -30px;
+  }
 
   .left_menu nav li a {
     left: -100%;
