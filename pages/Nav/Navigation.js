@@ -73,7 +73,7 @@ const Navigation = ({ style }) => {
       <header className="left_menu">
         <input type="checkbox" id="main_menu" name="main_menu" />
         <div style={{ marginTop: "30px", marginRight: "8vw" }}>
-            <img id="logo" src={HA.src} style={{width:'300px', marginLeft: '50px', marginTop: '-20px'}} />
+            <img id="logo" src={HA.src} style={{width:'300px', marginLeft: '50px', marginTop: '-20px'}} alt="The Health associates logo"/>
 
         {/* <span className="logo">Health Associates</span>
         <h4 className="sub-title ">Counseling and Psychology Service</h4> */}
@@ -99,7 +99,7 @@ const Navigation = ({ style }) => {
         </label>
         <div id="open-contact">
           <div style={{ marginTop: "30px", marginRight: "8vw" }}>
-            <img id="web-logo" src={HA.src} />
+            <img id="web-logo" src={HA.src} alt="The Health associates logo"/>
             {/* <h1 id="title">Health Associates</h1>
             <h4 id="sub-title">Counseling and Psychology Service</h4> */}
           </div>
