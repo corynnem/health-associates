@@ -73,7 +73,7 @@ const Navigation = ({ style }) => {
       <header className="left_menu">
         <input type="checkbox" id="main_menu" name="main_menu" />
         <div style={{ marginTop: "30px", marginRight: "8vw" }}>
-            <img id="logo" src={HA.src} style={{width:'300px', marginLeft: '50px', marginTop: '-20px'}} alt="The Health associates logo"/>
+            <img id="logo" src={HA.src} style={{width:'300px', marginLeft: '20px', marginTop: '-20px'}} alt="The Health associates logo"/>
 
         {/* <span className="logo">Health Associates</span>
         <h4 className="sub-title ">Counseling and Psychology Service</h4> */}
@@ -107,7 +107,7 @@ const Navigation = ({ style }) => {
         </div>
         {/* <div > */}
         <nav style={style}>
-          <ul style={{marginTop: '-30px'}}>
+          <ul>
             <br />
             {/* <li><h1 className="logo inner">Health Associates</h1></li> */}
             <li >
