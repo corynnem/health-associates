@@ -23,7 +23,7 @@ const Fidelity  = () => {
 
     return (
         <div >
-            <Navigation/>
+            <Navigation style={{width: '300px', marginLeft: '40px'}} />
             <Title pageName={"Nurturing Fidelity"}/>
             <br/>
             <br/>

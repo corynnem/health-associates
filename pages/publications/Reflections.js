@@ -23,7 +23,7 @@ const Reflections  = () => {
 
     return (
         <div>
-            <Navigation/>
+            <Navigation style={{width: '300px', marginLeft: '40px'}} />
             <Title pageName={'Reflections'}/>
 
             <div className='article'>

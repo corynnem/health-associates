@@ -23,7 +23,7 @@ const ADHD  = () => {
 
     return (
         <div>
-            <Navigation/>
+            <Navigation style={{width: '300px', marginLeft: '40px'}} />
             <Title pageName={"ADHD, It's Not Just for Kids Anymore"}/>
 
             <div className='article'>

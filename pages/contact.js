@@ -15,7 +15,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Navigation />
+      <Navigation style={{width: '300px', marginLeft: '40px'}}  />
       <div>
         <Title pageName={"Contact"} />
         {/* <img src={separator.src} className="separator"  alt='A line icon separating the title from the rest of the text on the page' /> */}

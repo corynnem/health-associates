@@ -18,7 +18,7 @@ const AngerControl = () => {
 
   return (
     <div>
-      <Navigation />
+      <Navigation  style={{width: '300px', marginLeft: '40px'}} />
       <Title pageName={"Controlling Anger"} />
       <br />
       <br />

@@ -6,7 +6,7 @@ import Footer from "./ResusableComponents/Footer";
 const Contact = () => {
   return (
     <div>
-      <Navigation />
+      <Navigation style={{width: '300px', marginLeft: '40px'}} />
       <div>
         <Title pageName={'Contact'} />
       </div>

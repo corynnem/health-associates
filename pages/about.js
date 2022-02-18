@@ -23,7 +23,7 @@ const About = () => {
 
   return (
     <div id="about">
-      <Navigation />
+      <Navigation style={{width: '300px', marginLeft: '40px'}} />
       <div
         style={{
           display: "flex",

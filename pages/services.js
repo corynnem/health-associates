@@ -7,38 +7,41 @@ import Footer from './ResusableComponents/Footer'
 
 const Services = () => {
   const disorders = [
+ 
+    { name: "Attention-Deficit Hyperactivity Disorder", desc: "A disorder that manifests as attention difficulty, hyperactivity, and impulsiveness." },
+    { name: "Anxiety Disorders", desc: "A set of disorders characterized by intense, excessive and persistent worry and fear about everyday situations. " },
+    { name: "Mood Disorders", desc:  "Several psychological disorders characterized by the elevation or lowering of a person's mood, such as depression or bipolar disorder." },
+    { name: "Personality Disorders", desc: "Personality disorders are long-term patterns of behavior and inner experiences that differs significantly from what is expected. " },
+    
+
+  ];
+
+  const services =  [
     { name: "Individual and Group Counseling", desc: "Psychotherapy in both a group and individual setting." },
     { name: "Marriage and Family Counseling", desc: "Counseling for married and unmarried couples designed to address problems in their relationship" },
     { name: "Child and Adolescent Counseling", desc: "Psychotherapy in an individual setting for those under the age of 18" },
-    { name: "Attention-Deficit Hyperactivity Disorder", desc: "A disorder that manifests as attention difficulty, hyperactivity, and impulsiveness." },
     { name: "Divorce Counseling", desc: "Counseling to assist those coping with divorce to adapt to the life-changes that result from divorce and achieving psychological and emotional well-being following the divorce" },
-    { name: "Stress Management Training", desc: "The use of specific techniques, strategies, or programs—such as relaxation training, anticipation of stress reactions, and breathing techniques—for dealing with stress-inducing situations and the state of being stressed." },
     { name: "Psychological Testing", desc: " These may be used to diagnose problems with memory, thought processes, and behaviors" },
-    { name: "Career Counseling", desc: "Consulation, advice, or guidance specifically focused on a person's career opportunities," },
     { name: "Counseling for Panic and Phobias", desc: "Psychotherapy designed to decrease anxiety and help people to develop new patterns of thinking and behavior that promote well-being and life fulfilment." },
     { name: "Addictions Counseling", desc: " Psychotherapy to support individuals throughout the treatment process and create an personalized plan for recovery, relapse prevention, and after-care." },
     { name: "Smoking Cessation and Weight Management", desc: "Counseling for those looking to quit smoking cigarettes or other types of nicotine." },
     { name: "Divorce Mediation and Custody Evaluation", desc: "Therapy for couples after divorce, and working on making a custody, visitation, and parenting plan." },
     { name: "Psychiatric Treatment", desc: "Treatment including various forms of psychotherapy, medications, psychosocial interventions and other treatments, depending on the needs of each patient." },
-    // CBT Anxiety Disoders 
     { name: "Adoption and Foster Parenting Issues", desc: "A member or several members of the adoption triad works with a professional like a social worker, a licensed counselor or psychologist to discuss and heal from adoption-related issues." },
-    { name: "Pain Management", desc: "Aims to help clients eliminate or significantly reduce chronic pain symptoms through targeted psychotherapy." },
-  ];
-
-  const services =  [
-
+    { name: "Cognitive Behavioral Therapy (CBT)", desc: "A  a form of psychological treatment that has been demonstrated to be effective for a range of problems including depression, anxiety disorders, alcohol and drug use problems, marital problems, eating disorders, and severe mental illness." },
+    
   ]
 
 
 
   return (
     <div id="services">
-      <Navigation />
+      <Navigation   style={{width: '300px', marginLeft: '40px'}} />
       <Title pageName={"Services"} />
       <br />
       <br />
       <br />
-      <div style={{padding: '50px'}}>
+      {/* <div style={{padding: '50px'}}>
           <h2>Testing</h2>
           <p>Our staff offers comprehensive psychological testing services in the following areas to facilitate diagnosis and treatment:</p>
           <ul>
@@ -48,11 +51,42 @@ const Services = () => {
               <li>Anxiety</li>
 
           </ul>
+      </div> */}
+<br/>
+<h1 style={{textAlign: 'center', fontSize: '2.5em'}}>Disorders We Specialize in Treating</h1>
+      <div id="service-cards">
+        {disorders.map((disorder, i) => {
+          return (
+            <Card
+            key={i}
+              style={{
+                width: 280,
+                height: 280,
+                marginBottom: "10px",
+                marginRight: "10px",
+                textAlign: 'center',
+                backgroundColor: '#324a5f',
+                overflow: 'scroll',
+                color: 'white',
+              }}
+            >
+              <h3 style={{color: 'white'}}>{disorder.name}</h3>
+                <img src={separator.src}  style={{width: '50px', marginTop: '-25px', marginBottom: '-10px', filter: 'invert(100%'}} alt="a line icon to separate words on the page"/>
+              <p>{disorder.desc}</p>
+            </Card>
+          );
+        })}
       </div>
+      <br/>
+
+      <br/>
+      <br/>
+
+      <h1 style={{textAlign: 'center', fontSize: '2.5em'}}>Services we Offer</h1>
 
       <div id="service-cards">
 
-        {disorders.map((disorder, i) => {
+        {services.map((disorder, i) => {
           return (
             <Card
             key={i}

@@ -23,7 +23,7 @@ const Kids  = () => {
 
     return (
         <div >
-            <Navigation/>
+            <Navigation style={{width: '300px', marginLeft: '40px'}} />
             <Title pageName={"Do Less For Your Kids"}/>
             <br/>
             <br/>

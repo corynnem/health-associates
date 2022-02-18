@@ -63,7 +63,7 @@ const App = () => {
             marginBottom: "20vh",
           }}
         >
-          {/* <WaysToHelp /> */}
+          <WaysToHelp />
         </div>
         <div>
           {/* <Carousel autoplay style={{width: '100vw', marginLeft: '-32px'}}>

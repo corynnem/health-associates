@@ -23,7 +23,7 @@ const Base  = () => {
 
     return (
         <div >
-            <Navigation/>
+            <Navigation style={{width: '300px', marginLeft: '40px'}} />
             <Title pageName={"Discovering the Rewards of Marital Sex"}/>
             <div className='article'>
               <br/>

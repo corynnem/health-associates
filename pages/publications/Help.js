@@ -23,7 +23,7 @@ const ADHD  = () => {
 
     return (
         <div >
-            <Navigation/>
+            <Navigation style={{width: '300px', marginLeft: '40px'}} />
             <Title pageName={"Help!"}/>
             <div className='article'>
                 <p>Depression and other emotional problems can usually be greatly relieved by changing mental habits. The following steps need to be repeated hundreds of times (or more) over weeks or months until the job is done. The result is lasting change and much increased happiness.</p>

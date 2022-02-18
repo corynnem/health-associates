@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Card } from "antd";
-import separator from "../assets/separator.png";
 import ellipsis from "../assets/ellipsis.png";
-import therapist from  "../assets/therapist.jpeg";
-import test from  "../assets/test.jpeg";
-import publications from  "../assets/publications.jpeg";
+import telehealth from  "../assets/telehealth.jpg";
+import onlinePay from  "../assets/online-pay.jpg";
+import faq from  "../assets/faq.jpg";
 
 const WaysToHelp = () => {
   const [URL, setURL] = useState('')
@@ -32,19 +31,14 @@ const WaysToHelp = () => {
 
   return (
     <div id="ways-help">
-      <h1>Ways We Can Help</h1>
-      <img
-        src={separator.src}
-        className="separator"
-        alt="A line icon separating the title from the rest of the text on the page"
-      />
+ 
       <div id="help-cards">
         <Card style={cardStyles}>
           <a href={`${URL}/services`}>
           <div className="img_wrapper">
             <img
-            alt='A photo of a therapist talking to their client, clicking will take you to "services" page '
-              src={therapist.src}
+            alt='A photo of a telehealth talking to their client, clicking will take you to "services" page '
+              src={telehealth.src}
               style={{
                 height: "248px",
                 marginLeft: "-48px",
@@ -53,9 +47,9 @@ const WaysToHelp = () => {
             />
             <div id="card-content">
               <br/>
-              <p style={{fontSize:' 1.2em'}}>Services</p>
-              <img src={ellipsis.src} style={{height: '55px', marginTop: '-26px', filter: 'invert(100%)'}} alt="orange ellipsis to separate title from text" />
-              <p>Each member of our staff has specialized training and experience in various areas of mental health services</p>
+              <p style={{fontSize:' 1.2em'}}>Telehealth Check-In</p>
+              <img src={ellipsis.src} style={{height: '55px', marginTop: '-26px', filter: 'invert(100%)'}} alt="white ellipsis to separate title from text" />
+              <p>Here you can find the links to check in to your telehealth appointments, or see which doctors offer telehealth.</p>
             
             </div>
           </div>
@@ -65,8 +59,8 @@ const WaysToHelp = () => {
         <a href={`${URL}/services`}>
           <div className="img_wrapper">
             <img
-              alt='A photo of two people talking to eachother while looking at an ipad, clicking will take you to "services" page in the testing section'
-              src={test.src}
+              alt='A photo of two people talking to eachother while looking at an ipad, clicking will take you to "services" page in the onlinePaying section'
+              src={onlinePay.src}
               style={{
                 height: "248px",
                 marginLeft: "-48px",
@@ -75,9 +69,9 @@ const WaysToHelp = () => {
             />
             <div id="card-content">
             <br/>
-              <p style={{fontSize:' 1.2em'}}>Testing</p>
+              <p style={{fontSize:' 1.2em'}}>Online Bill Pay</p>
               <img src={ellipsis.src} style={{height: '55px', marginTop: '-26px', filter: 'invert(100%)'}} alt="orange ellipsis to separate title from text" />
-              <p>Our staff offers comprehensive psychological testing services to facilitate diagnosis and treatment</p>
+              <p>Online Bill Pay coming soon!</p>
             </div>
           </div>
           </a>
@@ -87,7 +81,7 @@ const WaysToHelp = () => {
           <div className="img_wrapper">
             <img
               alt='A photo of a coffee mug sitting on two books, clicking will take you to "publications " page '
-              src={publications.src}
+              src={faq.src}
               style={{
                 height: "248px", 
                 marginLeft: "-48px",
@@ -96,9 +90,9 @@ const WaysToHelp = () => {
             />
             <div id="card-content">
             <br/>
-              <p style={{fontSize:' 1.2em'}}>Publications</p>
+              <p style={{fontSize:' 1.2em'}}>FAQ</p>
               <img src={ellipsis.src} style={{height: '55px', marginTop: '-26px', filter: 'invert(100%)'}} alt="orange ellipsis to separate title from text" />
-              <p>Health Associates has published Optimum, The Health Associates Newsletter since 1987.</p>
+              <p>Here you will find a list of Frequently Asked Questions about our office.</p>
             
             </div>
           </div>

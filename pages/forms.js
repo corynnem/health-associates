@@ -13,7 +13,7 @@ const Forms = () => {
 
   return (
     <div style={{ fontFamily: "Niramit" }} id="forms">
-      <Navigation />
+      <Navigation style={{width: '300px', marginLeft: '40px'}} />
       <div>
         <Title pageName={"Forms"} />
         {/* <img src={separator.src} className="separator"  alt='A line icon separating the title from the rest of the text on the page' /> */}
