@@ -107,10 +107,10 @@ nav li:nth-child(12) a {
 
 nav li a:hover {
   color: white
-}
+} 
 
 nav li a {
-  color: black;
+  color: #324a5f;
   position: relative;
   display: block;
   outline: 0;
@@ -227,9 +227,9 @@ input[name=main_menu]:checked~nav li:nth-child(2) {
 
 
 input[name=main_menu]:checked~nav li a {
-  color: #fff;
+  color: #324a5f;
   padding: .9em;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #324a5f;;
   width: 200px;
   text-align: center;
   margin-left: 25px;
@@ -329,7 +329,7 @@ nav {
   }
 
   #contact-nav {
-    color: white;
+    color: #324a5f;
     margin-left: -13px;
     /* margin-top: 30px; */
  }

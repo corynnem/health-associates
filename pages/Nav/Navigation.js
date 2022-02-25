@@ -99,7 +99,7 @@ const Navigation = ({ style }) => {
         </label>
         <div id="open-contact">
           <div style={{ marginTop: "30px", marginRight: "8vw" }}>
-            <img id="web-logo" src={HA.src} alt="The Health associates logo" style={{width: '600px', marginTop: '-60px'}}/>
+            <img id="web-logo" src={HA.src} alt="The Health associates logo" style={{width: '350px', marginTop: '-20px'}}/>
             {/* <h1 id="title">Health Associates</h1>
             <h4 id="sub-title">Counseling and Psychology Service</h4> */}
           </div>
@@ -112,27 +112,27 @@ const Navigation = ({ style }) => {
             {/* <li><h1 className="logo inner">Health Associates</h1></li> */}
             <li >
               {" "}
-              <a href={"https://health-associates.herokuapp.com/"}>Home</a>{" "}
+              <a href={"https://health-associates.herokuapp.com/"} >Home</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/about`}>About</a>{" "}
+              <a href={`${URL}/about`} >About</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/services`}>Services</a>{" "}
+              <a href={`${URL}/services`} >Services</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/providers`}>Providers</a>{" "}
+              <a href={`${URL}/providers`} >Providers</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/publications`}> Articles</a>{" "}
+              <a href={`${URL}/publications`} > Articles</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/contact`}>Contact Us</a>{" "}
+              <a href={`${URL}/contact` } >Contact Us</a>{" "}
             </li>
             <li>
               {" "}

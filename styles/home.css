@@ -1,5 +1,7 @@
-@media (max-width: 700px) {
 
+
+
+@media (max-width: 1024px) {
   #background {
     height: 200px;
     width: 100vw;
@@ -29,18 +31,18 @@
 
   }
   #text {
-      background-color:  rgba(0,0,0,0.3);
+      background-color:  #CCC9DC;
       width: 100vw;
       margin-left: -32px;
       height: 500px;
-      color: white;
+      color: #324a5f;
       padding: 1%;
       
   }
 
 
   #text h1{
-    color: white;
+    color: #324A5f
   }
   #ways-help {
     text-align: center;
@@ -53,131 +55,55 @@
       align-items: center;
     }
 
-.img_wrapper{
-  position: relative;
-  height: 248px;
-  width: 248px;
-  margin: 0;
-  padding: 0;
-}
-
-#card-content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  margin: 0;
-  padding: 5px;
-  margin-top: -24px;
-  margin-bottom: 24px;
-  margin-left: -24px;
-  margin-right: 24px;
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
 
 
-.img_wrapper:hover #card-content {
-  visibility: visible;
-  opacity: 1;
-  cursor: pointer
-}
+    .img_wrapper{
+      position: relative;
+      height: 58px;
+      width: 258px;
+      margin: 0;
+      padding: 0;
+     
+    }
+    
+    #card-content {
+      font-family: 'Niramit';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #324A5f;
+      color: #fff;
+      /* opacity: 0.8; */
+      margin: 0;
+      padding: 5px;
+      margin-top: -24px;
+      margin-bottom: 24px;
+      margin-left: -20px;
+      margin-right: 20px;
+      /* transition effect. not necessary */
+      transition: opacity .2s, visibility .2s;
+      color: white;
+      cursor: pointer;
+    }
+    
+    .img_wrapper:hover #card-content {
+      opacity: 1;
+      cursor: pointer;
+      background-color:  #ccc9DC;
+      transition: ease-in-out .5s;
+      color: #324A5f
+    }
+    .w2h-card {
+      margin-bottom: 200px;
+      
+    }
 
-}
+    .w2h_img {
+      width: 330px;
+    }
 
-
-
-
-@media (min-width: 701px) and (max-width: 1024px) {
-  #search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8em;
-    font-family: 'Niramit';
-  }
-  
-  #cancel {
-    margin-right: 10px;
-  }
-  
-  #background {
-    z-index: -1;
-    height: 600px;
-    margin-left:  -32px;
-     object-fit: cover;
-     width: 100vw
-  }
-  #main {
-    position: relative;
-    top: 30px;
-    text-align: center;
-    font-family: 'Niramit';
-  }
-  #text {
-    position: absolute;
-    width: 80%;
-    top: -100px;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    color: white;
-    padding: 50px;
-    margin-bottom: 50px;
-  }
-
-
-  #text h1{
-    color: white;
-
-  }
-  #ways-help {
-  text-align: center;
-  }
-
-  #help-cards {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-
-.img_wrapper{
-  position: relative;
-  height: 248px;
-  width: 248px;
-  margin: 0;
-  padding: 0;
-}
-
-#card-content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  margin: 0;
-  padding: 5px;
-  margin-top: -24px;
-  margin-bottom: 24px;
-  margin-left: -24px;
-  margin-right: 24px;
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-
-.img_wrapper:hover #card-content {
-  visibility: visible;
-  opacity: 1;
-  cursor: pointer
-}
 
 }
 
@@ -230,29 +156,30 @@
     }
   #help-cards{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 85vw;
   }
 
 
 
 .img_wrapper{
   position: relative;
-  height: 248px;
-  width: 248px;
+  height: 58px;
+  width: 25vw;
   margin: 0;
   padding: 0;
 }
 
 #card-content {
+  font-family: 'Niramit';
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.72);
+  background: #324A5f;
   color: #fff;
-  visibility: hidden;
-  opacity: 0;
+  /* opacity: 0.8; */
   margin: 0;
   padding: 5px;
   margin-top: -24px;
@@ -261,15 +188,51 @@
   margin-right: 24px;
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
+  color: white;
+  cursor: pointer;
 }
 
 .img_wrapper:hover #card-content {
-  visibility: visible;
   opacity: 1;
-  cursor: pointer
+  cursor: pointer;
+  background-color:  #ccc9DC;
+  transition: ease-in-out .5s;
+  color: #324A5f
 }
 
+.w2h-card {
+  width: 25vw;
+  margin-top: 10px;
 }
+.img_wrapper img {
+  width: 25vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

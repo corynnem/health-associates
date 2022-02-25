@@ -35,7 +35,7 @@ const Services = () => {
 
 
   return (
-    <div id="services">
+    <div id="services" style={{fontFamily: 'Niramit'}}>
       <Navigation   style={{width: '300px', marginLeft: '40px'}} />
       <Title pageName={"Services"} />
       <br />
@@ -54,6 +54,7 @@ const Services = () => {
       </div> */}
 <br/>
 <h1 style={{textAlign: 'center', fontSize: '2.5em'}}>Disorders We Specialize in Treating</h1>
+<br/>
       <div id="service-cards">
         {disorders.map((disorder, i) => {
           return (
@@ -83,7 +84,7 @@ const Services = () => {
       <br/>
 
       <h1 style={{textAlign: 'center', fontSize: '2.5em'}}>Services we Offer</h1>
-
+          <br/>
       <div id="service-cards">
 
         {services.map((disorder, i) => {

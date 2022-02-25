@@ -9,10 +9,9 @@ import happy from "./publications/photos/happy-couple.jpg";
 import unhappy from "./publications/photos/unhappy-couple.jpg";
 import sports from "./publications/photos/sports.jpg";
 import anger from "./publications/photos/anger.jpg";
-import bigAngry from "./publications/photos/mucho-angry.jpg";
-import test from "./publications/photos/home-test.jpg";
-import sleep from "./publications/photos/sleep.jpg";
-import bed from "./publications/photos/in-bed.jpg";
+import bigAngry from "./publications/photos/anger.jpeg";
+import sleep from "./publications/photos/sleep.jpeg";
+import bed from "./publications/photos/in-bed.jpeg";
 import supermom from "./publications/photos/supermom.jpg";
 import lineIcon from './assets/line.png'
 import searchIcon from './assets/search.png'
@@ -43,6 +42,15 @@ const Publications = () => {
       pageName: "ADHD",
     },
     {
+      name: "Getting a Good Night's Sleep",
+      publicationDate: "November 26, 2018",
+      image: sleep.src,
+      altText: 'Two people holding eachother in bed',
+      snippet:
+        "Everyone has an occasional sleepless night. But for 20 million Americans, the frustration of chronic insomnia is a big problem. The gimmicks that work for the person with mild sleep …",
+      pageName: "Sleep",
+    },
+    {
       name: "Help!",
       publicationDate: "May 10, 2020",
       image: help.src,
@@ -59,15 +67,6 @@ const Publications = () => {
       snippet:
         "Parents clearly want what is best for their children. But often, in our modern, high-tech, materialistic world, we become sidetracked with giving our children what is stimulating, what is pleasurable, … ",
       pageName: "Kids",
-    },
-    {
-      name: "Nurturing Fidelity",
-      publicationDate: "May 10, 2020",
-      image: happy.src,
-      altText: 'A couple holding eachother in front of a body of water',
-      snippet:
-        "Counselors frequently work with couples seeking a cure for the pain and destruction that infidelity generally breeds. But counselors would rather help couples before the crisis of infidelity occurs. With …",
-      pageName: "Fidelity",
     },
     {
       name: "What's Happening to Us?",
@@ -87,6 +86,7 @@ const Publications = () => {
         "Anger and overt acts of violence are becoming an increasing concern in sports today, not just at the college and professional level but also among younger students. Even amateur adult …",
       pageName: "Sports",
     },
+
     {
       name: "Controlling Anger",
       publicationDate: "November 26, 2018",
@@ -106,22 +106,13 @@ const Publications = () => {
       pageName: "Anger",
     },
     {
-      name: "Using Home Medical Tests",
-      publicationDate: "November 26, 2018",
-      image: test.src,
-      altText: 'A person giving themselves an at home medical test',
+      name: "Nurturing Fidelity",
+      publicationDate: "May 10, 2020",
+      image: happy.src,
+      altText: 'A couple holding eachother in front of a body of water',
       snippet:
-        "Many people are discovering that home medical tests can save time, money and energy over conventional office or laboratory visits. Although home tests are not meant to be a substitute …",
-      pageName: "HomeTests",
-    },
-    {
-      name: "Getting a Good Night's Sleep",
-      publicationDate: "November 26, 2018",
-      image: sleep.src,
-      altText: 'Two people holding eachother in bed',
-      snippet:
-        "Everyone has an occasional sleepless night. But for 20 million Americans, the frustration of chronic insomnia is a big problem. The gimmicks that work for the person with mild sleep …",
-      pageName: "Sleep",
+        "Counselors frequently work with couples seeking a cure for the pain and destruction that infidelity generally breeds. But counselors would rather help couples before the crisis of infidelity occurs. With …",
+      pageName: "Fidelity",
     },
     {
       name: "Discovering the Rewards of Marital Sex",

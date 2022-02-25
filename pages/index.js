@@ -20,7 +20,7 @@ export default function Home() {
         <FallBack />
       ) : (
         <div>
-          <Navigation style={{width: '300px', marginLeft: '10px'}} />
+          <Navigation style={{width: '300px', marginLeft: '10px', marginRight: '-50px'}} />
           <App />
         </div>
       )}

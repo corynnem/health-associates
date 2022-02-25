@@ -4,11 +4,6 @@ import Doctors from "./HomeComponents/doctors";
 import WaysToHelp from "./HomeComponents/WaysToHelp";
 import separator from "./assets/separator.png";
 import Footer from "./ResusableComponents/Footer";
-import carousel1 from './assets/carousel/carousel1.jpg'
-import carousel2 from './assets/carousel/carousel2.jpg'
-import carousel3 from './assets/carousel/carousel3.jpg'
-import carousel4 from './assets/carousel/carousel4.jpg'
-import { Carousel } from "antd";
 
 const App = () => {
   const [URL, setURL] = useState('')
@@ -54,38 +49,26 @@ const App = () => {
         </div>
             
           </div>
-          {/* <br/> */}
   
         <div
           style={{
-            marginTop: "10vh",
             textAlign: "center",
-            marginBottom: "20vh",
+            marginBottom: "40vh",
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
           }}
+    
         >
           <WaysToHelp />
         </div>
-        <div>
-          {/* <Carousel autoplay style={{width: '100vw', marginLeft: '-32px'}}>
-            <div style={{width: '100vw' }} >
-            <img id='background' style={{ width: '100vw', marginLeft: '0'}} src={carousel1.src} alt="Someone filling out forms on a clip board"/>
-            </div>
-            <div>
-            <img id="background" src={carousel2.src} style={{ width: '100vw', marginLeft: '0'}} alt="A therapist and client sitting accross from eachother having a discussion with windows in the background"/>
-            </div>
-            <div>
-            <img id="background" src={carousel3.src} style={{ width: '100vw', marginLeft: '0'}} alt="A couple sitting on a couch across from a therapist talking to eachother"/>
-            </div>
-            <div>
-            <img id="background" src={carousel4.src} style={{ width: '100vw', marginLeft: '0'}} alt="A person sitting accross from a therapist with his head in his hands"/>
-            </div>
-          </Carousel> */}
-        </div>
-        <div style={{ marginTop: "10vh", textAlign: "center" }}>
+
+        <div style={{ marginTop: "10vh", textAlign: "center", fontFamily: 'Niramit' }}>
           <h1>Providers</h1>
           <img
             src={separator.src}
             className="separator"
+            style={{marginTop: '-30px', width: '50px'}}
             alt="A line icon separating the title from the rest of the text on the page"
           />
           <Doctors />

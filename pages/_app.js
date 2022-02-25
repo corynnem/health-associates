@@ -8,6 +8,7 @@ import "../styles/title.css";
 import "../styles/contact.css";
 import "../styles/service.css";
 import "../styles/publications.css";
+import "../styles/faq.css";
 import 'antd/dist/antd.css';
 
 function MyApp({ Component, pageProps }) {

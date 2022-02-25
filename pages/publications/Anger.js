@@ -5,7 +5,7 @@ import back from '../assets/back.png'
 
 
 
-const Base  = () => {
+const Anger  = () => {
     const [URL, setURL] = useState("");
 
 
@@ -64,4 +64,4 @@ const Base  = () => {
     )
 }
 
-export default Base;
+export default Anger;
