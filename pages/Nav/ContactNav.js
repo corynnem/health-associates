@@ -19,7 +19,7 @@ const ContactNav = ({  }) => {
                         <img src={lineIcon.src} style={lineStyles} className='icon line-icon' alt='A line icon to separate phone icon from phone number ' />
                         <div >
                             <p style={{ opacity: '0.7' }} className='contact-label'>Phone & Fax</p>
-                            <p style={{fontSize: '.75em', marginTop: '10px'}}> (317) 844-7489 </p>
+                            <p style={{fontSize: '.75em', marginTop: '10px'}}>(317) 844-7489 </p>
                             <p style={{fontSize: '.75em', marginTop: '10px'}}> (317) 581-1007 </p>
                             
                         </div>
@@ -31,7 +31,7 @@ const ContactNav = ({  }) => {
                         <img src={lineIcon.src} style={lineStyles} className='icon line-icon' alt='A line icon to separate an at symbol (@) icon from email address' />
                         <div >
                             <p style={{ opacity: '0.7' }} className='contact-label'>Email</p>
-                            <p style={{fontSize: '.75em', marginTop: '10px'}}> healthassoc320@sbcglobal.net </p>
+                            <p style={{fontSize: '.75em', marginTop: '10px'}}> info@healthassociatesindy.com </p>
                         </div>
                     </div>
                 </div>

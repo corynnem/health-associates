@@ -13,7 +13,7 @@ const OnlineBilling = () => {
       <br />
       <br />
       <br />    
-      <div style={{textAlign: 'center', height: '20vh', marginTop: '100px', fontFamily: 'Niramit' }}>
+      <div style={{textAlign: 'center', height: '20vh', marginTop: '20px', fontFamily: 'Niramit' , padding: '50px'}}>
             <h1 style={{fontSize: '2.5em'}}>Coming Soon!</h1>
             <p>Health Associates will soon be accepting billing via an online portal.</p>
       </div>

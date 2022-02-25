@@ -22,7 +22,7 @@ const WaysToHelp = () => {
 
   return (
     <div id="ways-help">
-      <div id="help-cards">
+      <div id="help-cards" style={{marginLeft: '40px'}}>
         <Card  style={{marginTop: '200px'}} className="w2h-card">
           <a href={`${URL}/telehealth`}>
             <div className="img_wrapper">
