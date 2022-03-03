@@ -6,13 +6,14 @@ import groff from  '../assets/headshots/GROFF.jpeg'
 import hess from  '../assets/headshots/HESS.jpeg'
 import westrate from  '../assets/headshots/WESTRATE.jpeg'
 import elsbury from  '../assets/headshots/ELSBURY.jpg'
+import grana from  '../assets/headshots/GRANA.jpg'
 import userM from  '../assets/user-m.png' 
 import userF from  '../assets/user-f.png'
 
 const Doctors = () => {
   const [providers] = useState([
     {
-      headshot: userM.src,
+      headshot: grana.src,
       altText: "Richard K. Grana's Headshot",
       name: "Richard K. Grana",
       certifications: ["PhD"],
@@ -67,7 +68,7 @@ const Doctors = () => {
         headshot: westrate.src,
         altText: "Ronald M. Westrate's Headshot",
         name: "Ronald M. Westrate",
-        certifications: [],
+        certifications: ['PhD'],
         position: "Clinical Psychologist",
         specialties: "",
         description:

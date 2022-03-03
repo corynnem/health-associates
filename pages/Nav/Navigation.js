@@ -65,6 +65,8 @@ const Navigation = ({ style }) => {
         break;
       case "health-associates.herokuapp.com/":
         setURL("https://health-associates.herokuapp.com/");
+      case "www.healthassociatesindy.com":
+        setURL("https://health-associates.herokuapp.com/");
     }
   }, []);
 
@@ -112,7 +114,7 @@ const Navigation = ({ style }) => {
             {/* <li><h1 className="logo inner">Health Associates</h1></li> */}
             <li >
               {" "}
-              <a href={"https://health-associates.herokuapp.com/"} >Home</a>{" "}
+              <a href={"http://www.healthassociatesindy.com"} >Home</a>{" "}
             </li>
             <li>
               {" "}
@@ -129,6 +131,10 @@ const Navigation = ({ style }) => {
             <li>
               {" "}
               <a href={`${URL}/publications`} > Articles</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href={`${URL}/faqs`} > FAQ's</a>{" "}
             </li>
             <li>
               {" "}

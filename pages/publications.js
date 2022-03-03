@@ -137,14 +137,15 @@ const Publications = () => {
   const [searched, setSearched] = useState(articles)
 
   useEffect(() => {
-  switch(window.location.hostname) {
-    case 'localhost' || '127.0.0.2':
-        setURL('http://localhost:3000') 
+    switch (window.location.hostname) {
+      case "localhost" || "127.0.0.2":
+        setURL("http://localhost:3000");
         break;
-    case 'health-associates.herokuapp.com/':
-        setURL('https://health-associates.herokuapp.com/');
-
-}
+      case "health-associates.herokuapp.com/":
+        setURL("https://health-associates.herokuapp.com/");
+      case "www.healthassociatesindy.com":
+        setURL("https://health-associates.herokuapp.com/");
+    }
 }, [])
 
 const filter = (e) => {

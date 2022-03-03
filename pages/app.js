@@ -6,19 +6,19 @@ import separator from "./assets/separator.png";
 import Footer from "./ResusableComponents/Footer";
 
 const App = () => {
-  const [URL, setURL] = useState('')
+  const [URL, setURL] = useState("");
 
   useEffect(() => {
-  switch(window.location.hostname) {
-    case 'localhost' || '127.0.0.2':
-        setURL('http://localhost:3000') 
+    switch (window.location.hostname) {
+      case "localhost" || "127.0.0.2":
+        setURL("http://localhost:3000");
         break;
-    case 'health-associates.herokuapp.com/':
-        setURL('https://health-associates.herokuapp.com/');
-
-}
-}, [])
-
+      case "health-associates.herokuapp.com/":
+        setURL("https://health-associates.herokuapp.com/");
+      case "www.healthassociatesindy.com":
+        setURL("https://health-associates.herokuapp.com/");
+    }
+  }, []);
 
   return (
     <div>
@@ -41,40 +41,60 @@ const App = () => {
               browse this website to learn valuable information about our
               services.
             </p>
-            <br/>
-            <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}>
-              <button id='main-button' onClick={() => window.location.assign(`${URL}/services`)}>Services</button>
-              <button id='main-button' onClick={() => window.location.assign(`${URL}/contact`)}>Book Now</button>
+            <br />
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                alignItems: "center",
+              }}
+            >
+              <button
+                id="main-button"
+                onClick={() => window.location.assign(`${URL}/services`)}
+              >
+                Services
+              </button>
+              <button
+                id="main-button"
+                onClick={() => window.location.assign(`${URL}/contact`)}
+              >
+                Book Now
+              </button>
             </div>
-        </div>
-            
           </div>
-  
+        </div>
+
         <div
           style={{
             textAlign: "center",
             marginBottom: "40vh",
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
           }}
-    
         >
           <WaysToHelp />
         </div>
 
-        <div style={{ marginTop: "10vh", textAlign: "center", fontFamily: 'Niramit' }}>
+        <div
+          style={{
+            marginTop: "10vh",
+            textAlign: "center",
+            fontFamily: "Niramit",
+          }}
+        >
           <h1>Providers</h1>
           <img
             src={separator.src}
             className="separator"
-            style={{marginTop: '-30px', width: '50px'}}
+            style={{ marginTop: "-30px", width: "50px" }}
             alt="A line icon separating the title from the rest of the text on the page"
           />
           <Doctors />
         </div>
       </div>
-      <Footer style={{marginLeft: '-32px'}} />
+      <Footer style={{ marginLeft: "-32px" }} />
     </div>
   );
 };

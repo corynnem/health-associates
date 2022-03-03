@@ -232,7 +232,7 @@ input[name=main_menu]:checked~nav li a {
   border-bottom: 1px solid #324a5f;;
   width: 200px;
   text-align: center;
-  margin-left: 25px;
+  margin-left: 20px;
   /* animation: createBox 2s; */
 }
 
@@ -285,7 +285,8 @@ nav {
 
 @media (max-width: 1024px) {
   nav ul {
-    margin-top: -30px;
+    margin-top: -40px;
+    overflow: scroll;
   }
 
   .contact-icon {
@@ -414,7 +415,7 @@ nav {
     left: inherit;
     border-bottom: none medium;
     padding: .4em .7em;
-    margin-left: 18px;
+    margin-left: 10px;
   }
   nav ul {
     margin-top: -25px;

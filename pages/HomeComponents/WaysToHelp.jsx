@@ -17,6 +17,8 @@ const WaysToHelp = () => {
         break;
       case "health-associates.herokuapp.com/":
         setURL("https://health-associates.herokuapp.com/");
+      case "www.healthassociatesindy.com":
+        setURL("https://health-associates.herokuapp.com/");
     }
   }, []);
 

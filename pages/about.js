@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navigation from "./Nav/Navigation";
 import Title from "./ResusableComponents/Title";
 import Footer from "./ResusableComponents/Footer";
 import location from "./assets/healthassociates.jpeg";
 
 const About = () => {
+  const [URL, setURL] = useState('')
 
     const styles = {
         left: { 
@@ -20,6 +21,17 @@ const About = () => {
             // lineHeight: '70px'
         }
     }
+    useEffect(() => {
+      switch (window.location.hostname) {
+        case "localhost" || "127.0.0.2":
+          setURL("http://localhost:3000");
+          break;
+        case "health-associates.herokuapp.com/":
+          setURL("https://health-associates.herokuapp.com/");
+        case "www.healthassociatesindy.com":
+          setURL("https://health-associates.herokuapp.com/");
+      }
+  }, [])
 
   return (
     <div id="about">
@@ -56,21 +68,17 @@ const About = () => {
             report improvement after six to ten sessions, so counseling is
             frequently not a long term process. Health Associates is dedicated
             to keeping our fees reasonable and within the limits of customary
-            charges for counseling services. Today, many insurance companies
+            charges for counseling services. Most insurance companies
             provide for counseling as a part of their health benefits package.
             Consult your policy for a list of covered services.
           </p>
           <br />
           <p>
-            In addition to Psychological Services, Health Associates issues a
-            newsletter covering important health topics. We have written on
+            In addition to providing pychological services, Health Associates writes and 
+            publlishes articles covering important health topics. We have written on
             topics such as Attention-Deficit / Hyperactivity Disorder, Marriage,
-            Childrearing, Anger, and Infidelity. Back issues of Optimum are
-            available by forwarding $3.00 per issue to our office. We also have
-            begun to publish The Healthy Minute, and currently we have two
-            issues published. Topics covered are anxiety and panic disorder and
-            the benefits of biofeedback. Both issues of Healthy Minute are
-            included in our site.
+            Childrearing, Anger, and Infidelity. These articles can be viewed on our
+            website <a href={`${URL}/publications`}>here</a>
           </p>
         </div>
       </div>
