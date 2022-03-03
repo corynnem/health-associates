@@ -134,7 +134,7 @@ const Navigation = ({ style }) => {
             </li>
             <li>
               {" "}
-              <a href={`${URL}/faqs`} > FAQ's</a>{" "}
+              <a href={`${URL}/faqs`} > FAQ&apos;s</a>{" "}
             </li>
             <li>
               {" "}
