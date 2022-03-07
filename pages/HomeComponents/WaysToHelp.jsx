@@ -83,7 +83,7 @@ const WaysToHelp = () => {
           </a>
         </Card>
         <Card  style={{marginTop: '200px'}} className="w2h-card">
-          <a href={`https://checkout.square.site/merchant/MLXQTAGAQFQ19/checkout/SWSQLGDVPD52OYEUAM3E7GYR`}>
+          <a href={`${URL}/onlinebilling`}>
             <div className="img_wrapper">
               <img
               className="w2h_img"

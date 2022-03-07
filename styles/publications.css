@@ -250,11 +250,11 @@
 
 
 #pub-button {
-    color: white
+    color: #324A5f;
   }
   
   #pub-button:hover {
-    color: #CCC9DC;
+    color: #324A5f;
   }
 
 
@@ -270,11 +270,11 @@
 #pub-button button:hover {
     background-color: white;
     transition: ease-in-out .5s;
-    color: #CCC9DC;
+    color: #324A5f;
     cursor: pointer;
     border-width: 1px;
     border-style: solid;
-    border-color: #CCC9DC;
+    border-color: #324A5f;
 }
 
   #input {

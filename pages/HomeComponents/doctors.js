@@ -7,8 +7,8 @@ import hess from  '../assets/headshots/HESS.jpeg'
 import westrate from  '../assets/headshots/WESTRATE.jpeg'
 import elsbury from  '../assets/headshots/ELSBURY.jpg'
 import grana from  '../assets/headshots/GRANA.jpg'
-import userM from  '../assets/user-m.png' 
-import userF from  '../assets/user-f.png'
+import khan from  '../assets/headshots/KHAN.jpg'
+
 
 const Doctors = () => {
   const [providers] = useState([
@@ -54,14 +54,14 @@ const Doctors = () => {
           "Kristina Elsbury, LCSW, is a licensed clinical social worker with a Masters of Social Work degree with a medical specialty from Indiana University. The last 9 years she has provided therapy to children, teens, and adults in home-based, community mental health, hospital and school-based programs. Kristina has special interest and experience in working with children and adults with trauma including sexual, physical, and emotional abuse and military trauma. As an EMDR therapist, Kristina also utilizes mindfulness, cognitive-behavioral therapy, play therapy, and strengths-based approach in working with individuals, families and couples. Kristina is a member of EMDRIA International Association of EMDR Practitioners and the National Association of Social Workers.",
       },
       {
-        headshot: userF.src,
+        headshot: khan.src,
         altText: "Quratulain Khan's Headshot",
         name: "Quratulain Khan",
-        certifications: ['PhD'],
-        position: "Neuropsychologist",
-        specialties: "",
+        certifications: ['PhD', 'HSPP'],
+        position: "Clinical Neuropsychologist",
+        specialties: "Psychotherapy, Cognitive Rehabilitation Neuropsychological Assessment, Depression, Anxiety, Adjustment Disorder, Traumatic Brain Injury,Stroke, Multiple Sclerosis, Long COVID-19,  Attention difficulties, & Executive functioning difficulties . ",
         description:
-          "No current information about this therapist.",
+          "Dr. Khan is a Clinical Neuropsychologist who specializes in the assessment and treatment of brain-based disorders that may impact cognitive, emotional, and physical functioning.   Dr. Khan has been working with individuals with a history of brain-based disorders for over ten years. She provides neuropsychological assessment, cognitive rehabilitation and psychotherapy. Her treatment approach is based on evidence-based approaches such as Cognitive Behavior Therapy and Mindfulness-based Stress Reduction. She helps her clients learn compensatory strategies to improve cognitive functioning. She also helps them learn ways to manage emotions as they adjust to cognitive changes and helps them recognize behavior patterns that may be impacting recovery or functioning. She specializes in the treatment of brain injury, particularly in the persistent symptoms of concussion.    Dr. Khan graduated from the APA/CPA accredited Clinical Neuropsychology Ph.D. Program at the University of Windsor in Ontario. Her residency training was completed at the APA/CPA accredited program at the Queen Elizabeth II Health Sciences Center in Nova Scotia. She then completed a specialized fellowship in Neuropsychological/Cognitive Rehabilitation at the JFK-Johnson Rehabilitation Institute in New Jersey. She works at a rehabilitation hospital and also in Private Practice. She is an adjunct Clinical Assistant Professor at the Indiana University School of Medicine, Department of Physical Medicine and Rehabilitation. She is also a member of the Cognitive Rehabilitation Task Force and the Mild Traumatic Brain Injury Task Force of the American Congress of Rehabilitation Medicine.",
       },
 
       {

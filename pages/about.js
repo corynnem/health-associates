@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navigation from "./Nav/Navigation";
 import Title from "./ResusableComponents/Title";
 import Footer from "./ResusableComponents/Footer";
-import location from "./assets/healthassociates.jpeg";
+import location from "./assets/healthassociates.jpg";
 
 const About = () => {
   const [URL, setURL] = useState('')

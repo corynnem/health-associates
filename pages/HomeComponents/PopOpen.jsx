@@ -43,10 +43,10 @@ const PopOpen = ({ provider }) => {
         <Popover content={content}>
           <Meta
      
-            title={<p  style={provider && provider.specialties.length > 0 ? {fontSize: '1.05em'} : {fontSize: '1.3em', marginTop: '30px'}}>{provider && provider.name} {provider && provider.certifications.length > 0 ? ',' : ''} {provider && provider.certifications.map(
+            title={<p  style={{fontSize: '1.3em', marginTop: '30px'}}>{provider && provider.name} {provider && provider.certifications.length > 0 ? ',' : ''} {provider && provider.certifications.map(
               (cert, i) => ` ${cert}`
             )}</p>}
-            description={provider && provider.specialties ? provider.specialties.length === 0 ? "":  <h3 style={{fontSize: '.8em', color: 'grey'}}>Specializing in {provider && provider.specialties}</h3>  : ''}
+            description={provider && provider.position ? provider.position.length === 0 ? "":  <h3 style={{fontSize: '1em', color: 'grey', marginTop: '-20px'}}>{provider && provider.position}</h3>  : ''}
           />
         </Popover>
       </Card>
