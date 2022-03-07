@@ -123,7 +123,7 @@ const OnlineBilling = () => {
 
                   <p>{provider.snippet}</p>
                 <br/>
-                  <a id="pub-button" href={provider.link} target="_blank">
+                  <a id="pub-button" href={provider.link} target="_blank" rel="noreferrer">
                     <button
                     
                     >
