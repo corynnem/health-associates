@@ -18,9 +18,27 @@
           
      }
 
-     #card-container {
+     #ob-card {
+        border-radius: 5px;         
+        margin-top: 20px;
+        width: 370px;
+        height: 550px;
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
+     }
+ 
+     #ob-card:hover {
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+        transition: ease-out 1s
+     }
+     #ob-card img {
+        z-index: -1;
+        height: 300px;
+        width: 370px;
+         object-fit: cover;
+        border-radius: 5px 0px 0px 5px;
+         opacity: 1.5
      }
 
 
@@ -36,8 +54,11 @@
          object-fit: cover;
         border-radius: 5px 0px 0px 5px;
          opacity: 1.5
-         
+     }
 
+     #card-container {
+        display: flex;
+        flex-direction: column;
      }
 
      #pub-holder {
@@ -84,10 +105,6 @@
           
      }
 
-     #card-container {
-        display: flex;
-        flex-direction: column;
-     }
 
 
      #pub-card:hover {
@@ -102,8 +119,41 @@
          object-fit: cover;
         border-radius: 5px 0px 0px 5px;
          opacity: 1.5
-         
+     }
 
+     #ob-card {
+        border-radius: 5px;         
+         margin-top: 20px;
+         width: 400px;
+         height: 650px;
+         box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+         display: flex;
+         flex-direction: column;
+          
+     }
+
+
+
+     #ob-card:hover {
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+        transition: ease-out 1s
+     }
+
+     #ob-card img {
+        z-index: -1;
+        height: 400px;
+        width: 400px;
+         object-fit: cover;
+        border-radius: 5px 0px 0px 5px;
+         opacity: 1.5
+     }
+
+
+
+
+     #card-container {
+        display: flex;
+        flex-direction: column;
      }
 
      #pub-holder {
@@ -149,10 +199,6 @@
           
      }
 
-     #card-container {
-        display: flex;
-        flex-direction: row;
-     }
 
 
      #pub-card:hover {
@@ -171,6 +217,45 @@
 
      }
 
+
+     #ob-card {
+        border-radius: 5px;         
+         margin-top: 20px;
+         width: 80vw;
+         height: 400px;
+         box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+         display: flex;
+         flex-direction: column;
+         /* padding: 100px; */
+          
+     }
+
+
+
+     #ob-card:hover {
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+        transition: ease-out 1s
+     }
+
+     #ob-card img {
+        z-index: -1;
+        height: 400px;
+        width: 500px;
+         object-fit: cover;
+        border-radius: 5px 0px 0px 5px;
+         opacity: 1.5
+         
+
+     }
+
+
+
+
+     #card-container {
+        display: flex;
+        flex-direction: row;
+     }
+
      #pub-holder {
          display: flex;
          flex-direction: column;
@@ -182,6 +267,12 @@
          font-size: 1.1em;
          font-family: 'Niramit';
      }
+     #ob-text {
+        padding: 50px;
+        font-size: 1.1em;
+        font-family: 'Niramit';
+        /* margin-top: 100px; */
+    }
   }
   
   
@@ -200,7 +291,17 @@
     .article ol {
         margin-left: 40px;
     }
-     #pub-card {
+     #pub-card{
+        border-radius: 5px;         
+         margin-top: 20px;
+         width: 80vw;
+         height: 400px;
+         box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+         display: flex;
+         flex-direction: column;
+          
+     }
+     #ob-card{
         border-radius: 5px;         
          margin-top: 20px;
          width: 80vw;
@@ -217,12 +318,26 @@
      }
 
 
-     #pub-card:hover {
+     #pub-card:hover{
         box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
         transition: ease-out 1s
      }
 
-     #pub-card img {
+     #ob-card:hover {
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+        transition: ease-out 1s
+     }
+
+     #ob-card img{
+        z-index: -1;
+        height: 400px;
+        width: 600px;
+         object-fit: cover;
+        border-radius: 5px 0px 0px 5px;
+         opacity: 1.5
+     }
+
+     #pub-card img{
         z-index: -1;
         height: 400px;
         width: 600px;
