@@ -14,8 +14,6 @@ import Footer from "./ResusableComponents/Footer";
 const OnlineBilling = () => {
   const [URL, setURL] = useState("");
   const [providers] = useState([
-
-
     {
       name: "Martin Groff",
       altText: "Martin Groff's Headshot",
@@ -42,7 +40,7 @@ const OnlineBilling = () => {
       altText: "Kristina K. Elsbury's Headshot",
       headshot: elsbury.src,
       position: "Clinical Social Worker",
-      link:  "https://checkout.square.site/merchant/MLXQTAGAQFQ19/checkout/JKUIQN65TO5PNBZFGAWFVQCT?src=sheet",
+      link: "https://checkout.square.site/merchant/MLXQTAGAQFQ19/checkout/JKUIQN65TO5PNBZFGAWFVQCT?src=sheet",
     },
     {
       name: "Ronald M. Westrate",
@@ -65,9 +63,7 @@ const OnlineBilling = () => {
       position: "Clinical Social Worker",
       link: "https://checkout.square.site/merchant/MLXQTAGAQFQ19/checkout/56266NJKQ2QU23XW5NDJX36D?src=sheet",
     },
-
   ]);
-
 
   useEffect(() => {
     switch (window.location.hostname) {
@@ -90,10 +86,10 @@ const OnlineBilling = () => {
       <div id="pub-holder">
         {providers.map((provider, i) => {
           return (
-            <div id="ob-card" key={i} >
+            <div id="ob-card" key={i}>
               <div id="card-container">
                 <img src={provider.headshot} alt={provider.altText} />
-                <div id="pub-text">
+                <div id="pub-text" className="section">
                   <div style={{ display: "flex", flexDirection: "column" }}>
                     <h1>{provider.name} </h1>{" "}
                     <p
@@ -108,13 +104,14 @@ const OnlineBilling = () => {
                   </div>
 
                   <p>{provider.snippet}</p>
-                <br/>
-                  <a id="pub-button" href={provider.link} target="_blank" rel="noreferrer">
-                    <button
-                    
-                    >
-                     Submit a Payment
-                    </button>
+                  <br />
+                  <a
+                    id="pub-button"
+                    href={provider.link}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button>Submit a Payment</button>
                   </a>
                 </div>
               </div>
