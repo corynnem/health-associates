@@ -61,7 +61,9 @@ const Forms = () => {
           <Popover content={content}>
             <li style={style}>
               <h3>
-                <a >Office Policies</a>
+                <a target="_blank"
+        rel="noopener noreferrer"
+        href="/forms/Office_Policies.pdf">Office Policies</a>
               </h3>
             </li>
           </Popover>
@@ -69,14 +71,13 @@ const Forms = () => {
             <li style={{width: '250px'}}>
               <h3 style={{width: '250px'}}>
               <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="/forms/HIPAA_Form.pdf"
-      >
-        Health Insurance Portability and Accountability Act (HIPAA) Form
-      </a>
-               
-              </h3>
+              target="_blank"
+              rel="noopener noreferrer"
+              href="/forms/HIPAA_Form.pdf"
+            >
+              Health Insurance Portability and Accountability Act (HIPAA) Form
+            </a>
+            </h3>
             </li>
           </Popover>
         </ul>
