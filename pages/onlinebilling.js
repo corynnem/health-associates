@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
-import Navigation from "./Nav/Navigation";
-import Title from "./ResusableComponents/Title";
-import groff from "./assets/headshots/GROFF.jpeg";
-import grana from "./assets/headshots/GRANA.jpg";
-import couvillion from "./assets/headshots/COUVILLION.jpeg";
-import elsbury from "./assets/headshots/ELSBURY.jpg";
-import westrate from "./assets/headshots/WESTRATE.jpeg";
-import hess from "./assets/headshots/HESS.jpeg";
-import dodini from "./assets/headshots/DODINI.jpeg";
+import Navigation from "../components/Navigation/Navigation";
+import Title from "../components/Header/Title";
+import groff from "../public/headshots//GROFF.jpeg";
+import grana from "../public/headshots//GRANA.jpg";
+import couvillion from "../public/headshots//COUVILLION.jpeg";
+import elsbury from "../public/headshots//ELSBURY.jpg";
+import westrate from "../public/headshots//WESTRATE.jpeg";
+import hess from "../public/headshots//HESS.jpeg";
+import dodini from "../public/headshots//DODINI.jpeg";
 
-import Footer from "./ResusableComponents/Footer";
+import Footer from "../components/Footer/Footer";
 
 const OnlineBilling = () => {
   const [URL, setURL] = useState("");
@@ -73,7 +73,7 @@ const OnlineBilling = () => {
       case "health-associates.herokuapp.com/":
         setURL("https://health-associates.herokuapp.com/");
       case "www.healthassociatesindy.com":
-        setURL("https://health-associates.herokuapp.com/");
+        setURL("http://www.healthassociatesindy.com/");
     }
   }, []);
 

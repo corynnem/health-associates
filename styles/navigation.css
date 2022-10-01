@@ -1,18 +1,19 @@
-nav li, nav ul {
-  margin: 0
+nav li,
+nav ul {
+  margin: 0;
 }
 
 nav {
   box-shadow: 0 0 10px white;
   z-index: 1;
-  font-family: 'Niramit';
+  font-family: "Niramit";
 }
 
 nav ul {
   height: 100%;
   padding: 0;
   list-style: none;
-  overflow: hidden
+  overflow: hidden;
 }
 
 #searchInput {
@@ -20,94 +21,93 @@ nav ul {
   margin-top: 10px;
 }
 
-
 nav li:nth-child(1) a {
-  -moz-transition-delay: .13s;
-  -o-transition-delay: .13s;
-  -webkit-transition-delay: .13s;
-  transition-delay: .13s
+  -moz-transition-delay: 0.13s;
+  -o-transition-delay: 0.13s;
+  -webkit-transition-delay: 0.13s;
+  transition-delay: 0.13s;
 }
 
 nav li:nth-child(2) a {
-  -moz-transition-delay: .21s;
-  -o-transition-delay: .21s;
-  -webkit-transition-delay: .21s;
-  transition-delay: .21s
+  -moz-transition-delay: 0.21s;
+  -o-transition-delay: 0.21s;
+  -webkit-transition-delay: 0.21s;
+  transition-delay: 0.21s;
 }
 
 nav li:nth-child(3) a {
-  -moz-transition-delay: .29s;
-  -o-transition-delay: .29s;
-  -webkit-transition-delay: .29s;
-  transition-delay: .29s
+  -moz-transition-delay: 0.29s;
+  -o-transition-delay: 0.29s;
+  -webkit-transition-delay: 0.29s;
+  transition-delay: 0.29s;
 }
 
 nav li:nth-child(4) a {
-  -moz-transition-delay: .37s;
-  -o-transition-delay: .37s;
-  -webkit-transition-delay: .37s;
-  transition-delay: .37s
+  -moz-transition-delay: 0.37s;
+  -o-transition-delay: 0.37s;
+  -webkit-transition-delay: 0.37s;
+  transition-delay: 0.37s;
 }
 
 nav li:nth-child(5) a {
-  -moz-transition-delay: .45s;
-  -o-transition-delay: .45s;
-  -webkit-transition-delay: .45s;
-  transition-delay: .45s
+  -moz-transition-delay: 0.45s;
+  -o-transition-delay: 0.45s;
+  -webkit-transition-delay: 0.45s;
+  transition-delay: 0.45s;
 }
 
 nav li:nth-child(6) a {
-  -moz-transition-delay: .53s;
-  -o-transition-delay: .53s;
-  -webkit-transition-delay: .53s;
-  transition-delay: .53s
+  -moz-transition-delay: 0.53s;
+  -o-transition-delay: 0.53s;
+  -webkit-transition-delay: 0.53s;
+  transition-delay: 0.53s;
 }
 
 nav li:nth-child(7) a {
-  -moz-transition-delay: .61s;
-  -o-transition-delay: .61s;
-  -webkit-transition-delay: .61s;
-  transition-delay: .61s
+  -moz-transition-delay: 0.61s;
+  -o-transition-delay: 0.61s;
+  -webkit-transition-delay: 0.61s;
+  transition-delay: 0.61s;
 }
 
 nav li:nth-child(8) a {
-  -moz-transition-delay: .69s;
-  -o-transition-delay: .69s;
-  -webkit-transition-delay: .69s;
-  transition-delay: .69s
+  -moz-transition-delay: 0.69s;
+  -o-transition-delay: 0.69s;
+  -webkit-transition-delay: 0.69s;
+  transition-delay: 0.69s;
 }
 
 nav li:nth-child(9) a {
-  -moz-transition-delay: .77s;
-  -o-transition-delay: .77s;
-  -webkit-transition-delay: .77s;
-  transition-delay: .77s
+  -moz-transition-delay: 0.77s;
+  -o-transition-delay: 0.77s;
+  -webkit-transition-delay: 0.77s;
+  transition-delay: 0.77s;
 }
 
 nav li:nth-child(10) a {
-  -moz-transition-delay: .85s;
-  -o-transition-delay: .85s;
-  -webkit-transition-delay: .85s;
-  transition-delay: .85s
+  -moz-transition-delay: 0.85s;
+  -o-transition-delay: 0.85s;
+  -webkit-transition-delay: 0.85s;
+  transition-delay: 0.85s;
 }
 
 nav li:nth-child(11) a {
-  -moz-transition-delay: .93s;
-  -o-transition-delay: .93s;
-  -webkit-transition-delay: .93s;
-  transition-delay: .93s
+  -moz-transition-delay: 0.93s;
+  -o-transition-delay: 0.93s;
+  -webkit-transition-delay: 0.93s;
+  transition-delay: 0.93s;
 }
 
 nav li:nth-child(12) a {
   -moz-transition-delay: 1.01s;
   -o-transition-delay: 1.01s;
   -webkit-transition-delay: 1.01s;
-  transition-delay: 1.01s
+  transition-delay: 1.01s;
 }
 
 nav li a:hover {
-  color: white
-} 
+  color: white;
+}
 
 nav li a {
   color: #324a5f;
@@ -115,157 +115,153 @@ nav li a {
   display: block;
   outline: 0;
   font-size: 1.2em;
-  text-decoration: none
+  text-decoration: none;
 }
 
-label[for=main_menu], nav {
-  -moz-transition: all .2s cubic-bezier(.23, 1, .32, 1);
-  -o-transition: all .2s cubic-bezier(.23, 1, .32, 1);
-  -webkit-transition: all .2s cubic-bezier(.23, 1, .32, 1);
-  transition: all .2s cubic-bezier(.23, 1, .32, 1)
+label[for="main_menu"],
+nav {
+  -moz-transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  -o-transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .hamburger {
-  padding: .25em .4em;
+  padding: 0.25em 0.4em;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
-  transition-duration: .15s;
+  transition-duration: 0.15s;
   transition-timing-function: linear;
   font: inherit;
   color: inherit;
   text-transform: none;
   border: 0;
   margin: 0;
-  overflow: visible
+  overflow: visible;
 }
-
 
 .hamburger-box {
   width: 1.5em;
   height: 24px;
   display: inline-block;
-  position: relative
+  position: relative;
 }
 
 .hamburger-inner {
   display: block;
   top: 50%;
-  margin-top: -2px
+  margin-top: -2px;
 }
 
-input[name=main_menu]:checked~nav, nav {
-  margin: 0
+input[name="main_menu"]:checked ~ nav,
+nav {
+  margin: 0;
 }
 
-
-
-.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
   width: 1.5em;
   height: 4px;
   /* background-color: #fff; */
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
-  transition-duration: .15s;
-  transition-timing-function: ease
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
 }
 
 nav {
-  background-color: #CCC9DC
+  background-color: #ccc9dc;
 }
 
-
-
-.hamburger-inner::after, .hamburger-inner::before {
+.hamburger-inner::after,
+.hamburger-inner::before {
   content: "";
-  display: block
+  display: block;
 }
 
 .hamburger-inner::before {
-  top: -10px
+  top: -10px;
 }
 
 .hamburger-inner::after {
-  bottom: -10px
+  bottom: -10px;
 }
 
 .hamburger--elastic .hamburger-inner {
   top: 2px;
   transition-duration: 275ms;
-  transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55)
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .hamburger--elastic .hamburger-inner::before {
   top: 10px;
-  transition: opacity 125ms 275ms ease
+  transition: opacity 125ms 275ms ease;
 }
 
 .hamburger--elastic .hamburger-inner::after {
   top: 20px;
-  transition: transform 275ms cubic-bezier(.68, -.55, .265, 1.55)
+  transition: transform 275ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-label[for=main_menu] {
+label[for="main_menu"] {
   display: block;
   font-weight: 700;
   text-align: center;
   position: fixed;
   z-index: 500;
-  top: .65em
+  top: 0.65em;
 }
 
-input[name=main_menu] {
-  display: none
+input[name="main_menu"] {
+  display: none;
 }
 
-input[name=main_menu]:checked~nav li:nth-child(2) {
+input[name="main_menu"]:checked ~ nav li:nth-child(2) {
   /* border-top: 1px solid white */
   margin-top: 50px;
 }
 
-
-
-input[name=main_menu]:checked~nav li a {
+input[name="main_menu"]:checked ~ nav li a {
   color: #324a5f;
-  padding: .9em;
-  border-bottom: 1px solid #324a5f;;
+  padding: 0.9em;
+  border-bottom: 1px solid #324a5f;
   width: 200px;
   text-align: center;
   margin-left: 20px;
   /* animation: createBox 2s; */
 }
 
-
-
-input[name=main_menu]:checked~label .hamburger .hamburger-inner {
+input[name="main_menu"]:checked ~ label .hamburger .hamburger-inner {
   transform: translate3d(0, 10px, 0) rotate(135deg);
   -o-transform: translate3d(0, 10px, 0) rotate(135deg);
   -ms-transform: translate3d(0, 10px, 0) rotate(135deg);
   -webkit-transform: translate3d(0, 10px, 0) rotate(135deg);
   transition-delay: 75ms;
   -o-transition-delay: 75ms;
-  -webkit-transition-delay: 75ms
+  -webkit-transition-delay: 75ms;
 }
 
-input[name=main_menu]:checked~label .hamburger .hamburger-inner::before {
+input[name="main_menu"]:checked ~ label .hamburger .hamburger-inner::before {
   transition-delay: 0s;
   -o-transition-delay: 0s;
-  -webkit-transition-delay: 0s
+  -webkit-transition-delay: 0s;
 }
 
-input[name=main_menu]:checked~label .hamburger .hamburger-inner::after {
+input[name="main_menu"]:checked ~ label .hamburger .hamburger-inner::after {
   transform: translate3d(0, -20px, 0) rotate(-270deg);
   -o-transform: translate3d(0, -20px, 0) rotate(-270deg);
   -ms-transform: translate3d(0, -20px, 0) rotate(-270deg);
   -webkit-transform: translate3d(0, -20px, 0) rotate(-270deg);
   transition-delay: 75ms;
   -o-transition-delay: 75ms;
-  -webkit-transition-delay: 75ms
+  -webkit-transition-delay: 75ms;
 }
 
 .logo {
-  font-family: 'Marcellus';
+  font-family: "Marcellus";
 }
 
 nav {
@@ -273,15 +269,15 @@ nav {
   top: 0;
   width: 18em;
   height: 100%;
-  -moz-transition: all .2s cubic-bezier(.17, .67, .44, .58);
-  -o-transition: all .2s cubic-bezier(.17, .67, .44, .58);
-  -webkit-transition: all .2s cubic-bezier(.17, .67, .44, .58);
-  transition: all .2s cubic-bezier(.17, .67, .44, .58)
+  -moz-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.44, 0.58);
+  -o-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.44, 0.58);
+  -webkit-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.44, 0.58);
+  transition: all 0.2s cubic-bezier(0.17, 0.67, 0.44, 0.58);
 }
 
-
-
-
+nav ul::-webkit-scrollbar {
+  display: none;
+}
 
 @media (max-width: 1024px) {
   nav ul {
@@ -292,7 +288,7 @@ nav {
   .contact-icon {
     /* margin-bottom: 50px; */
     margin-right: 10px;
-   /* margin-left: 10px; */
+    /* margin-left: 10px; */
   }
 
   .contact-label {
@@ -311,10 +307,10 @@ nav {
 
   .sub-title {
     margin-left: 30px;
-    font-family: 'Niramit';
+    font-family: "Niramit";
     margin-left: 50px;
   }
-  
+
   .inner {
     font-size: 1.8em;
     margin-left: 5px;
@@ -333,11 +329,8 @@ nav {
     color: #324a5f;
     margin-left: -13px;
     /* margin-top: 30px; */
- }
+  }
 }
-
-
-
 
 @media (min-width: 1025px) {
   #logo {
@@ -355,13 +348,13 @@ nav {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%)
+    transform: translate(-50%);
   }
-  
+
   #contact-nav {
-     display: flex;
-     justify-content: space-evenly;
-     margin-left: -10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -10px;
   }
 
   #closed-contact {
@@ -373,20 +366,23 @@ nav {
     justify-content: space-around;
   }
 
-  nav, nav ul {
-    width: auto
+  nav,
+  nav ul {
+    width: auto;
   }
 
-  .logo, .sub-title {
+  .logo,
+  .sub-title {
     display: none;
   }
 
   #title {
-    font-family: 'Marcellus';
+    font-family: "Marcellus";
     font-size: 2.5em;
   }
 
-  header span.logo, label[for=main_menu] {
+  header span.logo,
+  label[for="main_menu"] {
     display: none;
   }
 
@@ -394,64 +390,62 @@ nav {
     box-shadow: none;
     position: relative;
     margin: 0;
-    padding: .5em;
+    padding: 0.5em;
     border-radius: 5px;
     margin-top: 50px;
     height: 60px;
-    width:  800px;
-
+    width: 800px;
   }
 
   nav ul {
     height: auto;
-
   }
 
   nav ul li {
-    display: inline-block
+    display: inline-block;
   }
 
   nav ul li a {
     left: inherit;
     border-bottom: none medium;
-    padding: .4em .7em;
+    padding: 0.4em 0.7em;
     margin-left: 10px;
   }
   nav ul {
     margin-top: -25px;
   }
-
 }
 
-input[name=main_menu]:checked~label .hamburger .hamburger-inner {
+input[name="main_menu"]:checked ~ label .hamburger .hamburger-inner {
   transform: translate3d(0, 10px, 0) rotate(135deg);
-  transition-delay: 75ms
+  transition-delay: 75ms;
 }
 
-input[name=main_menu]:checked~label .hamburger .hamburger-inner::before {
+input[name="main_menu"]:checked ~ label .hamburger .hamburger-inner::before {
   transition-delay: 0s;
-  opacity: 0
+  opacity: 0;
 }
 
-input[name=main_menu]:checked~label .hamburger .hamburger-inner::after {
+input[name="main_menu"]:checked ~ label .hamburger .hamburger-inner::after {
   transform: translate3d(0, -20px, 0) rotate(-270deg);
-  transition-delay: 75ms
+  transition-delay: 75ms;
 }
 
-.left_menu input[name=main_menu]:checked~section, input[name=main_menu]:checked~section {
+.left_menu input[name="main_menu"]:checked ~ section,
+input[name="main_menu"]:checked ~ section {
   -moz-transform: translate3d(18em, 0, 0);
   -o-transform: translate3d(18em, 0, 0);
   -ms-transform: translate3d(18em, 0, 0);
   -webkit-transform: translate3d(18em, 0, 0);
-  transform: translate3d(18em, 0, 0)
+  transform: translate3d(18em, 0, 0);
 }
 
-.left_menu input[name=main_menu]:checked~label[for=main_menu] {
+.left_menu input[name="main_menu"]:checked ~ label[for="main_menu"] {
   left: 15em;
-  -moz-transition: left .2s cubic-bezier(.23, 1, .32, 1);
-  -o-transition: left .2s cubic-bezier(.23, 1, .32, 1);
-  -webkit-transition: left .2s cubic-bezier(.23, 1, .32, 1);
-  transition: left .2s cubic-bezier(.23, 1, .32, 1)
+  -moz-transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  -o-transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 @media (max-width: 1025px) {
@@ -465,43 +459,26 @@ input[name=main_menu]:checked~label .hamburger .hamburger-inner::after {
 
   .left_menu nav li a {
     left: -100%;
-    -moz-transition: left .2s cubic-bezier(.23, 1, .32, 1);
-    -o-transition: left .2s cubic-bezier(.23, 1, .32, 1);
-    -webkit-transition: left .2s cubic-bezier(.23, 1, .32, 1);
-    transition: left .2s cubic-bezier(.23, 1, .32, 1)
+    -moz-transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
   }
- 
 
   .left_menu nav {
     left: 0;
-    margin-left: -18.8em
+    margin-left: -18.8em;
   }
 
-  .left_menu input[name=main_menu]:checked~nav li a {
-    left: 0
+  .left_menu input[name="main_menu"]:checked ~ nav li a {
+    left: 0;
   }
 
-  .left_menu input[name=main_menu]~label[for=main_menu] {
-    left: .5em
+  .left_menu input[name="main_menu"] ~ label[for="main_menu"] {
+    left: 0.5em;
   }
 
   nav ul {
-    width: 18em
+    width: 18em;
   }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

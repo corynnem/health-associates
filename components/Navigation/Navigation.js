@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from "react";
 import ContactNav from "./ContactNav";
-import menuIcon from "../assets/menu.png";
-import searchIcon from "../assets/search.png";
-import lineIcon from "../assets/line.png";
-import cancelIcon from "../assets/cancel.png";
-import HA from "../assets/ha.jpg";
+import menuIcon from "../../public/assets/menu.png";
+import HA from "../../public/assets/ha.jpg";
 import { Menu, Dropdown, Button } from "antd";
-
 
 const menu = (
   <Menu>
@@ -25,15 +21,11 @@ const menu = (
         rel="noopener noreferrer"
         href="/forms/Adult_Intake.pdf"
       >
-            Adult Intake Form
+        Adult Intake Form
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="/forms/HIPAA_Form.pdf"
-      >
+      <a target="_blank" rel="noopener noreferrer" href="/forms/HIPAA_Form.pdf">
         HIPPA Form
       </a>
     </Menu.Item>
@@ -61,6 +53,7 @@ const Navigation = ({ style }) => {
   useEffect(() => {
     switch (window.location.hostname) {
       case "localhost" || "127.0.0.2":
+        console.log(window.location.hostname);
         setURL("http://localhost:3000");
         break;
       case "health-associates.herokuapp.com/":
@@ -75,9 +68,14 @@ const Navigation = ({ style }) => {
       <header className="left_menu">
         <input type="checkbox" id="main_menu" name="main_menu" />
         <div style={{ marginTop: "30px", marginRight: "8vw" }}>
-            <img id="logo" src={HA.src} style={style} alt="The Health associates logo"/>
+          <img
+            id="logo"
+            src={HA.src}
+            style={style}
+            alt="The Health associates logo"
+          />
 
-        {/* <span className="logo">Health Associates</span>
+          {/* <span className="logo">Health Associates</span>
         <h4 className="sub-title ">Counseling and Psychology Service</h4> */}
         </div>
         <label htmlFor="main_menu">
@@ -101,51 +99,64 @@ const Navigation = ({ style }) => {
         </label>
         <div id="open-contact">
           <div style={{ marginTop: "30px", marginRight: "8vw" }}>
-            <img id="web-logo" src={HA.src} alt="The Health associates logo" style={{width: '350px', marginTop: '-20px'}}/>
+            <img
+              id="web-logo"
+              src={HA.src}
+              alt="The Health associates logo"
+              style={{ width: "350px", marginTop: "-20px" }}
+            />
             {/* <h1 id="title">Health Associates</h1>
             <h4 id="sub-title">Counseling and Psychology Service</h4> */}
           </div>
           <ContactNav />
         </div>
         {/* <div > */}
-        <nav >
+        <nav>
           <ul>
             <br />
             {/* <li><h1 className="logo inner">Health Associates</h1></li> */}
-            <li >
+            <li>
               {" "}
-              <a href={"http://www.healthassociatesindy.com"} >Home</a>{" "}
+              <a href={URL}>Home</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/about`} >About</a>{" "}
+              <a href={`${URL}/about`}>About</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/services`} >Services</a>{" "}
+              <a href={`${URL}/services`}>Services</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/providers`} >Providers</a>{" "}
+              <a href={`${URL}/providers`}>Providers</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/publications`} > Articles</a>{" "}
+              <a href={`${URL}/publications`}> Articles</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/faqs`} > FAQ&apos;s</a>{" "}
+              <a href={`${URL}/faqs`}> FAQ&apos;s</a>{" "}
             </li>
             <li>
               {" "}
-              <a href={`${URL}/contact` } >Contact Us</a>{" "}
+              <a href={`${URL}/contact`}>Contact Us</a>{" "}
             </li>
             <li>
               {" "}
               <a href={`${URL}/forms`}>
                 {" "}
-                <Dropdown overlay={menu} placement="bottomCenter" arrow >
-                  <Button style={{backgroundColor: '#CCC9DC', fontSize: '1em', borderStyle: 'none'}}>Forms</Button>
+                <Dropdown overlay={menu} placement="bottomCenter" arrow>
+                  <Button
+                    style={{
+                      backgroundColor: "#CCC9DC",
+                      fontSize: "1em",
+                      borderStyle: "none",
+                    }}
+                  >
+                    Forms
+                  </Button>
                 </Dropdown>
               </a>{" "}
             </li>

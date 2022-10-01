@@ -1,7 +1,7 @@
 import React from "react";
-import Navigation from "./Nav/Navigation";
-import Title from "./ResusableComponents/Title";
-import Footer from "./ResusableComponents/Footer";
+import Navigation from "../components/Navigation/Navigation";
+import Title from "../components/Header/Title";
+import Footer from "../components/Footer/Footer";
 import { Popover } from "antd";
 
 const Forms = () => {
@@ -13,7 +13,7 @@ const Forms = () => {
 
   return (
     <div style={{ fontFamily: "Niramit" }} id="forms">
-      <Navigation style={{width: '300px', marginLeft: '40px'}} />
+      <Navigation style={{ width: "300px", marginLeft: "40px" }} />
       <div>
         <Title pageName={"Forms"} />
         {/* <img src={separator.src} className="separator"  alt='A line icon separating the title from the rest of the text on the page' /> */}
@@ -31,59 +31,64 @@ const Forms = () => {
         }}
       >
         <h1 style={{ marginLeft: "-100px" }}>Downloadable PDF&lsquo;s</h1>
-        <ul style={{marginLeft: '10px', width: '300px'}}>
+        <ul style={{ marginLeft: "10px", width: "300px" }}>
           <Popover content={content}>
-            <li style={style}> 
+            <li style={style}>
               <h3>
-              <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="/forms/Child_Intake.pdf"
-      >
-        Child Intake Form
-      </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/forms/Child_Intake.pdf"
+                >
+                  Child Intake Form
+                </a>
               </h3>
             </li>
           </Popover>
           <Popover content={content}>
             <li style={style}>
               <h3>
-              <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="/forms/Adult_Intake.pdf"
-      >
-            Adult Intake Form
-      </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/forms/Adult_Intake.pdf"
+                >
+                  Adult Intake Form
+                </a>
               </h3>
             </li>
           </Popover>
           <Popover content={content}>
             <li style={style}>
               <h3>
-                <a target="_blank"
-              rel="noopener noreferrer"
-              href="/forms/Office_Policies.pdf">Office Policies</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/forms/Office_Policies.pdf"
+                >
+                  Office Policies
+                </a>
               </h3>
             </li>
           </Popover>
           <Popover content={content}>
-            <li style={{width: '250px'}}>
-              <h3 style={{width: '250px'}}>
-              <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/forms/HIPAA_Form.pdf"
-            >
-              Health Insurance Portability and Accountability Act (HIPAA) Form
-            </a>
-            </h3>
+            <li style={{ width: "250px" }}>
+              <h3 style={{ width: "250px" }}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/forms/HIPAA_Form.pdf"
+                >
+                  Health Insurance Portability and Accountability Act (HIPAA)
+                  Form
+                </a>
+              </h3>
             </li>
           </Popover>
         </ul>
       </div>
 
-      <div >
+      <div>
         <Footer />
       </div>
     </div>

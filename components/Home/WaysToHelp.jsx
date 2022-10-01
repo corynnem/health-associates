@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Card } from "antd";
-import ellipsis from "../assets/ellipsis.png";
-import telehealth from "../assets/telehealth.jpg";
-import onlinePay from "../assets/online-pay.jpg";
-import faq from "../assets/faq.jpg";
-import right from "../assets/right-chevron.png";
+import telehealth from "../../public/assets/telehealth.jpg";
+import onlinePay from "../../public/assets/online-pay.jpg";
+import faq from "../../public/assets/faq.jpg";
+import right from "../../public/assets/right-chevron.png";
 
 const WaysToHelp = () => {
   const [URL, setURL] = useState("");
-
 
   useEffect(() => {
     switch (window.location.hostname) {
@@ -24,12 +22,12 @@ const WaysToHelp = () => {
 
   return (
     <div id="ways-help">
-      <div id="help-cards" style={{marginLeft: '40px'}}>
-        <Card  style={{marginTop: '200px'}} className="w2h-card">
+      <div id="help-cards" style={{ marginLeft: "40px" }}>
+        <Card style={{ marginTop: "200px" }} className="w2h-card">
           <a href={`${URL}/telehealth`}>
             <div className="img_wrapper">
               <img
-              className="w2h_img"
+                className="w2h_img"
                 alt='A photo of a telehealth talking to their client, clicking will take you to "services" page '
                 src={telehealth.src}
                 style={{
@@ -82,11 +80,11 @@ const WaysToHelp = () => {
             </div>
           </a>
         </Card>
-        <Card  style={{marginTop: '200px'}} className="w2h-card">
+        <Card style={{ marginTop: "200px" }} className="w2h-card">
           <a href={`${URL}/onlinebilling`}>
             <div className="img_wrapper">
               <img
-              className="w2h_img"
+                className="w2h_img"
                 alt='A photo of two people talking to eachother while looking at an ipad, clicking will take you to "services" page in the onlinePaying section'
                 src={onlinePay.src}
                 style={{
@@ -139,15 +137,14 @@ const WaysToHelp = () => {
             </div>
           </a>
         </Card>
-        <Card  style={{marginTop: '200px'}} className="w2h-card">
+        <Card style={{ marginTop: "200px" }} className="w2h-card">
           <a href={`${URL}/faqs`}>
             <div className="img_wrapper">
               <img
-              className="w2h_img"
-                alt='A red telephone on a white background, clicking will take you to Frequenty Asked Questions page. '
+                className="w2h_img"
+                alt="A red telephone on a white background, clicking will take you to Frequenty Asked Questions page. "
                 src={faq.src}
                 style={{
-
                   marginLeft: "-48px",
                   marginTop: "-24px",
                 }}

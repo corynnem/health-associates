@@ -1,16 +1,15 @@
 import React from "react";
-import Navigation from "./Nav/Navigation";
-import Title from "./ResusableComponents/Title";
-import Footer from "./ResusableComponents/Footer";
+import Navigation from "../components/Navigation/Navigation";
+import Title from "../components/Header/Title";
+import Footer from "../components/Footer/Footer";
 
 const Contact = () => {
   return (
     <div>
-      <Navigation style={{width: '300px', marginLeft: '40px'}} />
+      <Navigation style={{ width: "300px", marginLeft: "40px" }} />
       <div>
-        <Title pageName={'Contact'} />
+        <Title pageName={"Contact"} />
       </div>
-
 
       <div
         style={{
@@ -21,20 +20,17 @@ const Contact = () => {
           marginTop: "100px",
           textAlign: "center",
           fontFamily: "Niramit",
-          height: '30vh',
-          fontSize: '2em'
+          height: "30vh",
+          fontSize: "2em",
         }}
       >
         <h2 style={{ paddingLeft: "70px", paddingRight: "70px" }}>
           Thank you for your message!
         </h2>
         <p>We will be in touch soon.</p>
-
-
-
       </div>
       <div style={{ marginLeft: "32px" }}>
-        <Footer style={{marginLeft: '-32px'}} />
+        <Footer style={{ marginLeft: "-32px" }} />
       </div>
     </div>
   );

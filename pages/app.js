@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import background from "../pages/assets/background.jpg";
-import Doctors from "./HomeComponents/doctors";
-import WaysToHelp from "./HomeComponents/WaysToHelp";
-import separator from "./assets/separator.png";
-import Footer from "./ResusableComponents/Footer";
+import background from "../public/assets/background.jpg";
+import Doctors from "../components/Home/Doctors";
+import WaysToHelp from "../components/Home/WaysToHelp";
+import separator from "../public/assets/separator.png";
+import Footer from "../components/Footer/Footer";
 
 const App = () => {
   const [URL, setURL] = useState("");
@@ -16,7 +16,7 @@ const App = () => {
       case "health-associates.herokuapp.com/":
         setURL("https://health-associates.herokuapp.com/");
       case "www.healthassociatesindy.com":
-        setURL("https://health-associates.herokuapp.com/");
+        setURL("http://www.healthassociatesindy.com/");
     }
   }, []);
 

@@ -1,18 +1,18 @@
 @font-face {
   font-family: Niramit;
-  src: url('../pages/assets/Niramit/Niramit-Light.ttf');
+  src: url("../public/fonts/Niramit-Light.ttf");
 }
 
 @font-face {
   font-family: Bold;
-  src: url('../pages/assets/Niramit/Niramit-SemiBold.ttf');
+  src: url("../public/fonts/Niramit-SemiBold.ttf");
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Niramit';
+  font-family: "Niramit";
 }
 
 a {
@@ -24,7 +24,6 @@ a {
   box-sizing: border-box;
 }
 
-
 .separator {
-  width: 75px
+  width: 75px;
 }
