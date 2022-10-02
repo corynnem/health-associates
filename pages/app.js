@@ -20,8 +20,6 @@ const App = () => {
     }
   }, []);
 
-  console.log("test");
-  console.log(URL);
   return (
     <div>
       <div id="home">

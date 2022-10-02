@@ -149,7 +149,6 @@ const Publications = () => {
   }, []);
 
   const filter = (e) => {
-    console.log(e.target.value);
     let newArticles = articles.map((article) => {
       if (e.target.value.length === 0) {
         return;
@@ -166,7 +165,6 @@ const Publications = () => {
   const searchToggle = () => {
     if (process.browser) {
       let search = document.querySelector("#search");
-      console.log(search.childNodes);
       if (search.childNodes[3].id === "eyeglass") {
         let eyeglass = document.querySelector("#eyeglass");
         let input = document.createElement("input");

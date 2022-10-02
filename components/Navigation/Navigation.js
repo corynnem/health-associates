@@ -3,6 +3,7 @@ import ContactNav from "./ContactNav";
 import menuIcon from "../../public/assets/menu.png";
 import HA from "../../public/assets/ha.jpg";
 import { Menu, Dropdown, Button } from "antd";
+import { useRouter } from "next/router";
 
 const menu = (
   <Menu>
@@ -44,21 +45,16 @@ const menu = (
 const Navigation = ({ style }) => {
   const [open, setOpen] = useState(false);
   const [URL, setURL] = useState("");
-
-  // if you want to use DOM look below
-  // if(process.browser) {
-  //   console.log(document.querySelector('.left_menu'))
-  // }
+  const router = useRouter();
 
   useEffect(() => {
-    console.log(window.location.hostname);
     switch (window.location.hostname) {
       case "localhost" || "127.0.0.2":
         setURL("http://localhost:3000");
         break;
-      case "health-associates.herokuapp.com/":
-        setURL("https://health-associates.herokuapp.com/");
-      case "healthassociatesindy.com/":
+      case "health-associates.vercel.app":
+        setURL("https://health-associates.vercel.app/");
+      case "healthassociatesindy.com":
         setURL("https://www.healthassociatesindy.com/");
     }
   }, []);
