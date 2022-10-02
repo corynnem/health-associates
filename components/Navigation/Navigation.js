@@ -57,8 +57,10 @@ const Navigation = ({ style }) => {
         setURL("http://localhost:3000");
         break;
       case "health-associates.herokuapp.com/":
+        console.log(window.location.hostname);
         setURL("https://health-associates.herokuapp.com/");
       case "www.healthassociatesindy.com":
+        console.log(window.location.hostname);
         setURL("https://www.healthassociatesindy.com/");
     }
   }, []);
