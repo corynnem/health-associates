@@ -15,7 +15,7 @@ const App = () => {
         break;
       case "health-associates.herokuapp.com/":
         setURL("https://health-associates.herokuapp.com/");
-      case "www.healthassociatesindy.com":
+      case "healthassociatesindy.com/":
         setURL("http://www.healthassociatesindy.com/");
     }
   }, []);
