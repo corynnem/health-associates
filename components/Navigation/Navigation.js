@@ -51,16 +51,14 @@ const Navigation = ({ style }) => {
   // }
 
   useEffect(() => {
+    console.log(window.location.hostname);
     switch (window.location.hostname) {
       case "localhost" || "127.0.0.2":
-        console.log(window.location.hostname);
         setURL("http://localhost:3000");
         break;
       case "health-associates.herokuapp.com/":
-        console.log(window.location.hostname);
         setURL("https://health-associates.herokuapp.com/");
       case "www.healthassociatesindy.com":
-        console.log(window.location.hostname);
         setURL("https://www.healthassociatesindy.com/");
     }
   }, []);
