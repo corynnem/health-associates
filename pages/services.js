@@ -96,7 +96,7 @@ const Services = () => {
       <br />
       <br />
       <h1 style={{ textAlign: "center", fontSize: "2.5em" }}>
-        Disorders We Specialize in Treating
+        We Specialize in Treating
       </h1>
       <br />
       <div id="service-cards">
@@ -125,7 +125,7 @@ const Services = () => {
       <br />
 
       <h1 style={{ textAlign: "center", fontSize: "2.5em" }}>
-        Services we Offer
+        Services We Offer
       </h1>
       <br />
       <div id="service-cards">

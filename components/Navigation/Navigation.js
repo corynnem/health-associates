@@ -129,6 +129,10 @@ const Navigation = ({ style }) => {
             </li>
             <li>
               {" "}
+              <a href={`${URL}/onlinebilling`}>Online Billing</a>{" "}
+            </li>
+            <li>
+              {" "}
               <a href={`${URL}/publications`}> Articles</a>{" "}
             </li>
             <li>

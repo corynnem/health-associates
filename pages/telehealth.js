@@ -35,7 +35,6 @@ const Telehealth = () => {
       <Title pageName={"Telehealth"} />
       <br />
       <br />
-      {/* <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><h3> <input onChange={(e) => filter(e)} placeholder="Search Articles..." id='input'/></h3></div> */}
       <div id="pub-holder">
         {providers.map((provider, i) => {
           return (

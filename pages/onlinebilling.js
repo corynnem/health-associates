@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Navigation from "../components/Navigation/Navigation";
 import Title from "../components/Header/Title";
-import groff from "../public/headshots//GROFF.jpeg";
-import grana from "../public/headshots//GRANA.jpg";
-import couvillion from "../public/headshots//COUVILLION.jpeg";
-import elsbury from "../public/headshots//ELSBURY.jpg";
-import westrate from "../public/headshots//WESTRATE.jpeg";
-import hess from "../public/headshots//HESS.jpeg";
-import dodini from "../public/headshots//DODINI.jpeg";
-
+import groff from "../public/headshots/GROFF.jpeg";
+import grana from "../public/headshots/GRANA.jpg";
+import couvillion from "../public/headshots/COUVILLION.jpeg";
+import elsbury from "../public/headshots/ELSBURY.jpg";
+import westrate from "../public/headshots/WESTRATE.jpeg";
+import hess from "../public/headshots/HESS.jpeg";
+import dodini from "../public/headshots/DODINI.jpeg";
+import haskins from "../public/headshots/HASKINS.jpg";
 import Footer from "../components/Footer/Footer";
 
 const OnlineBilling = () => {
@@ -63,6 +63,14 @@ const OnlineBilling = () => {
       position: "Clinical Social Worker",
       link: "https://checkout.square.site/merchant/MLXQTAGAQFQ19/checkout/56266NJKQ2QU23XW5NDJX36D?src=sheet",
     },
+    {
+      name: "Edmund Haskins",
+      altText: "Edmund Haskins' Headshot",
+      headshot: haskins.src,
+      position: "",
+      link: "https://checkout.square.site/merchant/MLXQTAGAQFQ19/checkout/S3B2W7OGAP7GATSNOP3T37PD",
+      snippet: "",
+    },
   ]);
 
   useEffect(() => {
@@ -80,7 +88,7 @@ const OnlineBilling = () => {
   return (
     <div id="telehealth">
       <Navigation style={{ width: "300px", marginLeft: "40px" }} />
-      <Title pageName={"Online Billing"} />
+      <Title pageName={"Pay Your Bill Online"} />
       <br />
       <br />
       <div id="pub-holder">

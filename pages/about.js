@@ -72,7 +72,7 @@ const About = () => {
           <br />
           <p>
             In addition to providing pychological services, Health Associates
-            writes and publlishes articles covering important health topics. We
+            writes and publishes articles covering important health topics. We
             have written on topics such as Attention-Deficit / Hyperactivity
             Disorder, Marriage, Childrearing, Anger, and Infidelity. These
             articles can be viewed on our website{" "}
