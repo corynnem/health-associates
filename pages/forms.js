@@ -85,6 +85,19 @@ const Forms = () => {
               </h3>
             </li>
           </Popover>
+          <Popover content={content}>
+            <li style={{ width: "250px" }}>
+              <h3 style={{ width: "250px" }}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/forms/Release_Form.pdf"
+                >
+                  Release Form
+                </a>
+              </h3>
+            </li>
+          </Popover>
         </ul>
       </div>
 

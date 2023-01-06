@@ -39,6 +39,15 @@ const menu = (
         Office Policies
       </a>
     </Menu.Item>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="/forms/Release_Form.pdf"
+      >
+        Release Form
+      </a>
+    </Menu.Item>
   </Menu>
 );
 
