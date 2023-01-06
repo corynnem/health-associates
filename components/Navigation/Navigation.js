@@ -53,9 +53,9 @@ const Navigation = ({ style }) => {
         setURL("http://localhost:3000");
         break;
       case "health-associates.vercel.app":
-        setURL("https://health-associates.vercel.app/");
+        setURL("https://health-associates.vercel.app");
       case "healthassociatesindy.com":
-        setURL("https://www.healthassociatesindy.com/");
+        setURL("https://www.healthassociatesindy.com");
     }
   }, []);
 
