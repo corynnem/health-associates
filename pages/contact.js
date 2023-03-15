@@ -7,7 +7,7 @@ const Contact = () => {
   const submit = () => {
     if (window.location.href === "https://formspree.io/thanks?language=en") {
       window.location.assign(
-        "http://www.healthassociatesindy.com/formsubmitted"
+        "https://www.healthassociatesindy.com/formsubmitted"
       );
     }
   };

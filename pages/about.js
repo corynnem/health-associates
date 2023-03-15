@@ -19,9 +19,9 @@ const About = () => {
         setURL("http://localhost:3000");
         break;
       case "health-associates.herokuapp.com/":
-        setURL("http://www.healthassociatesindy.com//");
+        setURL("https://www.healthassociatesindy.com//");
       case "www.healthassociatesindy.com":
-        setURL("http://www.healthassociatesindy.com/");
+        setURL("https://www.healthassociatesindy.com/");
     }
   }, []);
 

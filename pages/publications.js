@@ -144,7 +144,7 @@ const Publications = () => {
       case "health-associates.herokuapp.com/":
         setURL("https://health-associates.herokuapp.com/");
       case "www.healthassociatesindy.com":
-        setURL("http://www.healthassociatesindy.com/");
+        setURL("https://www.healthassociatesindy.com/");
     }
   }, []);
 
