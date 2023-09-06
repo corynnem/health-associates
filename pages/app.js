@@ -59,7 +59,7 @@ const App = () => {
                 id="main-button"
                 onClick={() => window.location.assign(`${URL}/contact`)}
               >
-                Book Now
+                Contact Us
               </button>
             </div>
           </div>
