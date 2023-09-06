@@ -40,7 +40,7 @@ const Contact = () => {
           id="fs-frm"
           name="complaint-form"
           acceptCharset="utf-8"
-          action="https://formspree.io/f/xyyoeqea"
+          action="https://formspree.io/f/xoqrwlrg"
           method="post"
           style={{
             display: "flex",
