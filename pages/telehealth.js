@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Navigation from "../components/Navigation/Navigation";
 import Title from "../components/Header/Title";
-import groff from "../../public/headshots/GROFF.jpeg";
-import dodini from "../../public/headshots/DODINI.jpeg";
+import groff from "../public/headshots/GROFF.jpeg";
+import dodini from "../public/headshots/DODINI.jpeg";
 import Footer from "../components/Footer/Footer";
 
 const Telehealth = () => {
