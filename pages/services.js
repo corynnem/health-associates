@@ -59,10 +59,6 @@ const Services = () => {
       desc: "Counseling for those looking to quit smoking cigarettes or other types of nicotine.",
     },
     {
-      name: "Divorce Mediation and Custody Evaluation",
-      desc: "Therapy for couples after divorce, and working on making a custody, visitation, and parenting plan.",
-    },
-    {
       name: "Psychiatric Treatment",
       desc: "Treatment including various forms of psychotherapy, medications, psychosocial interventions and other treatments, depending on the needs of each patient.",
     },
@@ -73,6 +69,10 @@ const Services = () => {
     {
       name: "Cognitive Behavioral Therapy (CBT)",
       desc: "A  a form of psychological treatment that has been demonstrated to be effective for a range of problems including depression, anxiety disorders, alcohol and drug use problems, marital problems, eating disorders, and severe mental illness.",
+    },
+    {
+      name: "Medication Management",
+      desc: "Utilizing medication to achieve balance in the brain, improve symptoms and rediscover joy and satisfaction.",
     },
   ];
 

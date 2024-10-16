@@ -16,7 +16,6 @@ const Forms = () => {
       <Navigation style={{ width: "300px", marginLeft: "40px" }} />
       <div>
         <Title pageName={"Forms"} />
-        {/* <img src={separator.src} className="separator"  alt='A line icon separating the title from the rest of the text on the page' /> */}
       </div>
 
       <br />
@@ -94,6 +93,19 @@ const Forms = () => {
                   href="/forms/Release_Form.pdf"
                 >
                   Release Form
+                </a>
+              </h3>
+            </li>
+          </Popover>
+          <Popover content={content}>
+            <li style={{ width: "250px" }}>
+              <h3 style={{ width: "250px" }}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/forms/Communication_Consent.pdf"
+                >
+                  Communication Acknowledgment and Consent Form
                 </a>
               </h3>
             </li>

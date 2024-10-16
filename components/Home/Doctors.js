@@ -5,10 +5,11 @@ import dodini from "../../public/headshots/DODINI.jpeg";
 import groff from "../../public/headshots/GROFF.jpeg";
 import hess from "../../public/headshots/HESS.jpeg";
 import westrate from "../../public/headshots/WESTRATE.jpeg";
-import elsbury from "../../public/headshots/ELSBURY.jpg";
 import grana from "../../public/headshots/GRANA.jpg";
 import khan from "../../public/headshots/KHAN.jpg";
 import haskins from "../../public/headshots/HASKINS.jpg";
+import littlejohn from "../../public/headshots/LITTLEJOHN.jpg";
+import yan from "../../public/headshots/YAN.jpg";
 
 const Doctors = () => {
   const [providers] = useState([
@@ -41,18 +42,6 @@ const Doctors = () => {
       specialties: "",
       description:
         "Dr. Pat Couvillion is a licensed clinical psychologist who received her doctorate from Florida State University. Dr. Couvillion has over 30 years of professional psychotherapy experience. She focuses on counseling adults and couples with depression, anxiety, relationship problems, life transitions and general stressors.",
-    },
-
-    {
-      headshot: elsbury.src,
-      altText: "Kristina K. Elsbury's Headshot",
-      name: "Kristina K. Elsbury",
-      certifications: ["LCSW"],
-      position: "Clinical Social Worker",
-      specialties:
-        "Trauma, Anger Management, Anxiety, ASD, DID, Gender Identity, Marriage Counseling & Mood Disorders",
-      description:
-        "Kristina Elsbury, LCSW, is a licensed clinical social worker with a Masters of Social Work degree with a medical specialty from Indiana University. The last 9 years she has provided therapy to children, teens, and adults in home-based, community mental health, hospital and school-based programs. Kristina has special interest and experience in working with children and adults with trauma including sexual, physical, and emotional abuse and military trauma. As an EMDR therapist, Kristina also utilizes mindfulness, cognitive-behavioral therapy, play therapy, and strengths-based approach in working with individuals, families and couples. Kristina is a member of EMDRIA International Association of EMDR Practitioners and the National Association of Social Workers.",
     },
     {
       headshot: khan.src,
@@ -102,10 +91,30 @@ const Doctors = () => {
       headshot: haskins.src,
       altText: "Edmund Haskins Headshot",
       name: "Edmund Haskins",
-      certifications: [],
-      position: "",
+      certifications: ["Ph.D."],
+      position: "Clinical Neuropsychologist",
       specialties: "",
       description: "",
+    },
+    {
+      headshot: littlejohn.src,
+      altText: "Derek Littlejohn Headshot",
+      name: "Derek Littlejohn",
+      certifications: ["MSN", "PMHNP-BC"],
+      position: "Psychiatric-Mental Health Nurse Practitioner",
+      specialties: "Medication management for patients of all ages.",
+      description:
+        "Dr. Derek Littlejohn is a board-certified Psychiatric-Mental Health Nurse Practitioner and U.S. Army veteran with a Bachelor’s Degree in Nursing at Purdue University. After completing his miliary service, he received a Master’s of Science as a Psychiatric-Mental Health Nurse Practitioner at Purdue University. He works very frequently with active-duty service members who have experienced trauma, adjustment disorders and addiction. Additionally, he works with clients dealing with depression, anxiety, bipolar and schizophrenia.",
+    },
+    {
+      headshot: yan.src,
+      altText: "Clyde Yan Headshot",
+      name: "Clyde Yan",
+      certifications: ["MSN", "PMHNP-BC"],
+      position: "Psychiatric-Mental Health Nurse Practitioner",
+      specialties: "Medication management for patients of all ages.",
+      description:
+        "Dr. Clyde Yan is a board-certified Psychiatric-Mental Health Nurse Practitioner (PMHMP). He graduated with a Bachelor’s Degree from Purdue and a Master’s degree in counseling at Indiana University.  After starting work as a counselor, he witnessed drastic improvements patients made after they were started on psychiatric medication. After he completed his MSN specializing in psychiatric and mental health nursing, he has worked in inpatient, partial hospitalization programs and outpatient settings. His treatment approach is holistic, patient-centered, culturally sensitive and evidence based.",
     },
   ]);
 

@@ -48,6 +48,15 @@ const menu = (
         Release Form
       </a>
     </Menu.Item>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="/forms/Communication_Consent.pdf"
+      >
+        Communication Acknowledgment and Consent Form
+      </a>
+    </Menu.Item>
   </Menu>
 );
 
