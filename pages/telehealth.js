@@ -22,7 +22,7 @@ const Telehealth = () => {
       position: "Clinical Social Worker",
       link: "https://doxy.me/drdodini",
       snippet:
-        "Dr. Alfred (Fred) Dodini is a Licensed Clinical Social Worker and a Certified Family Life Educator with a Ph.D. in marriage and family therapy from Purdue University. He has 22 years of clinical experience working with couples, families, trauma, anxiety, depression, addictions, and life transitions. He worked with teens and young adults for five years while serving as clinical director for a residential treatment program for troubled youth. And his eight years of touring, performing, and managing in the entertainment industry allows him to draw insights from a treasure-trove of diverse life experiences and to inject some practical wisdom and humor into the counseling process. He is the author of the highly acclaimed book Shine Brighter: Choosing a Life of Greater Clarity, Purpose, and Joy. He and his wife Patricia are the parents of ten children and they are seriously considering taking up pickleball.",
+        "Dr. Alfred (Fred) Dodini is a Licensed Clinical Social Worker and a Certified Family Life Educator with a Ph.D. in marriage and family therapy from Purdue University. He has 22 years of clinical experience working with couples, families, trauma, anxiety, depression, addictions, and life transitions. ",
     },
   ]);
 
